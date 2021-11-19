@@ -1,12 +1,12 @@
 # Objectives
 - [Delivery](#delivery)
-- [Collaboration](#collaboration)
-- [Continuous Improvement](#continous-improvement)
+- [Teamwork](#teamwork)
+- [Quality](#quality)
 - [Learning](#learning)
-- [Knowledge Sharing](#knowledge-sharing)
+- [Knowledge](#knowledge)
 
 # Delivery
-*insert description* (e.g. Taking the lead, own the delivery, provide support)
+*Write and ship code faster*
 
 #### Resources
 
@@ -15,27 +15,27 @@
 * [Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams)
 * [DevOps Resource Center](https://docs.microsoft.com/en-us/devops)
 
-# Collaboration
+# Teamwork
 *insert description*
 
 #### Resources
 * [Agile Manifesto](https://agilemanifesto.org/)
 * [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)
-* [Code Reviews](https://google.github.io/eng-practices/review)
-* [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 * [Gitlab Remote Culture](https://about.gitlab.com/company/culture/all-remote/)
 * [Octopus Deploy Handbook](https://handbook.octopus.com/)
 
-# Continous Improvement
+# Quality
 *insert description* (e.g. Code Quality, Automation, Tools, Processes, etc)
+
+* [Code Reviews](https://google.github.io/eng-practices/review)
+* [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 
 #### Resources
 * [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping)
 * [Code-With Engineering Playbook](https://microsoft.github.io/code-with-engineering-playbook/)
 
 # Learning
-
-Focus on **career and professional development**.
+*Professional Development*
 
 ### Resources
 
@@ -53,10 +53,8 @@ Focus on **career and professional development**.
 * [The 12-Factor App](https://12factor.net/)
 
 
-
-
-# Knowledge Sharing
-*insert description*
+# Knowledge
+*Create documentation to support developers*
 
 ### Resources
 
