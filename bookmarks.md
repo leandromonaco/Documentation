@@ -17,6 +17,9 @@ This is a curated list of resources for professional development
 - [Learn TV](https://docs.microsoft.com/en-us/learn/tv/)
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 
+# Interviews
+- [The HackerRank Interview Preparation Kit](https://www.hackerrank.com/interview/interview-preparation-kit)
+
 # Tools
 
 # Monorepo
