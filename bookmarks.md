@@ -58,8 +58,17 @@ This is a curated list of resources for professional development
 
 # Management
 
+## Misc
 - [The 2021 State of the Octoverse](https://octoverse.github.com/)
 - [Practices, research, and tools from Google to improve your people processes](https://rework.withgoogle.com/guides/)
 - [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
 - [Report Metrics](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
 - [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
+
+## Onboarding
+- [5 Steps to Creating a Seamless Virtual Onboarding Experience for Your Developers](https://blog.hackerrank.com/creating-seamless-virtual-onboarding-experience-developers/)
+
+## Hiring
+- [Introducing the HackerRank Hiring Maturity Model](https://blog.hackerrank.com/hiring-maturity-model/)
+- [How to Create a Positive Remote Interview Experience](https://blog.hackerrank.com/positive-remote-interviewing-candidate-experience/)
+- [The Ultimate Hiring Guide to Developer Skills & Roles](https://blog.hackerrank.com/developer-skills-list/)
