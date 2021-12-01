@@ -10,6 +10,8 @@ This is a curated list of resources for professional development
 - [Welcome to C# 10](https://devblogs.microsoft.com/dotnet/welcome-to-csharp-10)
 - [HTTP/3 support in .NET 6](https://devblogs.microsoft.com/dotnet/http-3-support-in-dotnet-6)
 - [Announcing ASP.NET Core in .NET 6](https://devblogs.microsoft.com/dotnet/announcing-asp-net-core-in-net-6)
+- [Windows Package Manager 1.1](https://devblogs.microsoft.com/commandline/windows-package-manager-1-1)
+- [Learn TV Announcement](https://docs.microsoft.com/en-us/teamblog/learntvannouncement)
 
 # Learning
 
@@ -37,11 +39,16 @@ This is a curated list of resources for professional development
 
 - [Performance Improvements in .NET 6](https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6)
 
+# Project Management
+- [Free PMI Project Manager Course](https://www.perfectkickoff.com/)
+
 # Security
 
 - [Secure coding guidelines](https://docs.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines)
 
 # DevOps
+- [DevOps capabilities](https://cloud.google.com/architecture/devops/capabilities)
+- [DORA's State of DevOps research program](https://www.devops-research.com/research.html)
 
 # Code Reviews
 
@@ -57,6 +64,11 @@ This is a curated list of resources for professional development
 
 - [Single file deployment and executable](https://docs.microsoft.com/en-us/dotnet/core/deploying/single-file)
 
+# On-call
+
+- [Using ChatOps to help Actions on-call engineers](https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers)
+
+
 # Documentation
 
 - [Tales from documentation: Write for your clueless users](https://stackoverflow.blog/2020/07/13/tales-from-documentation-write-for-your-dumbest-user/)
@@ -66,6 +78,7 @@ This is a curated list of resources for professional development
 - [About writing and formatting on GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
 - [Let's Treat Docs Like Code](https://www.docslikecode.com/)
+- [How to Write a Good Documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation)
 
 # Architecture
 
@@ -81,12 +94,18 @@ This is a curated list of resources for professional development
 # Management
 
 ## Misc
-- [What Makes a Great Manager of Software Engineers?](https://www.microsoft.com/en-us/research/uploads/prod/2018/06/kalliamvakou-tse-2018.pdf)
+
 - [The 2021 State of the Octoverse](https://octoverse.github.com/)
 - [Practices, research, and tools from Google to improve your people processes](https://rework.withgoogle.com/guides/)
 - [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
 - [Report Metrics](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
 - [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
+
+## Research
+- [Learn about Google's manager research](https://rework.withgoogle.com/guides/managers-identify-what-makes-a-great-manager/steps/learn-about-googles-manager-research/)
+- [What Makes a Great Manager of Software Engineers?](https://www.microsoft.com/en-us/research/uploads/prod/2018/06/kalliamvakou-tse-2018.pdf)
+- [Tool: Try Google’s Manager Feedback Survey](https://rework.withgoogle.com/guides/managers-give-feedback-to-managers/steps/try-googles-manager-feedback-survey)
+- [Great managers still matter: the evolution of Google’s Project Oxygen](https://rework.withgoogle.com/blog/the-evolution-of-project-oxygen)
 
 ## Onboarding
 - [5 Steps to Creating a Seamless Virtual Onboarding Experience for Your Developers](https://blog.hackerrank.com/creating-seamless-virtual-onboarding-experience-developers/)
@@ -95,3 +114,6 @@ This is a curated list of resources for professional development
 - [Introducing the HackerRank Hiring Maturity Model](https://blog.hackerrank.com/hiring-maturity-model/)
 - [How to Create a Positive Remote Interview Experience](https://blog.hackerrank.com/positive-remote-interviewing-candidate-experience/)
 - [The Ultimate Hiring Guide to Developer Skills & Roles](https://blog.hackerrank.com/developer-skills-list/)
+
+## Giving Feedback
+- [How to Give Effective Feedback](https://www.scrum.org/resources/blog/how-give-effective-feedback)
