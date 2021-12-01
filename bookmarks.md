@@ -21,6 +21,8 @@ This is a curated list of resources for professional development
 
 # Interviews
 - [The HackerRank Interview Preparation Kit](https://www.hackerrank.com/interview/interview-preparation-kit)
+- [Google's Interview Prep Guide](https://techdevguide.withgoogle.com/paths/interview/)
+- [LeetCode](https://leetcode.com/)
 
 # Tools
 
