@@ -1,41 +1,25 @@
 # Objectives
-- [Delivery](#delivery)
-- [Teamwork](#teamwork)
-- [Quality](#quality)
+- [Mindset](#mindset)
 - [Learning](#learning)
+- [Delivery](#delivery)
+- [Quality](#quality)
 - [Knowledge](#knowledge)
 
-# Delivery
-*Write and ship code faster*
+# Mindset
+
+Grow more as an individual and team and learn useful strategies that have a strong research base of evidence for improving effectiveness in the workplace.
 
 #### Resources
-
-* [Scrum Guide](https://scrumguides.org/scrum-guide.html)
-* [Kanban Guide](https://kanbanguides.org/html-kanban-guide/)
-* [Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams)
-* [DevOps Resource Center](https://docs.microsoft.com/en-us/devops)
-
-# Teamwork
-*insert description*
-
-#### Resources
+* [Build your tech resilience](https://docs.microsoft.com/en-us/learn/paths/tech-resilience)
+* [Master these 7 essential skills to level-up your teamwork game](https://www.atlassian.com/blog/teamwork/teamwork-skills-accelerate-career)
 * [Agile Manifesto](https://agilemanifesto.org/)
 * [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)
 * [Gitlab Remote Culture](https://about.gitlab.com/company/culture/all-remote/)
 * [Octopus Deploy Handbook](https://handbook.octopus.com/)
 
-# Quality
-*insert description* (e.g. Code Quality, Automation, Tools, Processes, etc)
-
-* [Code Reviews](https://google.github.io/eng-practices/review)
-* [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
-
-#### Resources
-* [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping)
-* [Code-With Engineering Playbook](https://microsoft.github.io/code-with-engineering-playbook/)
-
 # Learning
-*Professional Development*
+
+Make learning a part of your daily routine.
 
 ### Resources
 
@@ -45,6 +29,7 @@
 * [Redis Conf](https://redis.com/redisconf/)
 
 ####  Resources
+* [LinkedIn Learning's Course Club](https://learning.linkedin.com/course-club)
 * [.NET fundamentals](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
 * [Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/#/en/reading)
 * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
@@ -52,9 +37,40 @@
 * [Designing Distributed Systems](https://azure.microsoft.com/en-us/resources/designing-distributed-systems/)
 * [The 12-Factor App](https://12factor.net/)
 
+# Delivery
+
+Write and ship code faster.
+
+#### Resources
+
+* [Scrum Guide](https://scrumguides.org/scrum-guide.html)
+* [Kanban Guide](https://kanbanguides.org/html-kanban-guide/)
+* [Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams)
+* [DevOps Resource Center](https://docs.microsoft.com/en-us/devops)
+* [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping)
+* [Code-With Engineering Playbook](https://microsoft.github.io/code-with-engineering-playbook/)
+
+# Quality
+
+Quality code does what it’s intended to do. Excellent code quality follows a consistent style, is easy to understand, is well documented, and can be tested. As noted in the course, there are five pillars that support the software development life cycle (SDLC): Readability, Performance, Maintainability, Reliability/Resiliency, and Security.
+
+#### Resources
+* [Code Reviews](https://google.github.io/eng-practices/review)
+* [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
+* [Five Ways to Improve Your Code Quality](https://blog.sonatype.com/five-ways-to-improve-your-code-quality)
+* [Future frontiers: Why developers need to go beyond the OWASP Top 10 for secure coding mastery](https://discover.securecodewarrior.com/OWASP-Top-10-and-beyond-whitepaper.html)
 
 # Knowledge
-*Create documentation to support developers*
+
+Build a strong culture of documentation, communication and knowledge sharing. 
+
+Instead of getting pinged through chat or email for information causing distractions, we’ll be able to work more asynchronously by storing our team knowledge in one central location for any of us to access at any time. Jot down frequently asked questions that you hear on chat or in email. These questions might sound like:
+
+* How do I find...?
+* What is the process for…?
+* Who is responsible for... ?
+* Does anyone know about…?
+* Does anyone know where…?
 
 ### Resources
 
