@@ -1,13 +1,13 @@
 # Objectives
-- [Mindset](#mindset)
+- [Culture](#culture)
 - [Learning](#learning)
 - [Delivery](#delivery)
 - [Quality](#quality)
 - [Knowledge](#knowledge)
 
-# Mindset
+# Culture
 
-Grow more as an individual and team and learn useful strategies that have a strong research base of evidence for improving effectiveness in the workplace.
+Grow more as a team to improve effectiveness in the workplace. Foster a growth mindset, resilience, and a sense of belonging. 
 
 #### Resources
 * [Build your tech resilience](https://docs.microsoft.com/en-us/learn/paths/tech-resilience)
@@ -19,7 +19,7 @@ Grow more as an individual and team and learn useful strategies that have a stro
 
 # Learning
 
-Make learning a part of your daily routine.
+Make learning a part of your routine.
 
 ### Resources
 
@@ -52,7 +52,13 @@ Write and ship code faster.
 
 # Quality
 
-Quality code does what it’s intended to do. Excellent code quality follows a consistent style, is easy to understand, is well documented, and can be tested. As noted in the course, there are five pillars that support the software development life cycle (SDLC): Readability, Performance, Maintainability, Reliability/Resiliency, and Security.
+Quality code does what it’s intended to do. Excellent code quality follows a consistent style, is easy to understand, is well documented, and can be tested. There are five pillars that support the software development life cycle:
+
+* Readability
+* Performance
+* Maintainability
+* Reliability/Resiliency
+* Security
 
 #### Resources
 * [Code Reviews](https://google.github.io/eng-practices/review)
@@ -62,9 +68,7 @@ Quality code does what it’s intended to do. Excellent code quality follows a c
 
 # Knowledge
 
-Build a strong culture of documentation, communication and knowledge sharing. 
-
-Instead of getting pinged through chat or email for information causing distractions, we’ll be able to work more asynchronously by storing our team knowledge in one central location for any of us to access at any time. Jot down frequently asked questions that you hear on chat or in email. These questions might sound like:
+Build a strong culture of documentation, communication and knowledge sharing. We’ll be able to work more asynchronously by storing our team knowledge in one central location for any of us to access at any time. Jot down frequently asked questions that you hear on chat or in email. These questions might sound like:
 
 * How do I find...?
 * What is the process for…?
