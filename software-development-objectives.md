@@ -1,4 +1,5 @@
 # Objectives
+
 - [Culture](#culture)
 - [Learning](#learning)
 - [Delivery](#delivery)
@@ -7,11 +8,12 @@
 
 # Culture
 
-Grow more as a team to improve effectiveness in the workplace. Foster a growth mindset, resilience, and a sense of belonging. 
+Grow more as a team to improve effectiveness and efficiency in the workplace. Foster a growth mindset, resilience, and a sense of belonging. 
 
 #### Resources
 * [Build your tech resilience](https://docs.microsoft.com/en-us/learn/paths/tech-resilience)
 * [Master these 7 essential skills to level-up your teamwork game](https://www.atlassian.com/blog/teamwork/teamwork-skills-accelerate-career)
+* [Introduce the foundation pillars of DevOps: Culture and Lean Product](https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/)
 * [Agile Manifesto](https://agilemanifesto.org/)
 * [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)
 * [Gitlab Remote Culture](https://about.gitlab.com/company/culture/all-remote/)
@@ -43,12 +45,12 @@ Write and ship code faster.
 
 #### Resources
 
+* [DevOps Dojo: Create efficiencies that support your business](https://docs.microsoft.com/en-us/learn/paths/devops-dojo-white-belt-foundation/)
+* [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping)
 * [Scrum Guide](https://scrumguides.org/scrum-guide.html)
 * [Kanban Guide](https://kanbanguides.org/html-kanban-guide/)
 * [Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams)
 * [DevOps Resource Center](https://docs.microsoft.com/en-us/devops)
-* [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping)
-* [Code-With Engineering Playbook](https://microsoft.github.io/code-with-engineering-playbook/)
 
 # Quality
 
@@ -65,6 +67,7 @@ Quality code does what it’s intended to do. Excellent code quality follows a c
 * [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 * [Five Ways to Improve Your Code Quality](https://blog.sonatype.com/five-ways-to-improve-your-code-quality)
 * [Future frontiers: Why developers need to go beyond the OWASP Top 10 for secure coding mastery](https://discover.securecodewarrior.com/OWASP-Top-10-and-beyond-whitepaper.html)
+* [Code-With Engineering Playbook](https://microsoft.github.io/code-with-engineering-playbook/)
 
 # Knowledge
 
