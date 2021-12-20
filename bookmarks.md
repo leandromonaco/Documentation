@@ -52,6 +52,12 @@ This is a curated list of resources for professional development
 - [DevOps capabilities](https://cloud.google.com/architecture/devops/capabilities)
 - [DORA's State of DevOps research program](https://www.devops-research.com/research.html)
 
+# Developer Productivity
+- [Developer Velocity: How software excellence fuels business performance](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance)
+- [Developer Velocity Assessment](https://developervelocityassessment.com/)
+- [Developer Velocity Lab](https://www.microsoft.com/en-us/research/group/developer-velocity-lab/)
+- [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
+
 # Code Reviews
 
 - [The (written) unwritten guide to pull requests](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
@@ -99,7 +105,6 @@ This is a curated list of resources for professional development
 
 - [The 2021 State of the Octoverse](https://octoverse.github.com/)
 - [Practices, research, and tools from Google to improve your people processes](https://rework.withgoogle.com/guides/)
-- [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
 - [Report Metrics](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
 - [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 
