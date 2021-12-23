@@ -8,7 +8,7 @@
 
 # Culture
 
-Grow more as a team to improve effectiveness and efficiency in the workplace. Foster a growth mindset, resilience, and a sense of belonging. 
+Improve effectiveness and efficiency in the workplace.
 
 #### Resources
 * [Build your tech resilience](https://docs.microsoft.com/en-us/learn/paths/tech-resilience)
@@ -31,13 +31,12 @@ Make learning a part of your routine.
 * [Redis Conf](https://redis.com/redisconf/)
 
 ####  Resources
+* [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
+* [Explore the latest developer technology and learn new skills](https://azure.microsoft.com/en-us/resources/)
 * [LinkedIn Learning's Course Club](https://learning.linkedin.com/course-club)
 * [.NET fundamentals](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
-* [Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/#/en/reading)
-* [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 * [.NET application architecture guide](https://docs.microsoft.com/en-us/dotnet/architecture/)
 * [Designing Distributed Systems](https://azure.microsoft.com/en-us/resources/designing-distributed-systems/)
-* [The 12-Factor App](https://12factor.net/)
 
 # Delivery
 
@@ -54,30 +53,21 @@ Write and ship code faster.
 
 # Quality
 
-Quality code does what it’s intended to do. Excellent code quality follows a consistent style, is easy to understand, is well documented, and can be tested. There are five pillars that support the software development life cycle:
-
-* Readability
-* Performance
-* Maintainability
-* Reliability/Resiliency
-* Security
+Quality code does what it’s intended to do. Excellent code quality follows a consistent style, is easy to understand, is well documented, and can be tested. Focus on readability, performance, maintainability, reliability/resiliency, and security.
 
 #### Resources
 * [Code Reviews](https://google.github.io/eng-practices/review)
 * [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 * [Five Ways to Improve Your Code Quality](https://blog.sonatype.com/five-ways-to-improve-your-code-quality)
 * [Future frontiers: Why developers need to go beyond the OWASP Top 10 for secure coding mastery](https://discover.securecodewarrior.com/OWASP-Top-10-and-beyond-whitepaper.html)
-* [Code-With Engineering Playbook](https://microsoft.github.io/code-with-engineering-playbook/)
+* [On Technical Debt And Code Smells: Surprising insights from scientific studies](https://www.scrum.org/resources/blog/technical-debt-and-code-smells-surprising-insights-scientific-studies)
+* [The 12-Factor App](https://12factor.net/)
+* [Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/#/en/reading)
+* [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 
 # Knowledge
 
-Build a strong culture of documentation, communication and knowledge sharing. We’ll be able to work more asynchronously by storing our team knowledge in one central location for any of us to access at any time. Jot down frequently asked questions that you hear on chat or in email. These questions might sound like:
-
-* How do I find...?
-* What is the process for…?
-* Who is responsible for... ?
-* Does anyone know about…?
-* Does anyone know where…?
+Build a strong culture of documentation, communication and knowledge sharing. We’ll be able to work more asynchronously by storing our team knowledge in one central location for any of us to access at any time. Jot down frequently asked questions that you hear on chat or in email.
 
 ### Resources
 
