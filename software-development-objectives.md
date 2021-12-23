@@ -1,23 +1,23 @@
 # Objectives
 
-- [Culture](#culture)
+- [Collaboration](#collaboration)
 - [Learning](#learning)
 - [Delivery](#delivery)
 - [Quality](#quality)
 - [Knowledge](#knowledge)
 
-# Culture
+# Collaboration
 
-Improve effectiveness and efficiency in the workplace.
+Learn useful strategies that have a strong research base of evidence for improving effectiveness in the workplace.
 
 #### Resources
 * [Build your tech resilience](https://docs.microsoft.com/en-us/learn/paths/tech-resilience)
 * [Master these 7 essential skills to level-up your teamwork game](https://www.atlassian.com/blog/teamwork/teamwork-skills-accelerate-career)
-* [Introduce the foundation pillars of DevOps: Culture and Lean Product](https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/)
 * [Agile Manifesto](https://agilemanifesto.org/)
 * [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)
-* [Gitlab Remote Culture](https://about.gitlab.com/company/culture/all-remote/)
-* [Octopus Deploy Handbook](https://handbook.octopus.com/)
+* [Scrum Guide](https://scrumguides.org/scrum-guide.html)
+* [Kanban Guide](https://kanbanguides.org/html-kanban-guide/)
+* [Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams)
 
 # Learning
 
@@ -44,12 +44,14 @@ Write and ship code faster.
 
 #### Resources
 
+* [Introduce the foundation pillars of DevOps: Culture and Lean Product](https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/)
 * [DevOps Dojo: Create efficiencies that support your business](https://docs.microsoft.com/en-us/learn/paths/devops-dojo-white-belt-foundation/)
 * [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping)
-* [Scrum Guide](https://scrumguides.org/scrum-guide.html)
-* [Kanban Guide](https://kanbanguides.org/html-kanban-guide/)
-* [Kanban Guide for Scrum Teams](https://www.scrum.org/resources/kanban-guide-scrum-teams)
 * [DevOps Resource Center](https://docs.microsoft.com/en-us/devops)
+* [Developer Velocity: How software excellence fuels business performance](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance)
+* [Developer Velocity Assessment](https://developervelocityassessment.com/)
+* [Developer Velocity Lab](https://www.microsoft.com/en-us/research/group/developer-velocity-lab/)
+* [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
 
 # Quality
 
