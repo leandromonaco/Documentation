@@ -36,6 +36,11 @@ This is a curated list of resources for professional development
 - [Make your monorepo feel small with Git’s sparse index](https://github.blog/2021-11-10-make-your-monorepo-feel-small-with-gits-sparse-index/)
 - [Get up to speed with partial clone and shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone)
 
+# Handbooks
+
+* [Basecamp Handbook](https://github.com/basecamp/handbook)
+* [Gitlab Remote Culture](https://about.gitlab.com/company/culture/all-remote/)
+* [Octopus Deploy Handbook](https://handbook.octopus.com/)
 
 # Performance
 
