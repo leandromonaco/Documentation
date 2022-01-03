@@ -10,13 +10,16 @@
 
 Learn useful strategies that have a strong research base of evidence for improving effectiveness in the workplace.
 
-**Training**
+**Learning**
 * [Build your tech resilience](https://docs.microsoft.com/en-us/learn/paths/tech-resilience)
 * [Master these 7 essential skills to level-up your teamwork game](https://www.atlassian.com/blog/teamwork/teamwork-skills-accelerate-career)
+* [Debugging Teams: Better Productivity through Collaboration](https://www.amazon.com.au/Debugging-Teams-Productivity-through-Collaboration-ebook/dp/B016NDL1QE)
+* [Atlassian’s guide to agile development](https://www.atlassian.com/agile)
 
 **Agile**
 * [Agile Manifesto](https://agilemanifesto.org/)
 * [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)
+* [Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/#/en/reading)
 
 **Process**
 * [Scrum Guide](https://scrumguides.org/scrum-guide.html)
@@ -32,7 +35,7 @@ Make learning a part of your routine.
 * [.NET Conf](https://www.dotnetconf.net/)
 * [Redis Conf](https://redis.com/redisconf/)
 
-**Training**
+**Learning**
 * [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
 * [Explore the latest developer technology and learn new skills](https://azure.microsoft.com/en-us/resources/)
 * [LinkedIn Learning's Course Club](https://learning.linkedin.com/course-club)
@@ -68,14 +71,14 @@ Write and ship code faster.
 
 Quality code does what it’s intended to do. Excellent code quality follows a consistent style, is easy to understand, is well documented, and can be tested. Focus on readability, performance, maintainability, reliability/resiliency, and security.
 
-**Resources**
+**Learning**
 * [Code Reviews](https://google.github.io/eng-practices/review)
-* [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
+* [Guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
+* [Playwright for .NET](https://playwright.dev/dotnet/docs/intro)
 * [Five Ways to Improve Your Code Quality](https://blog.sonatype.com/five-ways-to-improve-your-code-quality)
 * [Future frontiers: Why developers need to go beyond the OWASP Top 10 for secure coding mastery](https://discover.securecodewarrior.com/OWASP-Top-10-and-beyond-whitepaper.html)
 * [On Technical Debt And Code Smells: Surprising insights from scientific studies](https://www.scrum.org/resources/blog/technical-debt-and-code-smells-surprising-insights-scientific-studies)
 * [The 12-Factor App](https://12factor.net/)
-* [Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/#/en/reading)
 * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 
 # Knowledge
@@ -87,7 +90,7 @@ Build a strong culture of documentation, communication and knowledge sharing. We
 * [PlantUML](https://plantuml.com/)
 * [Archi](https://www.archimatetool.com/)
 
-**Training**
+**Learning**
 * [How do I ask a good question?](https://stackoverflow.com/help/how-to-ask)
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
 * [Technical Writing Courses](https://developers.google.com/tech-writing)
