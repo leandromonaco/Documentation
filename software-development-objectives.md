@@ -8,12 +8,13 @@
 
 # Collaboration
 
-Learn useful strategies that have a strong research base of evidence for improving effectiveness in the workplace.
+Improve eficiency and effectiveness in the workplace.
 
 **Learning**
 * [Build your tech resilience](https://docs.microsoft.com/en-us/learn/paths/tech-resilience)
 * [Master these 7 essential skills to level-up your teamwork game](https://www.atlassian.com/blog/teamwork/teamwork-skills-accelerate-career)
 * [Debugging Teams: Better Productivity through Collaboration](https://www.amazon.com.au/Debugging-Teams-Productivity-through-Collaboration-ebook/dp/B016NDL1QE)
+* [High-Impact Tools for Teams: 5 Tools to Align Team Members, Build Trust, and Get Results Fast](https://www.amazon.com.au/High-Impact-Tools-Teams-Members-Strategyzer-ebook/dp/B08SWKSCV2)
 * [Atlassian’s guide to agile development](https://www.atlassian.com/agile)
 
 **Agile**
@@ -69,7 +70,8 @@ Write and ship code faster.
 
 # Quality
 
-Quality code does what it’s intended to do. Excellent code quality follows a consistent style, is easy to understand, is well documented, and can be tested. Focus on readability, performance, maintainability, reliability/resiliency, and security.
+Write quality code that does what it’s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
+Focus on readability, performance, maintainability, reliability/resiliency, and security.
 
 **Learning**
 * [Code Reviews](https://google.github.io/eng-practices/review)
