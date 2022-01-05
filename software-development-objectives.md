@@ -31,7 +31,7 @@ Improve eficiency and effectiveness in the workplace.
 
 # Learning
 
-Make learning a part of your routine.
+Make learning a part of your routine. Technologies are rapidly changing and it’s important to keep your skills current.
 
 **Conferences**
 * [GitHub Universe](https://www.githubuniverse.com/)
@@ -54,7 +54,9 @@ Make learning a part of your routine.
 
 # Delivery
 
-Write and ship code faster.
+Write and ship code faster. 
+
+See [GitHub's Report](https://octoverse.github.com/writing-code-faster/)
 
 **Developer Velocity**
 
@@ -88,6 +90,8 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 # Knowledge
 
 Build a strong culture of documentation, communication and knowledge sharing. We’ll be able to work more asynchronously by storing our team knowledge in one central location for any of us to access at any time. Jot down frequently asked questions that you hear on chat or in email.
+
+See [GitHub's Report](https://octoverse.github.com/creating-documentation)
 
 **Tools**
 * [GitHub Discussions](https://docs.github.com/en/discussions)
