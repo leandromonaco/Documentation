@@ -4,7 +4,7 @@
 - [Learning](#learning)
 - [Delivery](#delivery)
 - [Quality](#quality)
-- [Knowledge](#knowledge)
+- [Support](#support)
 
 # Collaboration
 
@@ -58,6 +58,12 @@ Write and ship code faster.
 
 See [GitHub's Report](https://octoverse.github.com/writing-code-faster/)
 
+Areas: 
+* Developer Velocity
+* CI/CD Pipelines
+* Release
+
+
 **Developer Velocity**
 
 * [Developer Velocity: How software excellence fuels business performance](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance)
@@ -77,6 +83,16 @@ See [GitHub's Report](https://octoverse.github.com/writing-code-faster/)
 Write quality code that does what it’s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
 Focus on readability, performance, maintainability, reliability/resiliency, and security.
 
+Areas:
+* Automation Testing
+* Unit Testing
+* Integration Testing
+* Load Testing
+* Static Application Security Testing (SAST)
+* Dynamic Application Security Testing (DAST)
+* Code Smells
+
+
 **Learning**
 * [Code Reviews](https://google.github.io/eng-practices/review)
 * [Guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
@@ -87,9 +103,17 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 * [The 12-Factor App](https://12factor.net/)
 * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 
-# Knowledge
+# Support
 
-Build a strong culture of documentation, communication and knowledge sharing. We’ll be able to work more asynchronously by storing our team knowledge in one central location for any of us to access at any time. Jot down frequently asked questions that you hear on chat or in email.
+Build a strong culture of documentation, communication and knowledge sharing. We’ll be able to work more asynchronously by storing our team knowledge in one central location for any of us to access at any time. 
+
+Areas: 
+* Documentation
+* Production Support
+* Post-mortem reviews
+* On-Call
+* Logging
+* Monitoring
 
 See [GitHub's Report](https://octoverse.github.com/creating-documentation)
 
