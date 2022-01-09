@@ -96,6 +96,7 @@ Areas:
 **Learning**
 * [Code Reviews](https://google.github.io/eng-practices/review)
 * [Guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
+* [Testing in .NET](https://docs.microsoft.com/en-us/dotnet/core/testing/)
 * [Playwright for .NET](https://playwright.dev/dotnet/docs/intro)
 * [Five Ways to Improve Your Code Quality](https://blog.sonatype.com/five-ways-to-improve-your-code-quality)
 * [Future frontiers: Why developers need to go beyond the OWASP Top 10 for secure coding mastery](https://discover.securecodewarrior.com/OWASP-Top-10-and-beyond-whitepaper.html)
