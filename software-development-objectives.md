@@ -106,7 +106,7 @@ Areas:
 
 # Support
 
-Build a strong culture of documentation, communication and knowledge sharing. We’ll be able to work more asynchronously by storing our team knowledge in one central location for any of us to access at any time. 
+Build a strong culture of support, documentation, and knowledge sharing.
 
 Areas: 
 * Documentation
