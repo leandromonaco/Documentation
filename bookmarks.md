@@ -63,6 +63,10 @@ This is a curated list of resources for professional development
 - [Developer Velocity Lab](https://www.microsoft.com/en-us/research/group/developer-velocity-lab/)
 - [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
 
+# Certifications
+- [Is your certification expiring soon? Renew it for free today!](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/is-your-certification-expiring-soon-renew-it-for-free-today/ba-p/2150405)
+- [New to Microsoft Certification exams? We have something you need to try](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/new-to-microsoft-certification-exams-we-have-something-you-need/ba-p/3041520)
+
 # Code Reviews
 
 - [The (written) unwritten guide to pull requests](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
@@ -77,9 +81,7 @@ This is a curated list of resources for professional development
 
 - [Single file deployment and executable](https://docs.microsoft.com/en-us/dotnet/core/deploying/single-file)
 
-# On-call
 
-- [Using ChatOps to help Actions on-call engineers](https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers)
 
 
 # Documentation
@@ -103,8 +105,26 @@ This is a curated list of resources for professional development
 - [dotnet-outdated](https://github.com/dotnet-outdated/dotnet-outdated)
 - [upgrade-assistant](https://github.com/dotnet/upgrade-assistant)
 
-
 # Management
+
+## Career Development
+- [Staff Software Engineer Responsibilities](https://davidxiang.com/2021/01/19/staff-software-engineer-responsibilities)
+- [Staff Software Engineer Responsibilities – Align With Authority](https://davidxiang.com/2021/10/10/staff-software-engineer)
+- [Staff Engineer: Leadership beyond the management track](https://staffeng.com/)
+
+## Feedback
+- [How to Give Effective Feedback](https://www.scrum.org/resources/blog/how-give-effective-feedback)
+
+## Hiring
+- [Introducing the HackerRank Hiring Maturity Model](https://blog.hackerrank.com/hiring-maturity-model/)
+- [How to Create a Positive Remote Interview Experience](https://blog.hackerrank.com/positive-remote-interviewing-candidate-experience/)
+- [The Ultimate Hiring Guide to Developer Skills & Roles](https://blog.hackerrank.com/developer-skills-list/)
+
+## Incident Management
+
+- [Using ChatOps to help Actions on-call engineers](https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers)
+- [7 Incident Management Best Practices for Long Term Success](https://www.xmatters.com/blog/7-incident-management-best-practices-for-long-term-success)
+- [What the Ideal Incident Lifecycle Should Be](https://www.xmatters.com/blog/what-the-ideal-incident-lifecycle-should-be)
 
 ## Misc
 
@@ -113,19 +133,29 @@ This is a curated list of resources for professional development
 - [Report Metrics](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
 - [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 
+## Onboarding
+- [5 Steps to Creating a Seamless Virtual Onboarding Experience for Your Developers](https://blog.hackerrank.com/creating-seamless-virtual-onboarding-experience-developers/)
+- [Optimize local dev environments for better onboarding](https://github.com/readme/guides/developer-onboarding)
+- [Setting guidelines for repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)
+- [Grafana's Onboarding Plan](https://docs.google.com/document/d/1XdKA6kwi-nfag5EXxkR6Pq5Pn4XYXp-Xd7hhL8R2YnY/mobilebasic)
+
+## One on One Meetings
+- [The Quantified Value Of 1:1 Meetings And How To Make The Most Of Them](https://getlighthouse.com/blog/11-meetings-value-make-most)
+
+## People Management
+- [Managing Staff-plus engineers](https://lethain.com/managing-staff-plus-engineers/)
+
 ## Research
 - [Learn about Google's manager research](https://rework.withgoogle.com/guides/managers-identify-what-makes-a-great-manager/steps/learn-about-googles-manager-research/)
 - [What Makes a Great Manager of Software Engineers?](https://www.microsoft.com/en-us/research/uploads/prod/2018/06/kalliamvakou-tse-2018.pdf)
 - [Tool: Try Google’s Manager Feedback Survey](https://rework.withgoogle.com/guides/managers-give-feedback-to-managers/steps/try-googles-manager-feedback-survey)
 - [Great managers still matter: the evolution of Google’s Project Oxygen](https://rework.withgoogle.com/blog/the-evolution-of-project-oxygen)
 
-## Onboarding
-- [5 Steps to Creating a Seamless Virtual Onboarding Experience for Your Developers](https://blog.hackerrank.com/creating-seamless-virtual-onboarding-experience-developers/)
+## Time Management
+- [Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html)
+- [Time management for makers](https://github.com/readme/guides/time-management-software-engineers)
 
-## Hiring
-- [Introducing the HackerRank Hiring Maturity Model](https://blog.hackerrank.com/hiring-maturity-model/)
-- [How to Create a Positive Remote Interview Experience](https://blog.hackerrank.com/positive-remote-interviewing-candidate-experience/)
-- [The Ultimate Hiring Guide to Developer Skills & Roles](https://blog.hackerrank.com/developer-skills-list/)
+## Turnover
+- [The Great Resignation is here. What does that mean for developers?](https://stackoverflow.blog/2022/01/10/the-great-resignation-is-here-what-does-that-mean-for-developers)
+- [Why Are So Many Software Developers Quitting Their Jobs?](https://javascript.plainenglish.io/why-are-so-many-software-developers-quitting-their-jobs-e5a6c2a8f5ed)
 
-## Giving Feedback
-- [How to Give Effective Feedback](https://www.scrum.org/resources/blog/how-give-effective-feedback)
