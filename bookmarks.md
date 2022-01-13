@@ -53,9 +53,6 @@ This is a curated list of resources for professional development
 
 - [Secure coding guidelines](https://docs.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines)
 
-# DevOps
-- [DevOps capabilities](https://cloud.google.com/architecture/devops/capabilities)
-- [DORA's State of DevOps research program](https://www.devops-research.com/research.html)
 
 # Developer Productivity
 - [Developer Velocity: How software excellence fuels business performance](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance)
@@ -80,9 +77,6 @@ This is a curated list of resources for professional development
 # Deployment
 
 - [Single file deployment and executable](https://docs.microsoft.com/en-us/dotnet/core/deploying/single-file)
-
-
-
 
 # Documentation
 
@@ -146,6 +140,9 @@ This is a curated list of resources for professional development
 - [Managing Staff-plus engineers](https://lethain.com/managing-staff-plus-engineers/)
 
 ## Research
+- [Microsoft WorkLab](https://www.microsoft.com/en-us/worklab)
+- [Google Rework](https://rework.withgoogle.com)
+- [Google DevOps research program](https://www.devops-research.com/research.html)
 - [Learn about Google's manager research](https://rework.withgoogle.com/guides/managers-identify-what-makes-a-great-manager/steps/learn-about-googles-manager-research/)
 - [What Makes a Great Manager of Software Engineers?](https://www.microsoft.com/en-us/research/uploads/prod/2018/06/kalliamvakou-tse-2018.pdf)
 - [Tool: Try Google’s Manager Feedback Survey](https://rework.withgoogle.com/guides/managers-give-feedback-to-managers/steps/try-googles-manager-feedback-survey)
@@ -158,4 +155,3 @@ This is a curated list of resources for professional development
 ## Turnover
 - [The Great Resignation is here. What does that mean for developers?](https://stackoverflow.blog/2022/01/10/the-great-resignation-is-here-what-does-that-mean-for-developers)
 - [Why Are So Many Software Developers Quitting Their Jobs?](https://javascript.plainenglish.io/why-are-so-many-software-developers-quitting-their-jobs-e5a6c2a8f5ed)
-
