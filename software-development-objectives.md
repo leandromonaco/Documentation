@@ -4,7 +4,7 @@
 - [Learning](#learning)
 - [Delivery](#delivery)
 - [Quality](#quality)
-- [Support](#support)
+- [Documentation](#documentation)
 
 # Collaboration
 
@@ -56,16 +56,22 @@ Make learning a part of your routine. Technologies are rapidly changing and itâ€
 
 Write and ship code faster. 
 
-See [GitHub's Report](https://octoverse.github.com/writing-code-faster/)
+[Writing and shipping code faster](https://octoverse.github.com/writing-code-faster/)
 
-Areas: 
-* Developer Velocity
+<details>
+  <summary>Click to see areas</summary>
+  
+* Developer Productivity
 * CI/CD Pipelines
 * Release
+* Reusing Code
+* Coordinating and Merging Pull Requests
 
+</details>
 
 **Developer Velocity**
 
+* [Guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 * [Developer Velocity: How software excellence fuels business performance](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance)
 * [Developer Velocity Assessment](https://developervelocityassessment.com/)
 * [Developer Velocity Lab](https://www.microsoft.com/en-us/research/group/developer-velocity-lab/)
@@ -83,7 +89,10 @@ Areas:
 Write quality code that does what itâ€™s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
 Focus on readability, performance, maintainability, reliability/resiliency, and security.
 
-Areas:
+<details>
+  <summary>Click to see areas</summary>
+  
+ Development
 * Automation Testing
 * Unit Testing
 * Integration Testing
@@ -92,10 +101,17 @@ Areas:
 * Dynamic Application Security Testing (DAST)
 * Code Smells
 
+Operations
+* Production Support
+* Post-mortem reviews
+* On-Call
+* Logging
+* Monitoring
+
+</details>
 
 **Learning**
 * [Code Reviews](https://google.github.io/eng-practices/review)
-* [Guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 * [Testing in .NET](https://docs.microsoft.com/en-us/dotnet/core/testing/)
 * [Playwright for .NET](https://playwright.dev/dotnet/docs/intro)
 * [Five Ways to Improve Your Code Quality](https://blog.sonatype.com/five-ways-to-improve-your-code-quality)
@@ -104,26 +120,20 @@ Areas:
 * [The 12-Factor App](https://12factor.net/)
 * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 
-# Support
+# Documentation
 
-Build a strong culture of support, documentation, and knowledge sharing.
+Build a strong culture of documentation and knowledge sharing.
 
-Areas: 
-* Documentation
-* Production Support
-* Post-mortem reviews
-* On-Call
-* Logging
-* Monitoring
-
-See [GitHub's Report](https://octoverse.github.com/creating-documentation)
+**Resources**
+* [The importance of a handbook-first approach to documentation](https://about.gitlab.com/company/culture/all-remote/handbook-first-documentation)
+* [Creating documentation to support developers](https://octoverse.github.com/creating-documentation)
 
 **Tools**
 * [GitHub Discussions](https://docs.github.com/en/discussions)
 * [PlantUML](https://plantuml.com/)
 * [Archi](https://www.archimatetool.com/)
 
-**Learning**
+**Training**
 * [How do I ask a good question?](https://stackoverflow.com/help/how-to-ask)
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
 * [Technical Writing Courses](https://developers.google.com/tech-writing)
