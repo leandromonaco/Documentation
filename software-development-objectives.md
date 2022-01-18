@@ -31,7 +31,7 @@ Improve eficiency and effectiveness in the workplace.
 
 # Learning
 
-Make learning a part of your routine. Technologies are rapidly changing and it’s important to keep your skills current.
+Keep pace with today’s technologies and make learning a part of your routine.
 
 * [Your future self will thank you: Building your personal documentation](https://github.com/readme/guides/private-documentation)
 * [How writing can advance your career as a developer](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
@@ -50,6 +50,11 @@ Make learning a part of your routine. Technologies are rapidly changing and it�
 * [.NET fundamentals](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
 * [.NET application architecture guide](https://docs.microsoft.com/en-us/dotnet/architecture/)
 * [Designing Distributed Systems](https://azure.microsoft.com/en-us/resources/designing-distributed-systems/)
+
+**Certification**
+* [Microsoft Certifications](https://docs.microsoft.com/en-us/learn/certifications/)
+* [Certification process overview](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview)
+* [Renew your Microsoft Certification](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification)
 
 **Forums**
 * [Microsoft Q&As](https://docs.microsoft.com/en-us/answers/products/dotnet)
