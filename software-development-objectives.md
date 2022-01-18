@@ -33,6 +33,9 @@ Improve eficiency and effectiveness in the workplace.
 
 Make learning a part of your routine. Technologies are rapidly changing and it’s important to keep your skills current.
 
+* [Your future self will thank you: Building your personal documentation](https://github.com/readme/guides/private-documentation)
+* [How writing can advance your career as a developer](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
+
 **Conferences**
 * [GitHub Universe](https://www.githubuniverse.com/)
 * [.NET Conf](https://www.dotnetconf.net/)
@@ -56,8 +59,6 @@ Make learning a part of your routine. Technologies are rapidly changing and it�
 
 Write and ship code faster. 
 
-[Writing and shipping code faster](https://octoverse.github.com/writing-code-faster/)
-
 <details>
   <summary>Click to see areas</summary>
   
@@ -69,16 +70,14 @@ Write and ship code faster.
 
 </details>
 
-**Developer Velocity**
+**Resources**
 
+* [Writing and shipping code faster](https://octoverse.github.com/writing-code-faster/)
 * [Guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 * [Developer Velocity: How software excellence fuels business performance](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance)
 * [Developer Velocity Assessment](https://developervelocityassessment.com/)
 * [Developer Velocity Lab](https://www.microsoft.com/en-us/research/group/developer-velocity-lab/)
 * [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
-
-**DevOps**
-
 * [Introduce the foundation pillars of DevOps: Culture and Lean Product](https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/)
 * [DevOps Dojo: Create efficiencies that support your business](https://docs.microsoft.com/en-us/learn/paths/devops-dojo-white-belt-foundation/)
 * [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping)
@@ -110,13 +109,15 @@ Operations
 
 </details>
 
-**Learning**
+**Resources**
 * [Code Reviews](https://google.github.io/eng-practices/review)
 * [Testing in .NET](https://docs.microsoft.com/en-us/dotnet/core/testing/)
 * [Playwright for .NET](https://playwright.dev/dotnet/docs/intro)
 * [Five Ways to Improve Your Code Quality](https://blog.sonatype.com/five-ways-to-improve-your-code-quality)
 * [Future frontiers: Why developers need to go beyond the OWASP Top 10 for secure coding mastery](https://discover.securecodewarrior.com/OWASP-Top-10-and-beyond-whitepaper.html)
 * [On Technical Debt And Code Smells: Surprising insights from scientific studies](https://www.scrum.org/resources/blog/technical-debt-and-code-smells-surprising-insights-scientific-studies)
+* [Plan for tradeoffs: You can’t optimize all software quality attributes](https://stackoverflow.blog/2022/01/17/plan-for-tradeoffs-you-cant-optimize-all-software-quality-attributes)
+* [Is High Quality Software Worth the Cost?](https://martinfowler.com/articles/is-quality-worth-cost.html)
 * [The 12-Factor App](https://12factor.net/)
 * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 
@@ -127,14 +128,10 @@ Build a strong culture of documentation and knowledge sharing.
 **Resources**
 * [The importance of a handbook-first approach to documentation](https://about.gitlab.com/company/culture/all-remote/handbook-first-documentation)
 * [Creating documentation to support developers](https://octoverse.github.com/creating-documentation)
-
-**Tools**
 * [GitHub Discussions](https://docs.github.com/en/discussions)
 * [PlantUML](https://plantuml.com/)
 * [Archi](https://www.archimatetool.com/)
-
-**Training**
 * [How do I ask a good question?](https://stackoverflow.com/help/how-to-ask)
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
+* [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
 * [Technical Writing Courses](https://developers.google.com/tech-writing)
-* [How writing can advance your career as a developer](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
