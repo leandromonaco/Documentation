@@ -1,14 +1,12 @@
-# Coding Exercise
-
-## Goal
+# Goal
 
 See your natural approach to coding, finding solutions, and collaborating with other engineers.
 
-## Step 1:	Process
+# Process
 
 1. Test the [API Authentication](#api-authentication)
 2. Compile the [Code](#code) with your favorite IDE (e.g. [VS Code Online](https://vscode.dev))
-3. Execute the following tasks
+3. Execute the following tasks:
 *  Get the details of the SmartHotel360 repository
 *  Get a list of branches
 *  Get a list of commits
@@ -22,14 +20,14 @@ See your natural approach to coding, finding solutions, and collaborating with o
 **Insert code here**
 
 
-## API Authentication
+# API Authentication
 
 - **Organization:** AWP-Australia
 - **Test Operation**: https://dev.azure.com/AWP-Australia/_apis/projects?stateFilter=All&api-version=1.0
 - **Authorization Header:** `Basic bGVtb25hY29AYWxsaWFuei1hc3Npc3RhbmNlLmNvbS5hdTpuZXczZ3ludmRpdWJpdno0djNoc2E1enpqMmF3ZGtvbzQ3ZnZxMzZ4aWJxb2x5Y203NnNx`
 - **Repository Name:** SmartHotel360
 
-## Documentation
+# Documentation
 
 [Azure DevOps Services REST API Reference](https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-6.1)
 
