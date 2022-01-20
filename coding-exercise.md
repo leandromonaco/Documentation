@@ -4,13 +4,9 @@ See your natural approach to coding, finding solutions, and collaborating with o
 
 # Process
 
-1. Test the [API Authentication](#api-authentication)
-2. Compile the [Code](#code) with your favorite IDE (e.g. [VS Code Online](https://vscode.dev))
-3. Execute the following tasks:
-*  Get the details of the SmartHotel360 repository
-*  Get a list of branches
-*  Get a list of commits
-*  Get a list of active and closed Pull Requests
+1. Test the [API Authentication](#api-authentication).
+2. Compile the [Code](#code) with your favorite IDE (e.g. [VS Code Online](https://vscode.dev)).
+3. Get a list of branches, commits and pull requests.
 4. Point out specific aspects, errors, or concerns.
 5. Suggest and implement improvements.
 
