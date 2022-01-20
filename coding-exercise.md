@@ -11,14 +11,12 @@ See your natural approach to coding, finding solutions, and collaborating with o
 *  Get a list of branches
 *  Get a list of commits
 *  Get a list of active and closed Pull Requests
-4. Pointing out specific aspects, errors, or concerns.
-5. Make a selection of changes to the solution potentially based on your recommendation and ours (up to 60 minutes).
-6. Show the functioning changes and discuss further.
+4. Point out specific aspects, errors, or concerns.
+5. Suggest and implement improvements.
 
 # Code
 
 **Insert code here**
-
 
 # API Authentication
 
