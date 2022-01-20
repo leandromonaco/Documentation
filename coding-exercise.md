@@ -65,7 +65,7 @@ public class Program
 
 # API Authentication
 
-- **Organization:** AWP-Australia
+- **Organization:** AcmeInc
 - **Test Operation**: https://dev.azure.com/AcmeInc/_apis/projects?stateFilter=All&api-version=1.0
 - **Authorization Header:** `Basic bGVtb25hY29AYWxsaWFuei1hc3Npc3RhbmNlLmNvbS5hdTpuZXczZ3ludmRpdWJpdno0djNoc2E1enpqMmF3ZGtvbzQ3ZnZxMzZ4aWJxb2x5Y203NnNx`
 - **Repository Name:** SmartHotel360
