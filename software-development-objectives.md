@@ -133,3 +133,7 @@ Build a strong culture of documentation and knowledge sharing.
 - Create [documentation](https://octoverse.github.com/creating-documentation) when there is information on the subject.
 - Update documentation when there is partial or outdated information on the subject.
 - Consolidate documentation when there are multiple conflicting pieces of information on the same subject.
+- Run [Microsoft Application Inspector](https://github.com/Microsoft/ApplicationInspector) to identify coding features of first or third party software components.
+- Document APIs with [Swagger](https://swagger.io/).
+- Create a [Tech Radar](https://radar.thoughtworks.com/).
+
