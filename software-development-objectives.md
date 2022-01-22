@@ -1,4 +1,4 @@
-# Objectives for .NET Developers
+# Software Development Objectives
 
 - [Collaboration](#collaboration)
 - [Learning](#learning)
@@ -62,14 +62,24 @@ Write and ship code faster.
 
 </details>
 
+## Developer Path
+
+
 **Resources**
 
 * [Writing and shipping code faster](https://octoverse.github.com/writing-code-faster/)
-* [Guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 * [Developer Velocity: How software excellence fuels business performance](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance)
 * [Developer Velocity Assessment](https://developervelocityassessment.com/)
 * [Developer Velocity Lab](https://www.microsoft.com/en-us/research/group/developer-velocity-lab/)
 * [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
+
+
+
+## DevOps Engineer Path
+
+**Resources**
+
+* [Guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 * [Introduce the foundation pillars of DevOps: Culture and Lean Product](https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/)
 * [DevOps Dojo: Create efficiencies that support your business](https://docs.microsoft.com/en-us/learn/paths/devops-dojo-white-belt-foundation/)
 * [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping)
@@ -80,10 +90,8 @@ Write and ship code faster.
 Write quality code that does what it’s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
 Focus on readability, performance, maintainability, reliability/resiliency, and security.
 
-<details>
-  <summary>Click to see areas</summary>
+## Developer Path
   
- Development
 * Automation Testing
 * Unit Testing
 * Integration Testing
@@ -92,14 +100,14 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 * Dynamic Application Security Testing (DAST)
 * Code Smells
 
-Operations
+## DevOps Engineer Path
+
 * Production Support
 * Post-mortem reviews
+* Incident Management
 * On-Call
 * Logging
-* Monitoring
-
-</details>
+* Monitoring (SRE and Observability)
 
 **Resources**
 * [Code Reviews](https://google.github.io/eng-practices/review)
