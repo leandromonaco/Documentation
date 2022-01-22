@@ -35,15 +35,16 @@ Make learning a part of your routine.
 
 **Goal-Oriented Behaviours:**
 
- - Stay up to date with industry and technology trends ([GitHub Universe](https://www.githubuniverse.com/), [.NET Conf](https://www.dotnetconf.net/), [Redis Conf](https://redis.com/redisconf/), [Microsoft Ignite](https://myignite.microsoft.com/), [Microsoft Build](https://mybuild.microsoft.com/)).
- - Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis.
- - Apply the knowledge to something you care about.
- - [Teach what you learn](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/) to someone else.
- - Join a [Course Club](https://learning.linkedin.com/course-club).
- - Sign up to [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) and [Get Certified](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview).
- - Participate in [Q&A Forums](https://docs.microsoft.com/en-us/answers/products/dotnet) and [Tech Communities](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet).
+- Stay up to date with industry and technology trends ([GitHub Universe](https://www.githubuniverse.com/), [.NET Conf](https://www.dotnetconf.net/), [Redis Conf](https://redis.com/redisconf/), [Microsoft Ignite](https://myignite.microsoft.com/), [Microsoft Build](https://mybuild.microsoft.com/)).
+- Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis.
+- Apply the knowledge to something you care about.
+- [Teach what you learn](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/) to someone else.
+- Join a [Course Club](https://learning.linkedin.com/course-club).
+- Sign up to [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) and [Get Certified](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview).
+- Participate in [Q&A Forums](https://docs.microsoft.com/en-us/answers/products/dotnet) and [Tech Communities](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet).
 - Read [Documentation](https://docs.microsoft.com/en-us/dotnet/), [E-Books](https://azure.microsoft.com/en-us/resources/whitepapers/search/?type=EBookResource), [Blogs](https://devblogs.microsoft.com/) or other [Online Resources](https://azure.microsoft.com/en-us/resources).
-
+- Become a better [Technical Writer](https://developers.google.com/tech-writing).
+- Ask [Better Questions](https://stackoverflow.com/help/how-to-ask).
 
 
 # Delivery
@@ -116,13 +117,11 @@ Operations
 
 Build a strong culture of documentation and knowledge sharing.
 
-**Resources**
-* [The importance of a handbook-first approach to documentation](https://about.gitlab.com/company/culture/all-remote/handbook-first-documentation)
-* [Creating documentation to support developers](https://octoverse.github.com/creating-documentation)
-* [GitHub Discussions](https://docs.github.com/en/discussions)
-* [PlantUML](https://plantuml.com/)
-* [Archi](https://www.archimatetool.com/)
-* [How do I ask a good question?](https://stackoverflow.com/help/how-to-ask)
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
-* [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
-* [Technical Writing Courses](https://developers.google.com/tech-writing)
+**Goal-Oriented Behaviours:**
+
+- Use [Documentation as Code](https://www.docslikecode.com/) by creating [Markdown](https://guides.github.com/features/mastering-markdown) files and publishing [a branded static site](https://squidfunk.github.io/mkdocs-material) from them.
+- Document [infrastructure, architecture](https://www.archimatetool.com/), and [Technical Analysis and Design](https://plantuml.com/).
+- Write guides, tutorials, runbooks, [FAQs](https://docs.github.com/en/discussions) and [anything](https://about.gitlab.com/company/culture/all-remote/handbook-first-documentation) that will make the team successful.
+- Create [documentation](https://octoverse.github.com/creating-documentation) when there is information on the subject.
+- Update documentation when there is partial or outdated information on the subject.
+- Consolidate documentation when there are multiple conflicting pieces of information on the same subject.
