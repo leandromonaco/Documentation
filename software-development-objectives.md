@@ -1,4 +1,4 @@
-# Objectives
+# Objectives for .NET Developers
 
 - [Collaboration](#collaboration)
 - [Learning](#learning)
@@ -31,34 +31,20 @@ Improve eficiency and effectiveness in the workplace.
 
 # Learning
 
-Keep pace with today’s technologies and make learning a part of your routine.
+Make learning a part of your routine.
 
-* [Your future self will thank you: Building your personal documentation](https://github.com/readme/guides/private-documentation)
-* [How writing can advance your career as a developer](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
+**Goal-Oriented Behaviours:**
 
-**Conferences**
-* [GitHub Universe](https://www.githubuniverse.com/)
-* [.NET Conf](https://www.dotnetconf.net/)
-* [Redis Conf](https://redis.com/redisconf/)
+ - Stay up to date with industry and technology trends ([GitHub Universe](https://www.githubuniverse.com/), [.NET Conf](https://www.dotnetconf.net/), [Redis Conf](https://redis.com/redisconf/), [Microsoft Ignite](https://myignite.microsoft.com/), [Microsoft Build](https://mybuild.microsoft.com/)).
+ - Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis.
+ - Apply the knowledge to something you care about.
+ - [Teach what you learn](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/) to someone else.
+ - Join a [Course Club](https://learning.linkedin.com/course-club).
+ - Sign up to [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) and [Get Certified](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview).
+ - Participate in [Q&A Forums](https://docs.microsoft.com/en-us/answers/products/dotnet) and [Tech Communities](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet).
+- Read [Documentation](https://docs.microsoft.com/en-us/dotnet/), [E-Books](https://azure.microsoft.com/en-us/resources/whitepapers/search/?type=EBookResource), [Blogs](https://devblogs.microsoft.com/) or other [Online Resources](https://azure.microsoft.com/en-us/resources).
 
-**Learning**
-* [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
-* [Explore the latest developer technology and learn new skills](https://azure.microsoft.com/en-us/resources/)
-* [LinkedIn Learning's Course Club](https://learning.linkedin.com/course-club)
 
-**Documentation**
-* [.NET fundamentals](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
-* [.NET application architecture guide](https://docs.microsoft.com/en-us/dotnet/architecture/)
-* [Designing Distributed Systems](https://azure.microsoft.com/en-us/resources/designing-distributed-systems/)
-
-**Certification**
-* [Microsoft Certifications](https://docs.microsoft.com/en-us/learn/certifications/)
-* [Certification process overview](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview)
-* [Renew your Microsoft Certification](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification)
-
-**Forums**
-* [Microsoft Q&As](https://docs.microsoft.com/en-us/answers/products/dotnet)
-* [.NET Tech Community Forums](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet)
 
 # Delivery
 
