@@ -127,7 +127,7 @@ Build a strong culture of documentation and knowledge sharing.
 
 **Goal-Oriented Behaviours:**
 
-- Use [Documentation as Code](https://www.docslikecode.com/) by creating [Markdown](https://guides.github.com/features/mastering-markdown) files and publishing [a branded static site](https://squidfunk.github.io/mkdocs-material) from them.
+- Use [Documentation as Code](https://www.docslikecode.com/) by creating [Markdown](https://guides.github.com/features/mastering-markdown) files and generating [a branded static site](https://squidfunk.github.io/mkdocs-material) hosted on [GitHub Pages](https://pages.github.com/).
 - Document [infrastructure, architecture](https://www.archimatetool.com/), and [Technical Analysis and Design](https://plantuml.com/).
 - Write guides, tutorials, runbooks, [FAQs](https://docs.github.com/en/discussions) and [anything](https://about.gitlab.com/company/culture/all-remote/handbook-first-documentation) that will make the team successful.
 - Create [documentation](https://octoverse.github.com/creating-documentation) when there is information on the subject.
