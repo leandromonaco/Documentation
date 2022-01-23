@@ -16,7 +16,7 @@ Improve eficiency and effectiveness in the workplace.
 - Enhance your [self-efficacy](https://docs.microsoft.com/en-us/learn/modules/enhance-self-efficacy/).
 - Cultivate a [culture of belongingness](https://docs.microsoft.com/en-us/learn/modules/cultivate-culture-belongingness/).
 - Exercise your [emotional intelligence](https://docs.microsoft.com/en-us/learn/modules/exercise-your-emotional-intelligence/).
-- Give and [receive effective feedback](https://docs.microsoft.com/en-us/learn/modules/give-receive-effective-feedback/).
+- Give and receive [effective feedback](https://docs.microsoft.com/en-us/learn/modules/give-receive-effective-feedback/).
 - Grow your [cognitive flexibility](https://docs.microsoft.com/en-us/learn/modules/grow-cognitive-flexibility/).
 - Leverage [self-regulation](https://docs.microsoft.com/en-us/learn/modules/self-regulation-work-strategically/) to work strategically.
 - Communicate with others strategically through [mirroring and coaching](https://docs.microsoft.com/en-us/learn/modules/communicate-strategically-mirror-coach/).
