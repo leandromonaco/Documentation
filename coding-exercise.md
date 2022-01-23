@@ -2,13 +2,17 @@
 
 See your natural approach to coding, finding solutions, and collaborating with other engineers.
 
-# Process
+# Pre-Requisites
 
 1. Test the [API Authentication](#api-authentication).
-2. Compile the [Code](#code) with your favorite IDE.
-3. Get a list of branches, commits and pull requests.
-4. Point out specific aspects, errors, or concerns.
-5. Suggest and implement improvements.
+2. Run the [Code](#code) with your favorite IDE.
+
+# Process
+
+1. Refactor the code following SOLID principles.
+2. Test the code.
+3. Make the code production-ready.
+4. Integrate with the GitHub REST API to retrieve Pull Requests.
 
 # Code
 
@@ -19,15 +23,11 @@ public class Program
     {
         Task.Run(async () =>
         {
-            // Get Project details
-            await GetDetails("https://dev.azure.com/AcmeInc/_apis/projects");
-            //Get the details of the SmartHotel360 repository
-            await GetDetails("https://dev.azure.com/AcmeInc/ff86f2fb-5c3a-49e2-a677-c9b95d6baaef/_apis/git/repositories/4563efa9-da5d-4f54-b609-18db14479f48?api-version=6.0");
-            //Get RepoBranch details
+            //Get Repositories
             await GetDetails("https://dev.azure.com/AcmeInc/ff86f2fb-5c3a-49e2-a677-c9b95d6baaef/_apis/tfvc/branches?includeParent=1&includeChildren=1&includeDeleted=1&includeLinks=1&api-version=6.0");
-            //Get RepoCommitDetails
+            //Get Commits
             await GetDetails("https://dev.azure.com/AcmeInc/ff86f2fb-5c3a-49e2-a677-c9b95d6baaef/_apis/git/repositories/4563efa9-da5d-4f54-b609-18db14479f48/commits?api-version=6.0");
-            //Get Active And Closed PRDetails
+            //Get Pull Requests
             await GetDetails("https://dev.azure.com/AcmeInc/ff86f2fb-5c3a-49e2-a677-c9b95d6baaef/_apis/git/repositories/4563efa9-da5d-4f54-b609-18db14479f48/pullrequests?searchCriteria.status=completed||searchCriteria.status=open?api-version=5.1");
         }).Wait();
     }
@@ -72,5 +72,6 @@ public class Program
 
 # Documentation
 
-[Azure DevOps Services REST API Reference](https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-6.1)
+- [Azure DevOps Services REST API Reference](https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-6.1)
+- [GitHub REST API Reference](https://docs.github.com/en/rest)
 
