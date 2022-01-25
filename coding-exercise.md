@@ -1,6 +1,6 @@
-# Goal
+# Objective
 
-See your natural approach to coding, finding solutions, and collaborating with other engineers.
+Assess your natural approach to coding and applying best engineering practices.
 
 # Pre-Requisites
 
@@ -12,7 +12,6 @@ See your natural approach to coding, finding solutions, and collaborating with o
 1. Refactor the code following SOLID principles.
 2. Test the code.
 3. Make the code production-ready.
-4. Integrate with the GitHub REST API to retrieve Pull Requests.
 
 # Code
 
