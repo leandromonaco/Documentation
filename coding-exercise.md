@@ -1,6 +1,6 @@
 # Objective
 
-Assess your natural approach to coding and applying best engineering practices.
+Assess your natural approach to coding and engineering best practices.
 
 # Pre-Requisites
 
