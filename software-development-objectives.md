@@ -8,7 +8,7 @@
 
 # Collaboration
 
-Improve eficiency and effectiveness in the workplace.
+Effective collaboration is critical for great business outcomes. Software engineering is a team sport.
 
 **Goal-Oriented Behaviours:**
 
@@ -25,7 +25,7 @@ Improve eficiency and effectiveness in the workplace.
 
 # Learning
 
-Make learning a part of your routine.
+Make your professional development and learning a part of your routine.
 
 **Goal-Oriented Behaviours:**
 
