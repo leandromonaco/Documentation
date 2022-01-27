@@ -1,14 +1,15 @@
 # Software Development Objectives
 
-- [Collaboration](#collaboration)
+- [Teamwork](#teamwork)
 - [Learning](#learning)
 - [Delivery](#delivery)
 - [Quality](#quality)
 - [Documentation](#documentation)
+- [Support](#support)
 
-# Collaboration
+# Teamwork
 
-Effective collaboration is critical for great business outcomes. Software engineering is a team sport.
+Collaboration, communication, and alignment are essential to building a high-performing team.
 
 **Goal-Oriented Behaviours:**
 
@@ -25,7 +26,7 @@ Effective collaboration is critical for great business outcomes. Software engine
 
 # Learning
 
-Make your professional development and learning a part of your routine.
+Make learning a part of your routine.
 
 **Goal-Oriented Behaviours:**
 
@@ -37,16 +38,19 @@ Make your professional development and learning a part of your routine.
 - Attend [conferences](conferences.md).
 - Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis.
 - Apply the knowledge to something you care about.
-- [Teach what you learn](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/) to someone else.
+- Start a [blog](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/).
 - Join a [course club](https://learning.linkedin.com/course-club).
 - Complete [online training sessions](https://docs.microsoft.com/en-us/learn/).
-- Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview).
+- Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview) or [renew](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification) it.
 - Participate in [forums](https://docs.microsoft.com/en-us/answers/products/dotnet) and [communities](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet).
 - Read [documentation](https://docs.microsoft.com/en-us/dotnet/), [e-books](https://azure.microsoft.com/en-us/resources/whitepapers/search/?type=EBookResource), [blogs](https://devblogs.microsoft.com/) or other [online resources](https://azure.microsoft.com/en-us/resources).
+- Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/).
+- Participate in a [hackathon](https://www.agorize.com/en/challenges?group=3).
+- Practice with [code katas](https://www.codewars.com/).
 
 # Delivery
 
-Write and ship code faster. 
+Deliver results for our customers by writing and shipping code faster.
 
 <details>
   <summary>Click to see areas</summary>
@@ -58,10 +62,6 @@ Write and ship code faster.
 * Coordinating and Merging Pull Requests
 
 </details>
-
-
-## Developer Path
-
 
 **Resources**
 
@@ -85,8 +85,6 @@ Write and ship code faster.
 
 Write quality code that does what it’s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
 Focus on readability, performance, maintainability, reliability/resiliency, and security.
-
-## Developer Path
   
 * Automation Testing
 * Unit Testing
@@ -95,15 +93,6 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 * Static Application Security Testing (SAST)
 * Dynamic Application Security Testing (DAST)
 * Code Smells
-
-## DevOps Engineer Path
-
-* Production Support
-* Post-mortem reviews
-* Incident Management
-* On-Call
-* Logging
-* Monitoring (SRE and Observability)
 
 **Resources**
 
@@ -134,4 +123,13 @@ Build a strong culture of documentation and knowledge sharing.
 - Run [Microsoft Application Inspector](https://github.com/Microsoft/ApplicationInspector) to identify coding features of first or third party software components.
 - Create API documentation with [swagger](https://swagger.io/).
 - Create a [tech radar](https://radar.thoughtworks.com/).
+
+# Support
+
+* Production Support
+* Post-mortem reviews
+* Incident Management
+* On-Call
+* Logging
+* Monitoring (SRE and Observability)
 
