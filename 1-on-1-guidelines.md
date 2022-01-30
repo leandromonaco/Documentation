@@ -6,7 +6,7 @@
 
 
 # Health Monitor
-## Employee Engagement
+## Employee
 
 - I know what is expected of me at work.
 - I have the materials and equipment I need to do my work right.
@@ -21,7 +21,7 @@
 - In the last six months, someone at work has talked to me about my progress.
 - This last year, I have had opportunities at work to learn and grow.
 
-## Manager Feedback
+## Manager
 
 - I would recommend my manager to others.
 - My manager assigns stretch opportunities to help me develop in my career.
@@ -38,3 +38,49 @@
 - My manager effectively collaborates across boundaries (e.g., team, organizational).
 - What would you recommend your manager keep doing?
 - What would you have your manager change?
+
+## Service Team
+
+**Team leadership** 
+- There is a team lead who is responsible for team performance, communication and process ownership. 
+- The team lead actively monitors work, identifies and successfully advocates improvements in process, and communicates opportunities both inside and outside of the team.
+
+**Balanced team** 
+- The team has the right specialist skills and experience. 
+- The team is empowered to make decisions and escalate where appropriate. 
+- The team share stories, collaborate on tricky problems and share lessons learned.
+- Individual service excellence is recognized.
+- Team schedules and rosters are set and agreed with an even distribution of work across the team. 
+- There is a smooth onboarding process for new team members.
+
+**Service mandate**
+- The services offered by the team are defined and documented. The scope of the team’s work is clear.
+- Ownership and accountabilities for individuals and leads are defined. 
+- The service mandate has been communicated and agreed by key stakeholders, with agreed-upon success metrics that are well-defined and actively monitored.
+
+**Service levels**
+- Service levels for all areas of the teams’ service mandate are defined, agreed and visible to key stakeholders, including customers.
+- All service levels are current, applicable and there is queue management, categorization, prioritization & escalation in place to meet SLAs. 
+- The team operates at a good velocity with recognized consequences for not meeting SLAs.
+
+**Customer centricity**
+- You understand what your customers need and have the necessary information about the customer to resolve their issues. 
+- You are skilled at understanding, empathizing and resolving requests with an effective customer feedback loop in place which drives improvements to build trust and
+improve your service offering. 
+- Your service offering balances quality with velocity.
+- Customers can self serve and your team has a mechanism or cycle in place to detect, correct and prevent problem management. 
+
+**Tools and processes**
+- The team has the necessary tool set that is well designed and optimized towards delivering the services offered by your team.
+- Processes are well documented, and have defined workflows and owners. 
+- There is a well defined and followed hand-over process to operationalize new services and handle rootcause analysis.
+
+**Effective partnership**
+- Your vendors and partners are known, key contracts are documented and there is a trusting relationship(s) in place.
+- There are established operational level agreements (OLAs) for down-level teams and partners. 
+- Partner contracts are current and their OLAs allow your team to uphold your commitments and retain ownership of the customer request.
+
+**Reporting and analytics**
+- You are capturing feedback and your performance reporting is available, visible and helping your team improve established service levels. 
+- KPIs are realistic, focused on the correct metrics and you are meeting your KPIs. 
+- Your cost to serve is known and a focus area for the team to improve on.
