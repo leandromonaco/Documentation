@@ -1,5 +1,7 @@
 # Software Development Objectives
 
+## Table of Contents
+
 - [Teamwork](#teamwork)
 - [Learning](#learning)
 - [Delivery](#delivery)
@@ -7,7 +9,11 @@
 - [Documentation](#documentation)
 - [Support](#support)
 
-# Teamwork
+## Introduction
+
+These objectives are guided by the [agile manifesto](https://agilemanifesto.org/) and its [principles](https://agilemanifesto.org/principles.html).
+
+## Teamwork
 
 Collaboration, communication, and alignment are essential to building a high-performing team.
 
@@ -20,11 +26,10 @@ Collaboration, communication, and alignment are essential to building a high-per
 - Ask [better questions](https://stackoverflow.com/help/how-to-ask).
 - Participate in team's [discussions](https://docs.github.com/en/discussions).
 - Provide [feedback](https://google.github.io/eng-practices/review) in pull requests.
-- Understand the [agile manifesto](https://agilemanifesto.org/) and its [principles](https://agilemanifesto.org/principles.html).
 - Build strong teams with [plays](https://www.atlassian.com/team-playbook).
 - Understand the [Scrum](https://scrumguides.org/scrum-guide.html) and [Kanban](https://www.scrum.org/resources/kanban-guide-scrum-teams) frameworks.
 
-# Learning
+## Learning
 
 Make learning a part of your routine.
 
@@ -48,7 +53,7 @@ Make learning a part of your routine.
 - Participate in a [hackathon](https://www.agorize.com/en/challenges?group=3).
 - Practice with [code katas](https://www.codewars.com/).
 
-# Delivery
+## Delivery
 
 Deliver results for our customers by writing and shipping code faster.
 
@@ -81,7 +86,7 @@ Deliver results for our customers by writing and shipping code faster.
 * [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping).
 * [DevOps Resource Center](https://docs.microsoft.com/en-us/devops).
 
-# Quality
+## Quality
 
 Write quality code that does what it’s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
 Focus on readability, performance, maintainability, reliability/resiliency, and security.
@@ -106,7 +111,7 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 * [The 12-Factor App](https://12factor.net/)
 * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 
-# Documentation
+## Documentation
 
 Build a strong culture of documentation and knowledge sharing.
 
