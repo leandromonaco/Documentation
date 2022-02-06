@@ -11,13 +11,13 @@
 
 ## Introduction
 
-These objectives are guided by the [agile manifesto](https://agilemanifesto.org/) and its [principles](https://agilemanifesto.org/principles.html).
+These objectives are guided by the [agile principles](https://agilemanifesto.org/principles.html) and our [values]().
 
 ## Teamwork
 
 Collaboration, communication, and alignment are essential to building a high-performing team.
 
-**Goal-Oriented Behaviours:**
+**Goal-Oriented Ideas:**
 
 - Cultivate a [culture of belongingness](https://docs.microsoft.com/en-us/learn/modules/cultivate-culture-belongingness/).
 - Give and receive [effective feedback](https://docs.microsoft.com/en-us/learn/modules/give-receive-effective-feedback/).
@@ -28,12 +28,14 @@ Collaboration, communication, and alignment are essential to building a high-per
 - Provide [feedback](https://google.github.io/eng-practices/review) in pull requests.
 - Build strong teams with [plays](https://www.atlassian.com/team-playbook).
 - Understand the [Scrum](https://scrumguides.org/scrum-guide.html) and [Kanban](https://www.scrum.org/resources/kanban-guide-scrum-teams) frameworks.
+- [Guide: Understand team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/foster-psychological-safety)
+- [DevOps culture: Westrum organizational culture](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)
 
 ## Learning
 
 Make learning a part of your routine.
 
-**Goal-Oriented Behaviours:**
+**Goal-Oriented Ideas:**
 
 - Develop a [growth mindset](https://docs.microsoft.com/en-us/learn/modules/develop-growth-mindset/).
 - Enhance your [self-efficacy](https://docs.microsoft.com/en-us/learn/modules/enhance-self-efficacy/).
@@ -115,7 +117,7 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 
 Build a strong culture of documentation and knowledge sharing.
 
-**Goal-Oriented Behaviours:**
+**Goal-Oriented Ideas:**
 
 - Improve your [technical writing](https://developers.google.com/tech-writing) skills.
 - Follow the [style guide](https://google.github.io/eng-practices/review).
