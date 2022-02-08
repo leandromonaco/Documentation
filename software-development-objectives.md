@@ -9,9 +9,16 @@
 - [Documentation](#documentation)
 - [Support](#support)
 
+## Reference Material
+- [Guide: Understand team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/foster-psychological-safety)
+- [DevOps culture: Westrum organizational culture](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)
+- [Scrum](https://scrumguides.org/scrum-guide.html) and [Kanban](https://www.scrum.org/resources/kanban-guide-scrum-teams) frameworks
+- [Document](https://github.com/readme/guides/document-success) your accomplishments
+
 ## Introduction
 
 These objectives are guided by the [agile principles](https://agilemanifesto.org/principles.html) and our [values]().
+
 
 ## Teamwork
 
@@ -19,17 +26,16 @@ Collaboration, communication, and alignment are essential to building a high-per
 
 **Goal-Oriented Ideas:**
 
-- Cultivate a [culture of belongingness](https://docs.microsoft.com/en-us/learn/modules/cultivate-culture-belongingness/).
-- Give and receive [effective feedback](https://docs.microsoft.com/en-us/learn/modules/give-receive-effective-feedback/).
-- Communicate strategically through [mirroring and coaching](https://docs.microsoft.com/en-us/learn/modules/communicate-strategically-mirror-coach/).
-- Practice [active listening](https://docs.microsoft.com/en-us/learn/modules/practice-active-listening/).
-- Ask [better questions](https://stackoverflow.com/help/how-to-ask).
-- Participate in team's [discussions](https://docs.github.com/en/discussions).
-- Provide [feedback](https://google.github.io/eng-practices/review) in pull requests.
-- Build strong teams with [plays](https://www.atlassian.com/team-playbook).
-- Understand the [Scrum](https://scrumguides.org/scrum-guide.html) and [Kanban](https://www.scrum.org/resources/kanban-guide-scrum-teams) frameworks.
-- [Guide: Understand team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/foster-psychological-safety)
-- [DevOps culture: Westrum organizational culture](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)
+- Cultivate a [culture of belongingness](https://docs.microsoft.com/en-us/learn/modules/cultivate-culture-belongingness/)
+- Give and receive [effective feedback](https://docs.microsoft.com/en-us/learn/modules/give-receive-effective-feedback/)
+- Communicate strategically through [mirroring and coaching](https://docs.microsoft.com/en-us/learn/modules/communicate-strategically-mirror-coach/)
+- Practice [active listening](https://docs.microsoft.com/en-us/learn/modules/practice-active-listening/)
+- Ask [better questions](https://stackoverflow.com/help/how-to-ask) in team's [discussions](https://docs.github.com/en/discussions)
+- Participate effectively in [Scrum Ceremonies](https://www.youtube.com/playlist?list=PLaD4FvsFdarT0B2yi9byhKWYX1YmrkrpC)
+- Provide [feedback](https://google.github.io/eng-practices/review) in pull requests
+- Build strong teams with [plays](https://www.atlassian.com/team-playbook)
+
+
 
 ## Learning
 
@@ -37,23 +43,24 @@ Make learning a part of your routine.
 
 **Goal-Oriented Ideas:**
 
-- Develop a [growth mindset](https://docs.microsoft.com/en-us/learn/modules/develop-growth-mindset/).
-- Enhance your [self-efficacy](https://docs.microsoft.com/en-us/learn/modules/enhance-self-efficacy/).
-- Exercise your [emotional intelligence](https://docs.microsoft.com/en-us/learn/modules/exercise-your-emotional-intelligence/).
-- Grow your [cognitive flexibility](https://docs.microsoft.com/en-us/learn/modules/grow-cognitive-flexibility/).
-- Leverage [self-regulation](https://docs.microsoft.com/en-us/learn/modules/self-regulation-work-strategically/) to work strategically.
-- Attend [conferences](conferences.md).
-- Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis.
-- Apply the knowledge to something you care about.
-- Start a [blog](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/).
-- Join a [course club](https://learning.linkedin.com/course-club).
-- Complete [online training sessions](https://docs.microsoft.com/en-us/learn/).
-- Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview) or [renew](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification) it.
-- Participate in [forums](https://docs.microsoft.com/en-us/answers/products/dotnet) and [communities](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet).
-- Read [documentation](https://docs.microsoft.com/en-us/dotnet/), [e-books](https://azure.microsoft.com/en-us/resources/whitepapers/search/?type=EBookResource), [blogs](https://devblogs.microsoft.com/) or other [online resources](https://azure.microsoft.com/en-us/resources).
-- Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/).
-- Participate in a [hackathon](https://www.agorize.com/en/challenges?group=3).
-- Practice with [code katas](https://www.codewars.com/).
+- Develop a [growth mindset](https://docs.microsoft.com/en-us/learn/modules/develop-growth-mindset/)
+- Enhance your [self-efficacy](https://docs.microsoft.com/en-us/learn/modules/enhance-self-efficacy/)
+- Exercise your [emotional intelligence](https://docs.microsoft.com/en-us/learn/modules/exercise-your-emotional-intelligence/)
+- Grow your [cognitive flexibility](https://docs.microsoft.com/en-us/learn/modules/grow-cognitive-flexibility/)
+- Leverage [self-regulation](https://docs.microsoft.com/en-us/learn/modules/self-regulation-work-strategically/) to work strategically
+- Attend [conferences](conferences.md)
+- Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis
+- Apply the knowledge to something you care about
+- Start a [blog](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
+- [Teach](https://github.com/readme/guides/public-documentation) what you learned
+- Join a [course club](https://learning.linkedin.com/course-club)
+- Complete [online training sessions](https://docs.microsoft.com/en-us/learn/)
+- Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview) or [renew](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification) it
+- Participate in [forums](https://docs.microsoft.com/en-us/answers/products/dotnet) and [communities](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet)
+- Read [documentation](https://docs.microsoft.com/en-us/dotnet/), [e-books](https://azure.microsoft.com/en-us/resources/whitepapers/search/?type=EBookResource), [blogs](https://devblogs.microsoft.com/) or other [online resources](https://azure.microsoft.com/en-us/resources)
+- Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/)
+- Participate in a [hackathon](https://www.agorize.com/en/challenges?group=3)
+- Practice with [code katas](https://www.codewars.com/)
 
 ## Delivery
 
@@ -72,11 +79,11 @@ Deliver results for our customers by writing and shipping code faster.
 
 **Resources**
 
-* [Writing and shipping code faster](https://octoverse.github.com/writing-code-faster/).
-* [Developer Velocity: How software excellence fuels business performance](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance).
-* [Developer Velocity Assessment](https://developervelocityassessment.com/).
-* [Developer Velocity Lab](https://www.microsoft.com/en-us/research/group/developer-velocity-lab/).
-* [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html).
+* [Writing and shipping code faster](https://octoverse.github.com/writing-code-faster/)
+* [Developer Velocity: How software excellence fuels business performance](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance)
+* [Developer Velocity Assessment](https://developervelocityassessment.com/)
+* [Developer Velocity Lab](https://www.microsoft.com/en-us/research/group/developer-velocity-lab/)
+* [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
 
 ## DevOps Engineer Path
 
@@ -120,6 +127,7 @@ Build a strong culture of documentation and knowledge sharing.
 **Goal-Oriented Ideas:**
 
 - Improve your [technical writing](https://developers.google.com/tech-writing) skills.
+- [Document](https://github.com/readme/guides/code-as-documentation) to save time and share context
 - Follow the [style guide](https://google.github.io/eng-practices/review).
 - Use [Documentation as Code](https://www.docslikecode.com/) by creating [Markdown](https://guides.github.com/features/mastering-markdown) files and generating [a branded static site](https://squidfunk.github.io/mkdocs-material) hosted on [GitHub Pages](https://pages.github.com/).
 - Document [infrastructure, architecture](https://www.archimatetool.com/), and [Technical Analysis and Design](https://plantuml.com/).
