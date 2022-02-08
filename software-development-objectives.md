@@ -33,7 +33,7 @@ Collaboration, communication, and alignment are essential to building a high-per
 - Ask [better questions](https://stackoverflow.com/help/how-to-ask) in team's [discussions](https://docs.github.com/en/discussions)
 - Participate effectively in [Scrum Ceremonies](https://www.youtube.com/playlist?list=PLaD4FvsFdarT0B2yi9byhKWYX1YmrkrpC)
 - Provide [feedback](https://google.github.io/eng-practices/review) in pull requests
-- Build strong teams with [plays](https://www.atlassian.com/team-playbook)
+- [Build](https://www.atlassian.com/team-playbook) a strong team
 
 
 
