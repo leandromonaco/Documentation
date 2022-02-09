@@ -46,7 +46,7 @@ Area | Packages
 Testing | - [Specflow](https://specflow.org/tools/specflow/) <br> - [xUnit](https://xunit.net/) <br> - [nSubstitute](https://nsubstitute.github.io/) <br> - [Fluent Assertions](https://fluentassertions.com/) <br> - [Fluent Validations](https://fluentvalidation.net/) <br> - [AutoFixture](https://autofixture.github.io/) <br> - [BenchmarkDotNet](https://benchmarkdotnet.org/) <br> - [Coverlet](https://dotnetfoundation.org/projects/coverlet) <br> - [NBomber](https://github.com/PragmaticFlow/NBomber) <br> - [Playwright](https://playwright.dev/dotnet/docs/next/intro)
 Logging | - [Serilog](https://serilog.net/) <br> - [SEQ](https://datalust.co/seq)
 Architecture | - [Clean Architecture Solution Template](https://github.com/ardalis/CleanArchitecture)
-Worker Service  | - [Quartz.NET](https://www.quartz-scheduler.net/)
+Worker Service  | - [Quartz.NET](https://www.quartz-scheduler.net/) <br> - [Hangfire](https://www.hangfire.io/)
 Versioning | - [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning) <br> - [ASP.NET API Versioning](https://github.com/dotnet/aspnet-api-versioning)
 Build | - [Nuke](https://nuke.build/)
 SMTP Testing | - [Papercut](https://github.com/ChangemakerStudios/Papercut-SMTP)
