@@ -15,6 +15,10 @@
 - In the last six months, someone at work has talked to me about my progress.
 - This last year, I have had opportunities at work to learn and grow.
 
+## Developer Velocity
+
+https://developervelocityassessment.com/
+
 ## Manager
 
 - I would recommend my manager to others.
