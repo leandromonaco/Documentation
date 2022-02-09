@@ -8,14 +8,6 @@
 - [Quality](#quality)
 - [Documentation](#documentation)
 
-
-## Reference Material
-
-- [Document](https://github.com/readme/guides/document-success) your accomplishments
-- [DevOps culture: Westrum organizational culture](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)
-- [Scrum](https://scrumguides.org/scrum-guide.html) and [Kanban](https://www.scrum.org/resources/kanban-guide-scrum-teams) frameworks
-- [Agile Principles](https://agilemanifesto.org/principles.html)
-
 ## Culture
 
 Foster a high-performance culture.
