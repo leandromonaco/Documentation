@@ -2,27 +2,23 @@
 
 ## Table of Contents
 
-- [Teamwork](#teamwork)
+- [Culture](#culture)
 - [Learning](#learning)
 - [Delivery](#delivery)
 - [Quality](#quality)
 - [Documentation](#documentation)
-- [Support](#support)
+
 
 ## Reference Material
-- [Guide: Understand team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/foster-psychological-safety)
+
+- [Document](https://github.com/readme/guides/document-success) your accomplishments
 - [DevOps culture: Westrum organizational culture](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)
 - [Scrum](https://scrumguides.org/scrum-guide.html) and [Kanban](https://www.scrum.org/resources/kanban-guide-scrum-teams) frameworks
-- [Document](https://github.com/readme/guides/document-success) your accomplishments
+- [Agile Principles](https://agilemanifesto.org/principles.html)
 
-## Introduction
+## Culture
 
-These objectives are guided by the [agile principles](https://agilemanifesto.org/principles.html) and our [values]().
-
-
-## Teamwork
-
-Collaboration, communication, and alignment are essential to building a high-performing team.
+Foster a high-performance culture.
 
 **Goal-Oriented Ideas:**
 
@@ -32,14 +28,15 @@ Collaboration, communication, and alignment are essential to building a high-per
 - Practice [active listening](https://docs.microsoft.com/en-us/learn/modules/practice-active-listening/)
 - Ask [better questions](https://stackoverflow.com/help/how-to-ask) in team's [discussions](https://docs.github.com/en/discussions)
 - Participate effectively in [Scrum Ceremonies](https://www.youtube.com/playlist?list=PLaD4FvsFdarT0B2yi9byhKWYX1YmrkrpC)
-- Provide [feedback](https://google.github.io/eng-practices/review) in pull requests
 - [Build](https://www.atlassian.com/team-playbook) a strong team
-
-
+- Improve [cultural capabilities](https://cloud.google.com/architecture/devops/capabilities#cultural-capabilities)
+- Promote a [remote culture](https://about.gitlab.com/company/culture/all-remote/)
+- Build a strong culture of [documentation](#documentation) and [knowledge sharing](https://github.com/readme/guides/public-documentation)
+- Understand [team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)
 
 ## Learning
 
-Make learning a part of your routine.
+Make learning a part of your routine. Focus on reducing cost and improving operational efficiency. 
 
 **Goal-Oriented Ideas:**
 
@@ -51,8 +48,6 @@ Make learning a part of your routine.
 - Attend [conferences](conferences.md)
 - Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis
 - Apply the knowledge to something you care about
-- Start a [blog](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
-- [Teach](https://github.com/readme/guides/public-documentation) what you learned
 - Join a [course club](https://learning.linkedin.com/course-club)
 - Complete [online training sessions](https://docs.microsoft.com/en-us/learn/)
 - Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview) or [renew](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification) it
@@ -64,36 +59,15 @@ Make learning a part of your routine.
 
 ## Delivery
 
-Deliver results for our customers by writing and shipping code faster.
+Deliver consistent positive outcomes to our customers.
 
-<details>
-  <summary>Click to see areas</summary>
-  
-* Developer Productivity
-* CI/CD Pipelines
-* Release
-* Reusing Code
-* Coordinating and Merging Pull Requests
-
-</details>
-
-**Resources**
-
-* [Writing and shipping code faster](https://octoverse.github.com/writing-code-faster/)
-* [Developer Velocity: How software excellence fuels business performance](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance)
-* [Developer Velocity Assessment](https://developervelocityassessment.com/)
-* [Developer Velocity Lab](https://www.microsoft.com/en-us/research/group/developer-velocity-lab/)
-* [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
-
-## DevOps Engineer Path
-
-**Resources**
-
-* [Guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review).
-* [Introduce the foundation pillars of DevOps: Culture and Lean Product](https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/).
-* [DevOps Dojo: Create efficiencies that support your business](https://docs.microsoft.com/en-us/learn/paths/devops-dojo-white-belt-foundation/).
-* [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping).
-* [DevOps Resource Center](https://docs.microsoft.com/en-us/devops).
+- [Scale through automation](https://octoverse.github.com/writing-code-faster/#scale-through-automation)
+- [Reuse code without the friction](https://octoverse.github.com/writing-code-faster/#reusing-code-without-the-friction)
+- [Coordinate](https://octoverse.github.com/writing-code-faster/#coordinating-pull-requests) and [identify](https://www.pluralsight.com/blog/tutorials/code-review) common dynamics in Pull Requests
+- Maximize [Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
+- Optimize [local development environments](https://github.com/readme/guides/developer-onboarding)
+- Create [efficiencies](https://docs.microsoft.com/en-us/learn/paths/devops-dojo-white-belt-foundation/) that support the business
+- Improve [DevOps Capabilities](https://cloud.google.com/architecture/devops/capabilities#technical-capabilities)
 
 ## Quality
 
@@ -107,6 +81,12 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 * Static Application Security Testing (SAST)
 * Dynamic Application Security Testing (DAST)
 * Code Smells
+* Production Support
+* Post-mortem reviews
+* Incident Management
+* On-Call
+* Logging
+* Monitoring (SRE and Observability)
 
 **Resources**
 
@@ -122,29 +102,24 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 
 ## Documentation
 
-Build a strong culture of documentation and knowledge sharing.
+Collaborate asynchronously to reduce interruptions and increase [developer flow state](https://stackoverflow.blog/2018/09/10/developer-flow-state-and-its-impact-on-productivity/)
 
 **Goal-Oriented Ideas:**
 
-- Improve your [technical writing](https://developers.google.com/tech-writing) skills.
+- Speed up the time it takes to [onboard](https://blog.hackerrank.com/creating-seamless-virtual-onboarding-experience-developers/) new team members
+- Set guidelines for [repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) and [pull request reviews](https://google.github.io/eng-practices/review)
+- Improve your [technical writing](https://developers.google.com/tech-writing) skills and leverage on [writing](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/) to advance your career
 - [Document](https://github.com/readme/guides/code-as-documentation) to save time and share context
-- Follow the [style guide](https://google.github.io/eng-practices/review).
-- Use [Documentation as Code](https://www.docslikecode.com/) by creating [Markdown](https://guides.github.com/features/mastering-markdown) files and generating [a branded static site](https://squidfunk.github.io/mkdocs-material) hosted on [GitHub Pages](https://pages.github.com/).
-- Document [infrastructure, architecture](https://www.archimatetool.com/), and [Technical Analysis and Design](https://plantuml.com/).
-- Write guides, tutorials, runbooks, and [anything](https://about.gitlab.com/company/culture/all-remote/handbook-first-documentation) that will make the team successful.
-- Create [documentation](https://octoverse.github.com/creating-documentation) when there is information on the subject.
-- Update documentation when there is partial or outdated information on the subject.
-- Consolidate documentation when there are multiple conflicting pieces of information on the same subject.
-- Run [Microsoft Application Inspector](https://github.com/Microsoft/ApplicationInspector) to identify coding features of first or third party software components.
-- Create API documentation with [swagger](https://swagger.io/).
-- Create a [tech radar](https://radar.thoughtworks.com/).
+- Follow the [style guide](https://google.github.io/eng-practices/review)
+- Adopt [Documentation as Code](https://www.docslikecode.com/) by creating [Markdown](https://guides.github.com/features/mastering-markdown) files and generating [a branded static site](https://squidfunk.github.io/mkdocs-material) hosted on [GitHub Pages](https://pages.github.com/)
+- Document [infrastructure, architecture](https://www.archimatetool.com/), and [Technical Analysis and Design](https://plantuml.com/)
+- Write guides, tutorials, runbooks, and [anything](https://about.gitlab.com/company/culture/all-remote/handbook-first-documentation) that will make the team successful
+- Reduce the amount of time your team spends searching for answers to technical problems
+- Create [documentation](https://octoverse.github.com/creating-documentation) when there is information on the subject
+- Update documentation when there is partial or outdated information on the subject
+- Consolidate documentation when there are multiple conflicting pieces of information on the same subject
+- Create API documentation with [swagger](https://swagger.io/), [tech radars](https://radar.thoughtworks.com/) or [identify coding features](https://github.com/Microsoft/ApplicationInspector) of first or third party software components
 
-# Support
 
-* Production Support
-* Post-mortem reviews
-* Incident Management
-* On-Call
-* Logging
-* Monitoring (SRE and Observability)
+
 
