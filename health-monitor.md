@@ -33,6 +33,29 @@
 - What would you recommend your manager keep doing?
 - What would you have your manager change?
 
+## Psychological Safety
+
+- If you make a mistake on this team, it is often held against you.
+- Members of this team are able to bring up problems and tough issues.
+- People on this team sometimes reject others for being different.
+- It is safe to take a risk on this team.
+- It is difficult to ask other members of this team for help.
+- No one on this team would deliberately act in a way that undermines my efforts.
+- Working with members of this team, my unique skills and talents are valued and utilized.
+
+## Stress
+
+We’ve all been working under a lot of stress this past year. I wanted to gauge how the team is feeling, and see if there’s anything I can do to help mitigate feelings of burnout. Please answer these questions and send your responses back to me before the end of the day tomorrow. Feel free to provide more context in any of your answers. And please be honest — the goal here is for me to find out how you’re really doing, not to punish anyone for feeling unproductive or overwhelmed. Everything you say will be kept confidential.
+
+Over the past week…
+
+- How overwhelmed did you feel, on a scale of 1 to 5? (1 is lowest, 5 is highest)
+- How many days did you work later than you should?
+- How many days did you answer emails after hours?
+- How effective did you feel, on a scale of 1 to 5?
+- How productive did you feel, on a scale of 1 to 5?
+- How much fun did you have, on a scale of 1 to 5?
+
 ## Service Team
 
 **Team leadership** 
