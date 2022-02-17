@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Culture](#culture)
-- [Lean](#lean)
+- [Lean Software Development](#lean-software-development)
 - [Delivery](#delivery)
 - [Quality](#quality)
 - [Documentation](#documentation)
@@ -12,7 +12,7 @@
 
 Cultivate a culture that fosters information flow, transparency and trust.
 
-**Goal-Oriented Ideas:**
+#### Goal-Oriented Ideas
 
 - Cultivate a [culture of belongingness](https://docs.microsoft.com/en-us/learn/modules/cultivate-culture-belongingness/) and [continous learning](professional-development.md)
 - Build a strong culture of [documentation](#documentation) and [knowledge sharing](https://github.com/readme/guides/public-documentation)
@@ -23,31 +23,57 @@ Cultivate a culture that fosters information flow, transparency and trust.
 - Address common [team challenges](https://www.atlassian.com/team-playbook)
 
 #### Reference Material
+
 - [Westrum organizational culture](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)
 - [Remote culture](https://about.gitlab.com/company/culture/all-remote/)
 - [Understanding team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)
 - [DevOps cultural capabilities](https://cloud.google.com/architecture/devops/capabilities#cultural-capabilities)
 
-## Lean Management
+## Lean Software Development
 
+Eliminate waste in our software development process by applying the [5S Model](glossary.md#5s).
+
+#### Goal-Oriented Ideas
+
+- Remove legacy code that is no longer in use.
+- Take time to separate the code and use the object oriented design approach you’ve heard so much about.
+- Allow time for refactoring, clean the code up when you have the opportunity. Don’t forget to run your tests again!
+- If your team doesn’t have a coding standard work to put one in place, don’t assume others will look at code for examples.
+- Once the standards are in place paired programming and code reviews can ensure proper technique and also help develop the programmer’s skill set.
+
+#### Reference Material
+
+- [The outcomes of code review, and how to improve the process](https://www.pluralsight.com/blog/tutorials/code-review)
+- [Coordinating Pull Requests](https://octoverse.github.com/writing-code-faster/#coordinating-pull-requests)
+- [Plan-Do-Check-Act](https://whatis.techtarget.com/definition/PDCA-plan-do-check-act) 
+- [Value Stream Mapping](https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping)
+- [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
+- [The twelve-factor app](https://12factor.net/)
 
 ## Delivery
 
 Deliver consistent positive outcomes to our customers.
 
+#### Goal-Oriented Ideas
+
 - [Scale through automation](https://octoverse.github.com/writing-code-faster/#scale-through-automation)
 - [Reuse code without the friction](https://octoverse.github.com/writing-code-faster/#reusing-code-without-the-friction)
-- [Coordinate](https://octoverse.github.com/writing-code-faster/#coordinating-pull-requests) and [identify](https://www.pluralsight.com/blog/tutorials/code-review) common dynamics in Pull Requests
 - Maximize [Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
 - Optimize [local development environments](https://github.com/readme/guides/developer-onboarding)
 - Create [efficiencies](https://docs.microsoft.com/en-us/learn/paths/devops-dojo-white-belt-foundation/) that support the business
 - Improve [DevOps Capabilities](https://cloud.google.com/architecture/devops/capabilities#technical-capabilities)
 
+#### Reference Material
+
+- TBA
+
 ## Quality
 
 Write quality code that does what it’s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
 Focus on readability, performance, maintainability, reliability/resiliency, and security.
-  
+
+#### Goal-Oriented Ideas
+
 * Automation Testing
 * Unit Testing
 * Integration Testing
@@ -62,7 +88,7 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 * Logging
 * Monitoring (SRE and Observability)
 
-**Resources**
+#### Reference Material
 
 * [Testing in .NET](https://docs.microsoft.com/en-us/dotnet/core/testing/).
 * [Playwright for .NET](https://playwright.dev/dotnet/docs/intro).
@@ -76,9 +102,9 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 
 ## Documentation
 
-Collaborate asynchronously to reduce interruptions and increase [developer flow state](https://stackoverflow.blog/2018/09/10/developer-flow-state-and-its-impact-on-productivity/)
+Create documentation to reduce interruptions and increase [developer flow state](https://stackoverflow.blog/2018/09/10/developer-flow-state-and-its-impact-on-productivity/).
 
-**Goal-Oriented Ideas:**
+#### Goal-Oriented Ideas
 
 - Speed up the time it takes to [onboard](https://blog.hackerrank.com/creating-seamless-virtual-onboarding-experience-developers/) new team members
 - Set guidelines for [repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) and [pull request reviews](https://google.github.io/eng-practices/review)
@@ -92,8 +118,10 @@ Collaborate asynchronously to reduce interruptions and increase [developer flow 
 - Create [documentation](https://octoverse.github.com/creating-documentation) when there is information on the subject
 - Update documentation when there is partial or outdated information on the subject
 - Consolidate documentation when there are multiple conflicting pieces of information on the same subject
-- Create API documentation with [swagger](https://swagger.io/), [tech radars](https://radar.thoughtworks.com/) or [identify coding features](https://github.com/Microsoft/ApplicationInspector) of first or third party software components
+- Create [swagger documentation](https://swagger.io/), [tech radars](https://radar.thoughtworks.com/) or [identify coding features](https://github.com/Microsoft/ApplicationInspector) of software components
 
+#### Reference Material
 
+- TBA
 
 
