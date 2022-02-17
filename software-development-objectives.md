@@ -3,51 +3,41 @@
 ## Table of Contents
 
 - [Culture](#culture)
-- [Learning](#learning)
+- [Lean](#lean)
 - [Delivery](#delivery)
 - [Quality](#quality)
 - [Documentation](#documentation)
 
 ## Culture
 
-Foster a high-performance culture.
+Foster a culture that fosters information flow and trust.
+
+- High cooperation.
+- Messengers are trained.
+- Risks are shared.
+- Bridging is encouraged.
+- Failure leads to inquiry.
+- Novelty is implemented.
 
 **Goal-Oriented Ideas:**
 
-- Cultivate a [culture of belongingness](https://docs.microsoft.com/en-us/learn/modules/cultivate-culture-belongingness/)
-- Give and receive [effective feedback](https://docs.microsoft.com/en-us/learn/modules/give-receive-effective-feedback/)
-- Communicate strategically through [mirroring and coaching](https://docs.microsoft.com/en-us/learn/modules/communicate-strategically-mirror-coach/)
-- Practice [active listening](https://docs.microsoft.com/en-us/learn/modules/practice-active-listening/)
-- Ask [better questions](https://stackoverflow.com/help/how-to-ask) in team's [discussions](https://docs.github.com/en/discussions)
-- Participate effectively in [Scrum Ceremonies](https://www.youtube.com/playlist?list=PLaD4FvsFdarT0B2yi9byhKWYX1YmrkrpC)
-- [Build](https://www.atlassian.com/team-playbook) a strong team
-- Improve [cultural capabilities](https://cloud.google.com/architecture/devops/capabilities#cultural-capabilities)
-- Promote a [remote culture](https://about.gitlab.com/company/culture/all-remote/)
+- Cultivate a [culture of belongingness](https://docs.microsoft.com/en-us/learn/modules/cultivate-culture-belongingness/) and [continous learning](professional-development.md)
 - Build a strong culture of [documentation](#documentation) and [knowledge sharing](https://github.com/readme/guides/public-documentation)
-- Understand [team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)
+- Give and receive [effective feedback](https://docs.microsoft.com/en-us/learn/modules/give-receive-effective-feedback/)
+- Communicate strategically through [mirroring and coaching](https://docs.microsoft.com/en-us/learn/modules/communicate-strategically-mirror-coach/) and practice [active listening](https://docs.microsoft.com/en-us/learn/modules/practice-active-listening/)
+- Ask [better questions](https://stackoverflow.com/help/how-to-ask) in team's [discussions](https://docs.github.com/en/discussions)
+- Participate effectively in [Scrum Events](https://scrumguides.org/scrum-guide.html#scrum-events)
+- Address common [team challenges](https://www.atlassian.com/team-playbook)
 
-## Learning
 
-Make learning a part of your routine. Focus on reducing cost and improving operational efficiency. 
+#### Reference Material
+- [Westrum organizational culture](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)
+- [Remote culture](https://about.gitlab.com/company/culture/all-remote/)
+- [Understanding team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)
+- [DevOps cultural capabilities](https://cloud.google.com/architecture/devops/capabilities#cultural-capabilities)
 
-**Goal-Oriented Ideas:**
+## Lean Management
 
-- Develop a [growth mindset](https://docs.microsoft.com/en-us/learn/modules/develop-growth-mindset/)
-- Enhance your [self-efficacy](https://docs.microsoft.com/en-us/learn/modules/enhance-self-efficacy/)
-- Exercise your [emotional intelligence](https://docs.microsoft.com/en-us/learn/modules/exercise-your-emotional-intelligence/)
-- Grow your [cognitive flexibility](https://docs.microsoft.com/en-us/learn/modules/grow-cognitive-flexibility/)
-- Leverage [self-regulation](https://docs.microsoft.com/en-us/learn/modules/self-regulation-work-strategically/) to work strategically
-- Attend [conferences](conferences.md)
-- Maintain a [catalog of reference-able notes](https://github.com/readme/guides/private-documentation) by documenting your learnings on an ongoing basis
-- Apply the knowledge to something you care about
-- Join a [course club](https://learning.linkedin.com/course-club)
-- Complete [online training sessions](https://docs.microsoft.com/en-us/learn/)
-- Obtain a [certification](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview) or [renew](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification) it
-- Participate in [forums](https://docs.microsoft.com/en-us/answers/products/dotnet) and [communities](https://techcommunity.microsoft.com/t5/net/ct-p/dotnet)
-- Read [documentation](https://docs.microsoft.com/en-us/dotnet/), [e-books](https://azure.microsoft.com/en-us/resources/whitepapers/search/?type=EBookResource), [blogs](https://devblogs.microsoft.com/) or other [online resources](https://azure.microsoft.com/en-us/resources)
-- Contribute to [open source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/)
-- Participate in a [hackathon](https://www.agorize.com/en/challenges?group=3)
-- Practice with [code katas](https://www.codewars.com/)
 
 ## Delivery
 
