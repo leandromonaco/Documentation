@@ -9,3 +9,4 @@ OKR stands for Objectives and Key Results. OKRs help break up big, audacious mis
 - [The Roofshot Manifesto](https://rework.withgoogle.com/blog/the-roofshot-manifesto)
 - [Get Started With OKRs](https://www.whatmatters.com/get-started/)
 - [Set goals with OKRs](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/)
+- [How to write SMART goals](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals)
