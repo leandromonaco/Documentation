@@ -10,7 +10,7 @@
 
 ## Culture
 
-Foster a culture that fosters information flow and trust.
+Cultivate a culture that fosters information flow and trust.
 
 - High cooperation.
 - Messengers are trained.
