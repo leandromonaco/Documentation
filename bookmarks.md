@@ -23,6 +23,9 @@ This is a curated list of resources for professional development
 - [The HackerRank Interview Preparation Kit](https://www.hackerrank.com/interview/interview-preparation-kit)
 - [Google's Interview Prep Guide](https://techdevguide.withgoogle.com/paths/interview/)
 - [LeetCode](https://leetcode.com/)
+- [Google's hiring process](https://careers.google.com/how-we-hire/interview/#interviews-for-software-engineering-and-technical-roles)
+- [Mastering the Software Engineering Interview](https://www.coursera.org/learn/cs-tech-interview)
+- [The Tech Interview Questions You Should Be Asking IT Candidates](https://www.rwa.co.nz/blog/2018/tech-interview-questions-you-should-be-asking)
 
 # Tools
 
