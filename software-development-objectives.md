@@ -2,15 +2,13 @@
 
 ## Table of Contents
 
-- [Culture](#culture)
-- [Lean Software Development](#lean-software-development)
-- [Delivery](#delivery)
-- [Quality](#quality)
-- [Documentation](#documentation)
+- [Cultivate a culture that fosters psychological safety](#cultivate-a-culture-that-fosters-psychological-safety)
+- [Improve our tools and processes](#improve-our-tools-and-processes)
+- [Deliver consistent positive outcomes to our customers](#deliver-consistent-positive-outcomes-to-our-customers)
+- [Improve code quality and reduce technical debt](#improve-code-quality-and-reduce-technical-debt)
+- [Share the knowledge](#share-the-knowledge)
 
-## Culture
-
-Cultivate a culture that fosters information flow, transparency and trust.
+## Cultivate a culture that fosters psychological safety
 
 #### Goal-Oriented Ideas
 
@@ -29,17 +27,11 @@ Cultivate a culture that fosters information flow, transparency and trust.
 - [Understanding team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)
 - [DevOps cultural capabilities](https://cloud.google.com/architecture/devops/capabilities#cultural-capabilities)
 
-## Lean Software Development
-
-Eliminate waste in our software development process by applying the [5S Model](glossary.md#5s).
+## Improve our tools and processes
 
 #### Goal-Oriented Ideas
 
-- Remove legacy code that is no longer in use.
-- Take time to separate the code and use the object oriented design approach you’ve heard so much about.
-- Allow time for refactoring, clean the code up when you have the opportunity. Don’t forget to run your tests again!
-- If your team doesn’t have a coding standard work to put one in place, don’t assume others will look at code for examples.
-- Once the standards are in place paired programming and code reviews can ensure proper technique and also help develop the programmer’s skill set.
+TBA
 
 #### Reference Material
 
@@ -50,9 +42,7 @@ Eliminate waste in our software development process by applying the [5S Model](g
 - [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 - [The twelve-factor app](https://12factor.net/)
 
-## Delivery
-
-Deliver consistent positive outcomes to our customers.
+## Deliver consistent positive outcomes to our customers
 
 #### Goal-Oriented Ideas
 
@@ -67,12 +57,18 @@ Deliver consistent positive outcomes to our customers.
 
 - TBA
 
-## Quality
+## Improve code quality and reduce technical debt
 
 Write quality code that does what it’s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
 Focus on readability, performance, maintainability, reliability/resiliency, and security.
 
 #### Goal-Oriented Ideas
+
+- Remove legacy code that is no longer in use.
+- Take time to separate the code and use the object oriented design approach you’ve heard so much about.
+- Allow time for refactoring, clean the code up when you have the opportunity. Don’t forget to run your tests again!
+- If your team doesn’t have a coding standard work to put one in place, don’t assume others will look at code for examples.
+- Once the standards are in place paired programming and code reviews can ensure proper technique and also help develop the programmer’s skill set.
 
 * Automation Testing
 * Unit Testing
@@ -100,7 +96,7 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 * [The 12-Factor App](https://12factor.net/)
 * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 
-## Documentation
+## Share the knowledge
 
 Create documentation to reduce interruptions and increase [developer flow state](https://stackoverflow.blog/2018/09/10/developer-flow-state-and-its-impact-on-productivity/).
 
@@ -122,6 +118,6 @@ Create documentation to reduce interruptions and increase [developer flow state]
 
 #### Reference Material
 
-- TBA
+[Articles and resources on knowledge reuse](https://stackoverflowsolutions.com/topic/knowledge-reuse/)
 
 
