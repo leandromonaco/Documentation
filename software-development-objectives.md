@@ -5,8 +5,8 @@
 - [Cultivate a culture that fosters psychological safety](#cultivate-a-culture-that-fosters-psychological-safety)
 - [Improve our tools and processes](#improve-our-tools-and-processes)
 - [Deliver consistent positive outcomes to our customers](#deliver-consistent-positive-outcomes-to-our-customers)
-- [Improve code quality and reduce technical debt](#improve-code-quality-and-reduce-technical-debt)
-- [Share the knowledge](#share-the-knowledge)
+- [Improve code quality to reduce technical debt](#improve-code-quality-to-reduce-technical-debt)
+- [Share and document the knowledge](#share-and-document-the-knowledge)
 
 ## Cultivate a culture that fosters psychological safety
 
@@ -57,7 +57,7 @@ TBA
 
 - TBA
 
-## Improve code quality and reduce technical debt
+## Improve code quality to reduce technical debt
 
 Write quality code that does what it’s intended to do, follows a consistent style, is easy to understand, is well documented, and can be tested. 
 Focus on readability, performance, maintainability, reliability/resiliency, and security.
@@ -96,7 +96,7 @@ Focus on readability, performance, maintainability, reliability/resiliency, and 
 * [The 12-Factor App](https://12factor.net/)
 * [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 
-## Share the knowledge
+## Share and document the knowledge
 
 Create documentation to reduce interruptions and increase [developer flow state](https://stackoverflow.blog/2018/09/10/developer-flow-state-and-its-impact-on-productivity/).
 
