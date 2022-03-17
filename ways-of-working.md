@@ -31,6 +31,6 @@ The Definition of Done creates transparency by providing everyone a shared under
 
 https://www.techagilist.com/agile/scrum/raid/
 
-# Tools & Technologies
+# Strategy
 
-# Code Reviews
+* Read [Development Strategy](#software-development-strategy.md)
