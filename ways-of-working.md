@@ -32,5 +32,5 @@ The Definition of Done creates transparency by providing everyone a shared under
 https://www.techagilist.com/agile/scrum/raid/
 
 # Strategy
-
-* Read [Development Strategy](#software-development-strategy.md)
+* [Objectives](https://github.com/leandromonaco/Documentation/blob/main/software-development-objectives.md)
+* [Development Strategy](https://github.com/leandromonaco/Documentation/blob/main/software-development-strategy.md)
