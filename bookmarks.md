@@ -27,6 +27,9 @@ This is a curated list of resources for professional development
 - [Mastering the Software Engineering Interview](https://www.coursera.org/learn/cs-tech-interview)
 - [The Tech Interview Questions You Should Be Asking IT Candidates](https://www.rwa.co.nz/blog/2018/tech-interview-questions-you-should-be-asking)
 
+# Agile
+- [Agile Essentials](https://www.agilealliance.org/agile-essentials/)
+
 # Tools
 
 - [Introducing Microsoft Application Inspector](https://www.microsoft.com/security/blog/2020/01/16/introducing-microsoft-application-inspector/)
