@@ -8,6 +8,11 @@ git filter-branch -f --env-filter "GIT_AUTHOR_NAME='Newname'; GIT_AUTHOR_EMAIL='
 git push --force --tags origin 'refs/heads/main'
 ```
 
+## Read Git Configuration
+```
+git config -l
+```
+
 ## Removing sensitive data from a repository
 - https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
 - https://rtyley.github.io/bfg-repo-cleaner/
