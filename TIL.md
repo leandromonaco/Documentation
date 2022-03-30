@@ -16,3 +16,8 @@ git config -l
 ## Removing sensitive data from a repository
 - https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
 - https://rtyley.github.io/bfg-repo-cleaner/
+
+## Troubleshoot git issues
+
+set GIT_TRACE=1
+set GIT_CURL_VERBOSE=1
