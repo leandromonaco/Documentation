@@ -20,4 +20,5 @@ git config -l
 ## Troubleshoot git issues
 
 set GIT_TRACE=1
+
 set GIT_CURL_VERBOSE=1
