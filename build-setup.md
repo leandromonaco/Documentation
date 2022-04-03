@@ -1,6 +1,6 @@
-1. Install Nerdbark Git Versioning tool (nbgv)
-2. Add nuget.config file next to your sln file (requires VS restart)
-3. Copy build folder to your application folder
+1. Install [nbgv .NET Core CLI tool](https://github.com/dotnet/Nerdbank.GitVersioning/blob/master/doc/nbgv-cli.md)
+2. Add [nuget.config](https://github.com/leandromonaco/Documentation/blob/main/nuget.config) file next to your sln file (requires VS restart)
+3. Create build folder under your application and copy the files from [PipelineTemplate](https://github.com/leandromonaco/Documentation/tree/main/PipelineTemplate)
 4. Update Solution Name in the .nuke/parameters.json file
-5. Create the version.json file under each component that must be versioned (required for GitVersioning to calculate the semantic version number)
+5. Create the [version.json](https://github.com/leandromonaco/Documentation/blob/main/version.json) file under each component that must be versioned (required for GitVersioning to calculate the semantic version number)
 6. Create deployment_list.json file (required for the pipeline to know which components should be packed for deployment)
