@@ -31,7 +31,8 @@ set GIT_CURL_VERBOSE=1
 ```
 nvm install latest
 nvm install lts
+nvm install 12.18.4
 nvm list
-nvm use 16.14.2
+nvm use 12.18.4
 nvm current
 ```
