@@ -23,3 +23,15 @@ git config -l
 set GIT_TRACE=1
 set GIT_CURL_VERBOSE=1
 ```
+
+# NodeJS
+
+## Installation with [Node Version Manager](https://github.com/coreybutler/nvm-windows)
+
+```
+nvm install latest
+nvm install lts
+nvm list
+nvm use 16.14.2
+nvm current
+```
