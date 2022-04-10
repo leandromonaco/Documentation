@@ -47,6 +47,7 @@ winget install -e --id Postman.Postman
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Microsoft.VisualStudio.2019.Professional
 winget install -e --id Microsoft.VisualStudio.2022.Enterprise
+winget install -e --id Docker.DockerDesktop
 winget install -e --id Datalust.Seq
 winget install -e --id Microsoft.Edge.Dev
 winget install -e --id Microsoft.Edge
