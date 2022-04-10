@@ -39,6 +39,9 @@ nvm current
 
 # WinGet
 
+Install [winget](https://winget.run) and search packages
+
 ```
 winget install Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
+winget install -e --id Postman.Postman
 ```
