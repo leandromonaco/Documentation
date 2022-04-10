@@ -36,3 +36,9 @@ nvm list
 nvm use 12.18.4
 nvm current
 ```
+
+# WinGet
+
+```
+winget install Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
+```
