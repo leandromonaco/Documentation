@@ -63,7 +63,12 @@ dotnet tool install -g Microsoft.Tye --version "0.11.0-alpha.22111.1"
 tye --version
 ```
 
-## Template
+## Execute
+
+1. Execute ```tye run --debug```
+2. Tye Dashboard runs on http://127.0.0.1:8000/
+
+## Configuration
 
 ```yaml
 name: mysite
