@@ -37,6 +37,27 @@ nvm use 12.18.4
 nvm current
 ```
 
+# Tye
+
+## Reference Material
+- [ReadMe](https://github.com/dotnet/tye/blob/main/docs/README.md)
+- [Schema](https://github.com/dotnet/tye/blob/main/docs/reference/schema.md)
+- [Getting Started](https://github.com/dotnet/tye/blob/main/docs/getting_started.md)
+
+## Installation
+
+```
+dotnet tool uninstall -g Microsoft.Tye
+dotnet tool install -g Microsoft.Tye --version "0.11.0-alpha.22111.1"
+tye --version
+```
+
+## Create Tye File
+
+1. Go to the folder where the solution (.sln) file is located.
+2. Run the ```tye init``` command.
+3. A file called tye.yaml should appear.
+
 # WinGet
 
 Install [winget](https://winget.run) and search packages
