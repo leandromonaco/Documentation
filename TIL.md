@@ -1,5 +1,14 @@
 https://gist.github.com/leandromonaco
 
+# Angular
+
+## Install Angular CLI Tool
+
+the latest NodeJS LTS is required
+
+1. Run ```npm install -g @angular/cli```
+2. Run ```ng --version```
+
 # Entity Framework
 
 ## Install/Update
