@@ -9,6 +9,14 @@ the latest NodeJS LTS is required
 1. Run ```npm install -g @angular/cli```
 2. Run ```ng --version```
 
+## Create a new Angular App
+
+1. Run ```ng new NewApp.UI --strict false```
+2. Would you like to add Angular routing? ```Yes```
+3. Which stylesheet format would you like to use? ```CSS```
+4. Navigate to the NewApp.UI folder
+5. Run ```ng serve``` (Angular Development Server)
+
 # Entity Framework
 
 ## Install/Update
