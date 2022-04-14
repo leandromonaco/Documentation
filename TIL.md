@@ -108,8 +108,7 @@ tye --version
 
 ## Execute
 
-1. Execute ```tye run --debug```
-2. Tye Dashboard runs on http://127.0.0.1:8000/
+1. Execute ```tye run --dashboard --debug```
 
 ## Configuration
 
