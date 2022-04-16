@@ -155,7 +155,7 @@ services:
 
 # Windows Subsystem for Linux (WSL)
 
-    Whilst WSL is a powerful tool for all users, some features, such as the ability to run graphical Linux applications, are only available on Windows 11. Please check out our Windows 11 tutorial for more information.
+    Whilst WSL is a powerful tool for all users, some features, such as the ability to run graphical Linux applications, are only available on Windows 11. 
 
  * Documentation: https://help.ubuntu.com
  * Management: https://landscape.canonical.com
@@ -164,6 +164,48 @@ services:
 1. Open Powershell window with admin rights
 2. Run ```wsl --install -d Ubuntu```
 3. Create a [default UNIX user account](https://docs.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password)
+
+## Create SSL Certificate
+
+1. Open WSL
+2. Copy and Paste the following code. This will generate a .crt and a .key using [OpenSSL](https://www.openssl.org/)
+``` 
+PARENT="localhost"
+openssl req \
+-x509 \
+-newkey rsa:4096 \
+-sha256 \
+-days 365 \
+-nodes \
+-keyout $PARENT.key \
+-out $PARENT.crt \
+-subj "/CN=${PARENT}" \
+-extensions v3_ca \
+-extensions v3_req \
+-config <( \
+  echo '[req]'; \
+  echo 'default_bits= 4096'; \
+  echo 'distinguished_name=req'; \
+  echo 'x509_extension = v3_ca'; \
+  echo 'req_extensions = v3_req'; \
+  echo '[v3_req]'; \
+  echo 'basicConstraints = CA:FALSE'; \
+  echo 'keyUsage = nonRepudiation, digitalSignature, keyEncipherment'; \
+  echo 'subjectAltName = @alt_names'; \
+  echo '[ alt_names ]'; \
+  echo "DNS.1 = www.${PARENT}"; \
+  echo "DNS.2 = ${PARENT}"; \
+  echo '[ v3_ca ]'; \
+  echo 'subjectKeyIdentifier=hash'; \
+  echo 'authorityKeyIdentifier=keyid:always,issuer'; \
+  echo 'basicConstraints = critical, CA:TRUE, pathlen:0'; \
+  echo 'keyUsage = critical, cRLSign, keyCertSign'; \
+  echo 'extendedKeyUsage = serverAuth, clientAuth')
+
+openssl x509 -noout -text -in $PARENT.crt
+```
+3. Run ```openssl pkcs12 -export -out $PARENT.pfx -inkey $PARENT.key -in $PARENT.crt``` to get a .pfx
+4. Run ```explorer.exe .``` to open Windows Explorer and get the Certificate files
 
 # WinGet
 
