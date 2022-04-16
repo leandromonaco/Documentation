@@ -175,7 +175,7 @@ openssl req \
 -x509 \
 -newkey rsa:4096 \
 -sha256 \
--days 365 \
+-days 18250 \
 -nodes \
 -keyout $PARENT.key \
 -out $PARENT.crt \
@@ -193,8 +193,7 @@ openssl req \
   echo 'keyUsage = nonRepudiation, digitalSignature, keyEncipherment'; \
   echo 'subjectAltName = @alt_names'; \
   echo '[ alt_names ]'; \
-  echo "DNS.1 = www.${PARENT}"; \
-  echo "DNS.2 = ${PARENT}"; \
+  echo "DNS.1 = ${PARENT}"; \
   echo '[ v3_ca ]'; \
   echo 'subjectKeyIdentifier=hash'; \
   echo 'authorityKeyIdentifier=keyid:always,issuer'; \
