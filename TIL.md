@@ -165,7 +165,7 @@ services:
 2. Run ```wsl --install -d Ubuntu```
 3. Create a [default UNIX user account](https://docs.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password)
 
-## Create SSL Certificate
+## Create Self-Signed SSL Certificate
 
 1. Open WSL
 2. Copy and Paste the following code. This will generate a .crt and a .key using [OpenSSL](https://www.openssl.org/)
