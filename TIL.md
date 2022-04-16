@@ -155,7 +155,9 @@ services:
 
 # Windows Subsystem for Linux (WSL)
 
-    Whilst WSL is a powerful tool for all users, some features, such as the ability to run graphical Linux applications, are only available on Windows 11. 
+Some features, such as the ability to run graphical Linux applications, are only available on Windows 11.
+
+## Install Ubuntu
 
  * Documentation: https://help.ubuntu.com
  * Management: https://landscape.canonical.com
@@ -167,8 +169,9 @@ services:
 
 ## Create Self-Signed SSL Certificate
 
-1. Open WSL
-2. Copy and Paste the following code. This will generate a .crt and a .key using [OpenSSL](https://www.openssl.org/)
+1. Open a command prompt window
+2. Run ```ubuntu```
+3. Copy and Paste the following code. This will generate a .crt and a .key using [OpenSSL](https://www.openssl.org/)
 ``` 
 PARENT="localhost"
 openssl req \
