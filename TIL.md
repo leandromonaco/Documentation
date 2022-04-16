@@ -209,6 +209,12 @@ openssl x509 -noout -text -in $PARENT.crt
 3. Run ```openssl pkcs12 -export -out $PARENT.pfx -inkey $PARENT.key -in $PARENT.crt``` to get a .pfx
 4. Run ```explorer.exe .``` to open Windows Explorer and get the Certificate files
 
+**Notes**
+
+- CRT file does not contain the private key
+- KEY file contains the private key
+- PFX file contains the private key, but it's protected by a password (eg. 12345)
+
 # WinGet
 
 Install [winget](https://winget.run) and search packages
