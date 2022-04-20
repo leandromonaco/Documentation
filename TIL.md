@@ -78,6 +78,13 @@ set GIT_TRACE=1
 set GIT_CURL_VERBOSE=1
 ```
 
+## Fix .gitignore issues
+
+1. Run ```git rm -r --cached .``` to unstage and remove the path to your files from the Git index.
+2. Execute ```git add .``` to re-add all your files back (only the correct files will be updated).
+3. Execute ```git commit -m ".gitignore is now working"``` to commit all your files back into the Git index.
+
+
 # NodeJS
 
 ## Installation with [Node Version Manager](https://github.com/coreybutler/nvm-windows)
