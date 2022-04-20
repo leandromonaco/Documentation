@@ -215,6 +215,16 @@ openssl x509 -noout -text -in $PARENT.crt
 - KEY file contains the private key
 - PFX file contains the private key, but it's protected by a password (eg. 12345)
 
+## Import Self-Signed SSL Certificate
+
+Reference
+- [Import-PfxCertificate](https://docs.microsoft.com/en-us/powershell/module/pki/import-pfxcertificate?view=windowsserver2022-ps)
+- [Trusted Root Certification Authorities Certificate Store](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/trusted-root-certification-authorities-certificate-store)
+
+1. Open a PowerShell window with admin rights 
+2. Run ```Get-Credential -UserName 'Enter password below' -Message 'Enter password below'```
+3. Run ```Import-PfxCertificate -FilePath "C:\GitHub\Workbench\Misc\SSL\localhost.pfx" -CertStoreLocation Cert:\LocalMachine\Root\ -Password $mypwd.Password```
+
 # WinGet
 
 Install [winget](https://winget.run) and search packages
