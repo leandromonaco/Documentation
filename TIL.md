@@ -84,6 +84,9 @@ set GIT_CURL_VERBOSE=1
 2. Execute ```git add .``` to re-add all your files back (only the correct files will be updated).
 3. Execute ```git commit -m ".gitignore is now working"``` to commit all your files back into the Git index.
 
+## Change last commit message
+
+1. Run ```git commit --amend -m "New and correct message"```
 
 # NodeJS
 
