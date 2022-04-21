@@ -55,3 +55,12 @@ Reference
 1. Open a PowerShell window with admin rights 
 2. Run ```Get-Credential -UserName 'Enter password below' -Message 'Enter password below'```
 3. Run ```Import-PfxCertificate -FilePath "C:\GitHub\Workbench\Misc\SSL\localhost.pfx" -CertStoreLocation Cert:\LocalMachine\Root\ -Password $mypwd.Password```
+
+## Configure Certificate in ASP.NET
+
+- See [Documentation](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/endpoints?view=aspnetcore-6.0)
+- See [Example](https://github.com/leandromonaco/Workbench/commit/5bf095de315630410f10bbb98d667a3148beabba)
+
+## Configure Certificate in Angular
+
+- See [Example](https://github.com/leandromonaco/Workbench/commit/ef5d07e754ffe3ff812438013fa4212a5b776545)
