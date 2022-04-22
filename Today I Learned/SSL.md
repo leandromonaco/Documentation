@@ -65,3 +65,14 @@ Reference
 
 - See [Documentation](https://angular.io/cli/serve)
 - See [Example](https://github.com/leandromonaco/Workbench/commit/ef5d07e754ffe3ff812438013fa4212a5b776545)
+
+## Manage Certificate Private keys 
+
+1. Go to Windows -> type "run" -> mmc
+2. Once the mmc window is up -> Add Snap-in -> Add certificate -> Local Computer 
+3. Go to Personal -> Certificate -> Select the certificate
+4. Right Click Certificate -> All tasks -> Manage Private keys 
+
+Notes:
+- Private key must be exportable when installing the certificate
+- In Windows 10 1809, it seems that the Manage Private Keys option is available only to certificates in the Personal store. The workaround is to drag and drop the certificate there, add permissions as needed and drag it back to where you need it.
