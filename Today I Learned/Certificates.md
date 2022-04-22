@@ -76,3 +76,7 @@ Reference
 Notes:
 - Private key must be exportable when installing the certificate
 - In Windows 10 1809, it seems that the Manage Private Keys option is available only to certificates in the Personal store. The workaround is to drag and drop the certificate there, add permissions as needed and drag it back to where you need it.
+
+# Reference Material
+
+https://howhttps.works/
