@@ -33,6 +33,7 @@ winget install -e --id Microsoft.WingetCreate
 winget install -e --id ekvedaras.redis-gui
 winget install -e --id Google.Chrome.Dev
 winget install -e --id Mozilla.Firefox.DeveloperEdition
+winget install sysinternals
 ```
 
 
