@@ -37,6 +37,8 @@ winget install -e --id Mozilla.Firefox.DeveloperEdition
 winget install -e --name Sysinternals
 winget install -e --id VideoLAN.VLC
 winget install -e --id ShareX.ShareX
+winget install -e --id LINQPad.LINQPad.7
+winget install -e --id WinMerge.WinMerge
 ```
 
 
