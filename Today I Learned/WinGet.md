@@ -48,22 +48,28 @@ winget install -e --id Microsoft.webpicmd
 winget install -e --id ekvedaras.redis-gui
 winget install -e --id Microsoft.PowerShell
 winget install -e --id Microsoft.PowerShell.Preview
+winget install -e --id Microsoft.PowerAutomateDesktop
+winget install -e --id Gauge.Gauge
 ```
 
 # Utilities
 ```
-winget install -e --id 7zip.7zip
-winget install -e --id Microsoft.PowerToys
-winget install -e --id Microsoft.WindowsTerminal
-winget install -e --name Sysinternals
-winget install -e --id VideoLAN.VLC
-winget install -e --id ShareX.ShareX
 winget install -e --id LINQPad.LINQPad.7
 winget install -e --id Microsoft.XMLNotepad
 winget install -e --id Notepad++.Notepad++
 winget install -e --id WinMerge.WinMerge
-winget install -e --id Microsoft.PowerAutomateDesktop
-winget install -e --id Gauge.Gauge
+winget install -e --name Sysinternals
+winget install -e --id Microsoft.WindowsTerminal
+```
+
+# Misc
+```
+winget install -e --id 7zip.7zip
+winget install -e --id Microsoft.PowerToys
+winget install -e --id VideoLAN.VLC
+winget install -e --id ShareX.ShareX
+winget install -e --id Grammarly.ForOffice
+winget install -e --id Grammarly.ForWindows
 ```
 
 # AWS
