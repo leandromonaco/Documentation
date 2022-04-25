@@ -14,9 +14,11 @@ winget install -e --id Microsoft.VisualStudio.2022.Enterprise
 # Browsers
 ```
 winget install -e --id Microsoft.Edge.Dev
+winget install -e --id BraveSoftware.BraveBrowser
 winget install -e --id Microsoft.Edge
 winget install -e --id Google.Chrome.Dev
 winget install -e --id Mozilla.Firefox.DeveloperEdition
+winget install -e --id Opera.Opera
 ```
 
 # Git
@@ -60,6 +62,8 @@ winget install -e --id LINQPad.LINQPad.7
 winget install -e --id Microsoft.XMLNotepad
 winget install -e --id Notepad++.Notepad++
 winget install -e --id WinMerge.WinMerge
+winget install -e --id Microsoft.PowerAutomateDesktop
+winget install -e --id Gauge.Gauge
 ```
 
 # AWS
