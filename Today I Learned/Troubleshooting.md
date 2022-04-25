@@ -10,6 +10,7 @@
 - [Problem Step Recorder](https://docs.microsoft.com/en-us/office/troubleshoot/settings/how-to-use-problem-steps-recorder)
 - [Encode/Decode](https://toolbox.googleapps.com/apps/encode_decode/) provides you encoding and decoding functions that are helpful for debugging web-related problems.
 - [Chrome Connectivity Diagnostics](https://chrome.google.com/webstore/detail/chrome-connectivity-diagn/eemlkeanncmjljgehlbplemhmdmalhdc/related?pli=1)
+- [Measure app performance in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/profiling/)
 
 # My Tools
 
