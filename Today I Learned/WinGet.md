@@ -78,4 +78,7 @@ winget install -e --id Amazon.AWSCLI
 winget install -e --id Amazon.SAM-CLI
 ```
 
-
+# Azure
+```
+winget install -e --id Microsoft.AzureCLI
+```
