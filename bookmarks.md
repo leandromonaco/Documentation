@@ -55,6 +55,9 @@ This is a curated list of resources for professional development
 # Project Management
 - [Free PMI Project Manager Course](https://www.perfectkickoff.com/)
 
+# Remote Work
+- [Trello's Remote Work Blog](https://blog.trello.com/remote-work)
+
 # Security
 
 - [Secure coding guidelines](https://docs.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines)
