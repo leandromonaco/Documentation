@@ -1,4 +1,5 @@
-Install [winget](https://winget.run) and search packages
+- Install [winget](https://winget.run)
+- Search packages with ```winget search [package name]```
 
 ```
 winget install Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
@@ -33,7 +34,9 @@ winget install -e --id Microsoft.WingetCreate
 winget install -e --id ekvedaras.redis-gui
 winget install -e --id Google.Chrome.Dev
 winget install -e --id Mozilla.Firefox.DeveloperEdition
-winget install sysinternals
+winget install -e --name Sysinternals
+winget install -e --id VideoLAN.VLC
+winget install -e --id ShareX.ShareX
 ```
 
 
