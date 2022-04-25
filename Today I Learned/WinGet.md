@@ -1,8 +1,10 @@
 - Install [winget](https://winget.run)
 - Search packages with ```winget search [package name]```
+- https://aka.ms/winget-command-help
+- https://docs.microsoft.com/en-us/windows/package-manager/winget/install
 
 ```
-winget install Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
+winget install -e --id Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
 winget install -e --id Postman.Postman
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Microsoft.VisualStudio.2019.Professional
@@ -25,8 +27,11 @@ winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id Microsoft.GitCredentialManagerCore
 winget install -e --id Microsoft.PowerShell
 winget install -e --id Microsoft.PowerShell.Preview
-winget install --id Microsoft.Git
-winget install --id Microsoft.VFSforGit
+winget install -e --id GitHub.GitHubDesktop
+winget install -e --id GitHub.cli
+winget install -e --id GitHub.GitLFS
+winget install -e --id Microsoft.Git
+winget install -e --id Microsoft.VFSforGit
 winget install -e --id Microsoft.XMLNotepad
 winget install -e --id Notepad++.Notepad++
 winget install -e --id 7zip.7zip
