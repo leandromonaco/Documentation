@@ -29,6 +29,7 @@ winget install -e --id GitHub.GitLFS
 winget install -e --id Microsoft.Git
 winget install -e --id Microsoft.VFSforGit
 winget install -e --id Microsoft.GitCredentialManagerCore
+winget install -e --id Atlassian.Sourcetree
 ```
 
 # Dev Tools
