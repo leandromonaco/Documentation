@@ -15,7 +15,12 @@
 2. Run wsl --install -d Ubuntu
 3. Create a default UNIX user account
 
-# NodeJS Installation with [Node Version Manager](https://github.com/coreybutler/nvm-windows)
+# NodeJS Installation with Node Version Manager
+
+1. https://github.com/coreybutler/nvm-windows/releases
+2. Click on nvm-setup.zip
+3. Extract and install it
+4. Type the below command to verify if your nvm installation was successful. $ nvm --version
 
 ```
 nvm install latest
