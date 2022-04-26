@@ -1,14 +1,43 @@
+# WinGet
+
 - Install [winget](https://winget.run)
 - Search packages with ```winget search [package name]```
 - https://aka.ms/winget-command-help
 - https://docs.microsoft.com/en-us/windows/package-manager/winget/install
 - [The Windows Package Manager Manifest Creator command-line tool ](https://github.com/microsoft/winget-create)
 
-# IDE
+# Install WSL with Ubuntu
+- Documentation: https://help.ubuntu.com
+- Management: https://landscape.canonical.com
+- Support: https://ubuntu.com/advantage
+
+1. Open Powershell window with admin rights
+2. Run wsl --install -d Ubuntu
+3. Create a default UNIX user account
+
+# NodeJS Installation with [Node Version Manager](https://github.com/coreybutler/nvm-windows)
+
 ```
-winget install -e --id Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
+nvm install latest
+nvm install lts
+nvm install 12.18.4
+nvm list
+nvm use 12.18.4
+nvm current
+```
+
+# IDE / Build Tools
+```
+winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Microsoft.VisualStudio.2019.Professional
 winget install -e --id Microsoft.VisualStudio.2022.Enterprise
+winget install -e --id Microsoft.VisualStudio.2022.TestController
+winget install -e --id Microsoft.VisualStudio.2022.TestAgent
+winget install -e --id Microsoft.VisualStudio.2022.TeamExplorer
+winget install -e --id Microsoft.VisualStudio.2022.Professional
+winget install -e --id Microsoft.VisualStudio.2022.Enterprise
+winget install -e --id Microsoft.VisualStudio.2022.Community
+winget install -e --id Microsoft.VisualStudio.2022.BuildTools
 ```
 
 # Browsers
