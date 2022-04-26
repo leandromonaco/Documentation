@@ -23,7 +23,7 @@
 
 1. https://github.com/coreybutler/nvm-windows/releases
 2. Click on nvm-setup.zip
-3. Extract and install it
+3. Extract and install it (Reboot might be required)
 4. Type the below command to verify if your nvm installation was successful. $ nvm --version
 
 ```
