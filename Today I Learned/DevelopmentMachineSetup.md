@@ -74,41 +74,11 @@ winget install -e --id Atlassian.Sourcetree
 # SQL Server
 ```
 winget install -e --id Microsoft.SQLServer.2019.Express
-winget install -e --id Microsoft.SQLServer.2019.Developer --override "/ConfigurationFile=C:\Dev\SQLConfigurationFile.ini"
+winget install -e --id Microsoft.SQLServer.2019.Developer --override '/QUIET /IACCEPTSQLSERVERLICENSETERMS /SQLSYSADMINACCOUNTS="<DomainName\UserName>" /ADDCURRENTUSERASSQLADMIN=True /SECURITYMODE=SQL /SAPWD "M3rz0uga"'
 winget install -e --id Microsoft.SQLServerManagementStudio
 ```
 
-SQLConfigurationFile.ini 
-```
-IACCEPTPYTHONLICENSETERMS="True"
-IACCEPTROPENLICENSETERMS="True"
-SUPPRESSPRIVACYSTATEMENTNOTICE="True"
-QUIET="True"
-
-;We cannot have a normal UI with Quiet mode
-;UIMODE="Normal"
-SUPPRESSPAIDEDITIONNOTICE="True"
-
-; Indicate Progress is optional
-INDICATEPROGRESS="True"
-
-;Setting SysAdmins to BUILTIN\AdministratorS allows all ;Administrator privilige users to have SysAdmin privilige.
-SQLSYSADMINACCOUNTS="BUILTIN\ADMINISTRATORS"
-
-;Set Max DOP (Degree of Parallelism to 1 = false for BY/JDA WMS
-SQLMAXDOP="1"
-
-; Specify 0 to disable or 1 to enable the TCP/IP protocol.
-TCPENABLED="1"
-
-; Specify 0 to disable or 1 to enable the Named Pipes protocol.
-NPENABLED="1"
-
-; SysAdmin Password
-SAPWD="SysAdminPasswordGoesHere"
-IACCEPTSQLSERVERLICENSETERMS="True"
-```
-
+https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt
 
 # Dev Tools
 ```
