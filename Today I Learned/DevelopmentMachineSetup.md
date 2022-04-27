@@ -36,7 +36,7 @@ nvm use 12.18.4
 nvm current
 ```
 
-# IDE / Build Tools
+# Visual Studio
 ```
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Microsoft.VisualStudio.2019.Professional
@@ -49,6 +49,10 @@ winget install -e --id Microsoft.VisualStudio.2022.Enterprise
 winget install -e --id Microsoft.VisualStudio.2022.Community
 winget install -e --id Microsoft.VisualStudio.2022.BuildTools
 ```
+
+## Reference Material
+
+- [Import or export installation configurations](https://docs.microsoft.com/en-us/visualstudio/install/import-export-installation-configurations)
 
 # Browsers
 ```
