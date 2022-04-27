@@ -6,6 +6,7 @@
 ![WindowsTerminal_KmYQFR6mEb](https://user-images.githubusercontent.com/5598150/165411040-9037b37d-9c4b-4d2d-b93b-799a6e57e860.gif)
 
 ## Reference Material
+```winget install --help```
 - https://aka.ms/winget-command-help
 - https://docs.microsoft.com/en-us/windows/package-manager/winget/install
 - [The Windows Package Manager Manifest Creator command-line tool ](https://github.com/microsoft/winget-create)
@@ -70,13 +71,50 @@ winget install -e --id Microsoft.GitCredentialManagerCore
 winget install -e --id Atlassian.Sourcetree
 ```
 
+# SQL Server
+```
+winget install -e --id Microsoft.SQLServer.2019.Express
+winget install -e --id Microsoft.SQLServer.2019.Developer --override "/ConfigurationFile=C:\Dev\SQLConfigurationFile.ini"
+winget install -e --id Microsoft.SQLServerManagementStudio
+```
+
+SQLConfigurationFile.ini 
+```
+IACCEPTPYTHONLICENSETERMS="True"
+IACCEPTROPENLICENSETERMS="True"
+SUPPRESSPRIVACYSTATEMENTNOTICE="True"
+QUIET="True"
+
+;We cannot have a normal UI with Quiet mode
+;UIMODE="Normal"
+SUPPRESSPAIDEDITIONNOTICE="True"
+
+; Indicate Progress is optional
+INDICATEPROGRESS="True"
+
+;Setting SysAdmins to BUILTIN\AdministratorS allows all ;Administrator privilige users to have SysAdmin privilige.
+SQLSYSADMINACCOUNTS="BUILTIN\ADMINISTRATORS"
+
+;Set Max DOP (Degree of Parallelism to 1 = false for BY/JDA WMS
+SQLMAXDOP="1"
+
+; Specify 0 to disable or 1 to enable the TCP/IP protocol.
+TCPENABLED="1"
+
+; Specify 0 to disable or 1 to enable the Named Pipes protocol.
+NPENABLED="1"
+
+; SysAdmin Password
+SAPWD="SysAdminPasswordGoesHere"
+IACCEPTSQLSERVERLICENSETERMS="True"
+```
+
+
 # Dev Tools
 ```
 winget install -e --id Postman.Postman
 winget install -e --id Docker.DockerDesktop
 winget install -e --id Datalust.Seq
-winget install -e --id Microsoft.SQLServer.2019.Express
-winget install -e --id Microsoft.SQLServerManagementStudio
 winget install -e --id Microsoft.DeploymentToolkit
 winget install -e --id Microsoft.dotnet
 winget install -e --id Microsoft.dotnetHostingBundle
