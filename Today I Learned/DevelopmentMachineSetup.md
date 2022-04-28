@@ -1,4 +1,4 @@
-# WinGet
+# 1 - Install WinGet
 
 1. Install from https://aka.ms/getwinget
 2. Check installation with ```winget --version```
@@ -11,7 +11,7 @@
 - https://docs.microsoft.com/en-us/windows/package-manager/winget/install
 - [The Windows Package Manager Manifest Creator command-line tool ](https://github.com/microsoft/winget-create)
 
-# Install WSL with Ubuntu
+# 2 - Install WSL with Ubuntu
 - Documentation: https://help.ubuntu.com
 - Management: https://landscape.canonical.com
 - Support: https://ubuntu.com/advantage
@@ -20,7 +20,19 @@
 2. Run wsl --install -d Ubuntu
 3. Create a default UNIX user account
 
-# NodeJS Installation with Node Version Manager
+# 3 - Install GIT
+```
+winget install -e --id GitHub.GitHubDesktop
+winget install -e --id GitHub.cli
+winget install -e --id GitHub.GitLFS
+winget install -e --id Microsoft.Git
+winget install -e --id Microsoft.VFSforGit
+winget install -e --id Microsoft.GitCredentialManagerCore
+winget install -e --id Atlassian.Sourcetree
+winget install -e --id TortoiseGit.TortoiseGit
+```
+
+# 4 - Install NodeJS
 
 1. https://github.com/coreybutler/nvm-windows/releases
 2. Click on nvm-setup.zip
@@ -36,7 +48,14 @@ nvm use 12.18.4
 nvm current
 ```
 
-# Visual Studio
+# 5 - Install Angular CLI Tool
+
+the latest NodeJS LTS is required
+
+1. Run ```npm install -g @angular/cli```
+2. Run ```ng --version```
+
+# 6 - Install Visual Studio
 ```
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Microsoft.VisualStudio.2019.Professional
@@ -54,29 +73,7 @@ winget install -e --id Microsoft.VisualStudio.2022.BuildTools
 
 - [Import or export installation configurations](https://docs.microsoft.com/en-us/visualstudio/install/import-export-installation-configurations)
 
-# Browsers
-```
-winget install -e --id Microsoft.Edge.Dev
-winget install -e --id BraveSoftware.BraveBrowser
-winget install -e --id Microsoft.Edge
-winget install -e --id Google.Chrome.Dev
-winget install -e --id Mozilla.Firefox.DeveloperEdition
-winget install -e --id Opera.Opera
-```
-
-# Git
-```
-winget install -e --id GitHub.GitHubDesktop
-winget install -e --id GitHub.cli
-winget install -e --id GitHub.GitLFS
-winget install -e --id Microsoft.Git
-winget install -e --id Microsoft.VFSforGit
-winget install -e --id Microsoft.GitCredentialManagerCore
-winget install -e --id Atlassian.Sourcetree
-winget install -e --id TortoiseGit.TortoiseGit
-```
-
-# SQL Server
+# 7 - Install SQL Server
 ```
 winget install -e --id Microsoft.SQLServer.2019.Express
 winget install -e --id Microsoft.SQLServer.2019.Developer --override '/QUIET /IACCEPTSQLSERVERLICENSETERMS /CONFIGURATIONFILE="C:\Dev\SQLConfigurationFile.ini"'
@@ -105,6 +102,20 @@ SAPWD="M3rz0ug4!!!!"
 ## Reference Material
 - [Install SQL Server from the Command Prompt](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt)
 - [Install SQL Server using a configuration file](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-using-a-configuration-file)
+
+
+# Browsers
+```
+winget install -e --id Microsoft.Edge.Dev
+winget install -e --id BraveSoftware.BraveBrowser
+winget install -e --id Microsoft.Edge
+winget install -e --id Google.Chrome.Dev
+winget install -e --id Mozilla.Firefox.DeveloperEdition
+winget install -e --id Opera.Opera
+```
+
+
+
 
 # Dev Tools
 ```
