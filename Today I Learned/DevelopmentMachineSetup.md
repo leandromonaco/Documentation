@@ -103,6 +103,28 @@ SAPWD="M3rz0ug4!!!!"
 - [Install SQL Server from the Command Prompt](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt)
 - [Install SQL Server using a configuration file](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-using-a-configuration-file)
 
+# 8 - Enable Windows Features (Windows 10)
+```
+DISM /online /enable-feature /featurename:IIS-ManagementConsole
+DISM /online /enable-feature /featurename:IIS-NetFxExtensibility45
+DISM /online /enable-feature /featurename:IIS-ASPNET45
+DISM /online /enable-feature /featurename:IIS-ISAPIExtensions
+DISM /online /enable-feature /featurename:IIS-ISAPIFilter
+DISM /online /enable-feature /featurename:IIS-DefaultDocument
+DISM /online /enable-feature /featurename:IIS-DirectoryBrowsing
+DISM /online /enable-feature /featurename:IIS-HttpErrors
+DISM /online /enable-feature /featurename:IIS-StaticContent
+DISM /online /enable-feature /featurename:IIS-HttpLogging
+DISM /online /enable-feature /featurename:IIS-HttpCompressionStatic
+DISM /online /enable-feature /featurename:IIS-Security
+```
+## Reference Material
+
+- [DISM - Deployment Image Servicing and Management](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism---deployment-image-servicing-and-management-technical-reference-for-windows)
+- DISM /online /get-features /format:table
+- DISM /online /get-featureinfo /featurename:[feature name]
+- DISM /online /disable-feature /featurename:[feature name]
+- DISM /online /enable-feature /featurename:[feature name]
 
 # Browsers
 ```
