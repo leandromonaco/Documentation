@@ -73,6 +73,7 @@ winget install -e --id Microsoft.Git
 winget install -e --id Microsoft.VFSforGit
 winget install -e --id Microsoft.GitCredentialManagerCore
 winget install -e --id Atlassian.Sourcetree
+winget install -e --id TortoiseGit.TortoiseGit
 ```
 
 # SQL Server
@@ -124,8 +125,9 @@ winget install -e --id Microsoft.PowerAutomateDesktop
 winget install -e --id Gauge.Gauge
 ```
 
-# Utilities
+# Development Utilities
 ```
+winget install -e --id ScooterSoftware.BeyondCompare4
 winget install -e --id LINQPad.LINQPad.7
 winget install -e --id Microsoft.XMLNotepad
 winget install -e --id Notepad++.Notepad++
