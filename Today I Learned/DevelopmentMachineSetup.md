@@ -105,11 +105,13 @@ SAPWD="M3rz0ug4!!!!"
 
 # 8 - Enable Windows Features (Windows 10)
 ```
+DISM /online /enable-feature /featurename:IIS-WebServerRole
+DISM /online /enable-feature /featurename:IIS-WebServerManagementTools
 DISM /online /enable-feature /featurename:IIS-ManagementConsole
 DISM /online /enable-feature /featurename:IIS-NetFxExtensibility45
-DISM /online /enable-feature /featurename:IIS-ASPNET45
 DISM /online /enable-feature /featurename:IIS-ISAPIExtensions
 DISM /online /enable-feature /featurename:IIS-ISAPIFilter
+DISM /online /enable-feature /featurename:IIS-ASPNET45
 DISM /online /enable-feature /featurename:IIS-DefaultDocument
 DISM /online /enable-feature /featurename:IIS-DirectoryBrowsing
 DISM /online /enable-feature /featurename:IIS-HttpErrors
