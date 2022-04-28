@@ -136,6 +136,12 @@ DISM /online /enable-feature /featurename:IIS-CertProvider
 - DISM /online /disable-feature /featurename:[feature name]
 - DISM /online /enable-feature /featurename:[feature name]
 
+# 9 - Install Certificates
+
+1. Run ```Import-Certificate -FilePath "C:\Dev\SSL\MyLocalCertificateAuthority.crt" -CertStoreLocation Cert:\LocalMachine\Root\```
+2. Run ```Get-Credential -UserName 'Enter password below' -Message 'Enter password below'```
+3. Run ```Import-PfxCertificate -FilePath "C:\Dev\SSL\mydomain.com.pfx" -CertStoreLocation Cert:\LocalMachine\My\ -Password $mypwd.Password```
+
 # Browsers
 ```
 winget install -e --id Microsoft.Edge.Dev
