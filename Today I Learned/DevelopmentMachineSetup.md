@@ -142,6 +142,23 @@ DISM /online /enable-feature /featurename:IIS-CertProvider
 2. Run ```Get-Credential -UserName 'Enter password below' -Message 'Enter password below'```
 3. Run ```Import-PfxCertificate -FilePath "C:\Dev\SSL\mydomain.com.pfx" -CertStoreLocation Cert:\LocalMachine\My\ -Password $mypwd.Password```
 
+# 10 - Install VSCode Extensions
+```
+code --install-extension amazonwebservices.aws-toolkit-vscode
+code --install-extension angular.ng-template
+code --install-extension johnpapa.angular-essentials
+code --install-extension johnpapa.angular2
+code --install-extension kendoui.kendotemplatewizard
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension ms-vscode.vscode-typescript-next
+code --install-extension ms-vscode.powershell
+code --install-extension ms-dotnettools.csharp
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension esbenp.prettier-vscode
+```
+
 # Browsers
 ```
 winget install -e --id Microsoft.Edge.Dev
