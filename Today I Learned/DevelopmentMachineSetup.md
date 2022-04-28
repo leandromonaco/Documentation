@@ -119,6 +119,14 @@ DISM /online /enable-feature /featurename:IIS-StaticContent
 DISM /online /enable-feature /featurename:IIS-HttpLogging
 DISM /online /enable-feature /featurename:IIS-HttpCompressionStatic
 DISM /online /enable-feature /featurename:IIS-Security
+DISM /online /enable-feature /featurename:IIS-IPSecurity
+DISM /online /enable-feature /featurename:IIS-BasicAuthentication
+DISM /online /enable-feature /featurename:IIS-WindowsAuthentication                 
+DISM /online /enable-feature /featurename:IIS-DigestAuthentication      
+DISM /online /enable-feature /featurename:IIS-URLAuthorization            
+DISM /online /enable-feature /featurename:IIS-ClientCertificateMappingAuthentication
+DISM /online /enable-feature /featurename:IIS-IISCertificateMappingAuthentication   
+DISM /online /enable-feature /featurename:IIS-CertProvider
 ```
 ## Reference Material
 
