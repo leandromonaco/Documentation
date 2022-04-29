@@ -104,6 +104,9 @@ SAPWD="M3rz0ug4!!!!"
 - [Install SQL Server using a configuration file](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-using-a-configuration-file)
 
 # 8 - Enable Windows Features (Windows 10)
+
+List all features: ```DISM /online /get-features /Format:Table```
+
 ```
 DISM /online /enable-feature /featurename:IIS-WebServerRole
 DISM /online /enable-feature /featurename:IIS-WebServerManagementTools
@@ -127,6 +130,7 @@ DISM /online /enable-feature /featurename:IIS-URLAuthorization
 DISM /online /enable-feature /featurename:IIS-ClientCertificateMappingAuthentication
 DISM /online /enable-feature /featurename:IIS-IISCertificateMappingAuthentication   
 DISM /online /enable-feature /featurename:IIS-CertProvider
+DISM /online /enable-feature /featurename:IIS-ManagementScriptingTools
 ```
 ## Reference Material
 
