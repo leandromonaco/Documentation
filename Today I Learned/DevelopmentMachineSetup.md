@@ -130,7 +130,6 @@ DISM /online /enable-feature /featurename:IIS-URLAuthorization
 DISM /online /enable-feature /featurename:IIS-ClientCertificateMappingAuthentication
 DISM /online /enable-feature /featurename:IIS-IISCertificateMappingAuthentication   
 DISM /online /enable-feature /featurename:IIS-CertProvider
-DISM /online /enable-feature /featurename:IIS-ManagementScriptingTools
 ```
 ## Reference Material
 
