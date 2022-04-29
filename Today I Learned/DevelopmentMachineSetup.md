@@ -221,6 +221,15 @@ rm $VsixLocation
 Write-Host "Installation of $($PackageName) complete!"
 ```
 
+# Create IIS Websites
+
+Powershell 7+ is required
+
+1. Run ```Install-Module -Name IISAdministration -Scope AllUsers -AllowClobber```
+2. Run ```New-IISSite -Name 'hostname' -PhysicalPath 'C:\Inetpub\wwwroot' -BindingInformation "*:443:hostname" -Protocol https -SslFlag "Sni" -CertificateThumbPrint "[Insert Thumbprint]" -CertStoreLocation "Cert:\LocalMachine\My" -Force```
+
+
+
 # Browsers
 ```
 winget install -e --id Microsoft.Edge.Dev
