@@ -22,6 +22,7 @@
 
 # 3 - Install GIT
 ```
+winget install -e --id Git.Git
 winget install -e --id GitHub.GitHubDesktop
 winget install -e --id GitHub.cli
 winget install -e --id GitHub.GitLFS
