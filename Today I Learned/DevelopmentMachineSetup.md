@@ -320,6 +320,7 @@ winget install -e --id ShareX.ShareX
 winget install -e --id Grammarly.ForOffice
 winget install -e --id Grammarly.ForWindows
 winget install -e --id OBSProject.OBSStudio
+winget install -e --id JGraph.Draw
 ```
 
 # AWS
