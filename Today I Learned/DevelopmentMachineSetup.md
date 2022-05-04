@@ -143,10 +143,12 @@ DISM /online /enable-feature /featurename:IIS-CertProvider
 # 9 - Install Certificates
 
 1. Run ```Import-Certificate -FilePath "C:\Dev\SSL\MyLocalCertificateAuthority.crt" -CertStoreLocation Cert:\LocalMachine\Root\```
-2. Run ```$mypwd = Get-Credential -UserName 'Enter password below' -Message 'Enter password below'```
+2. Run ```$mypwd = ConvertTo-SecureString "P@ssW0rD!" -AsPlainText -Force```
 3. Run ```Import-PfxCertificate -FilePath "C:\Dev\SSL\mydomain.com.pfx" -CertStoreLocation Cert:\LocalMachine\My\ -Password $mypwd.Password```
 
-See: ```$Secure_String_Pwd = ConvertTo-SecureString "P@ssW0rD!" -AsPlainText -Force```
+Optional
+
+```$mypwd = Get-Credential -UserName 'Enter password below' -Message 'Enter password below'```
 
 # 10 - Install VSCode Extensions
 ```
