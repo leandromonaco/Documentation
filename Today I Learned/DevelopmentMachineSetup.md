@@ -146,6 +146,8 @@ DISM /online /enable-feature /featurename:IIS-CertProvider
 2. Run ```$mypwd = Get-Credential -UserName 'Enter password below' -Message 'Enter password below'```
 3. Run ```Import-PfxCertificate -FilePath "C:\Dev\SSL\mydomain.com.pfx" -CertStoreLocation Cert:\LocalMachine\My\ -Password $mypwd.Password```
 
+See: ```$Secure_String_Pwd = ConvertTo-SecureString "P@ssW0rD!" -AsPlainText -Force```
+
 # 10 - Install VSCode Extensions
 ```
 code --install-extension amazonwebservices.aws-toolkit-vscode
@@ -277,9 +279,6 @@ winget install -e --id Google.Chrome.Dev
 winget install -e --id Mozilla.Firefox.DeveloperEdition
 winget install -e --id Opera.Opera
 ```
-
-
-
 
 # Dev Tools
 ```
