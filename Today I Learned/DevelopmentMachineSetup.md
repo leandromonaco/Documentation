@@ -327,6 +327,7 @@ winget install -e --id Grammarly.ForOffice
 winget install -e --id Grammarly.ForWindows
 winget install -e --id OBSProject.OBSStudio
 winget install -e --id JGraph.Draw
+winget install -e --id GIMP.GIMP
 ```
 
 # AWS
