@@ -315,6 +315,8 @@ winget install -e --id Notepad++.Notepad++
 winget install -e --id WinMerge.WinMerge
 winget install -e --name Sysinternals
 winget install -e --id Microsoft.WindowsTerminal
+winget install -e --id Telerik.Fiddler.Everywhere
+winget install -e --id WiresharkFoundation.Wireshark
 ```
 
 # Misc
