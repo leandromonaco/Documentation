@@ -29,3 +29,13 @@ set GIT_CURL_VERBOSE=1
 ## Change last commit message
 
 1. Run ```git commit --amend -m "New and correct message"```
+
+## Delete the most recent commit
+
+without destroying the work you've done:
+
+```git reset --soft HEAD~1```
+
+destroying the work you've done:
+
+```git reset --hard HEAD~1```
