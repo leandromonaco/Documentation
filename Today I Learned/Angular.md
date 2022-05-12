@@ -34,3 +34,11 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ### Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Install Dependencies
+
+Run ```npm install```
+
+By default, it will install all modules listed as dependencies in the ```package.json``` file.
+
+https://docs.npmjs.com/cli/v6/commands/npm-install
