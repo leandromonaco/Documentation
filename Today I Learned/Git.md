@@ -6,7 +6,8 @@ git push --force --tags origin 'refs/heads/main'
 
 ## Read Git Configuration
 ```
-git config -l
+git config --local -l
+git config --global -l
 ```
 
 ## Removing sensitive data from a repository
