@@ -42,3 +42,12 @@ Run ```npm install```
 By default, it will install all modules listed as dependencies in the ```package.json``` file.
 
 https://docs.npmjs.com/cli/v6/commands/npm-install
+
+## Generate Component
+
+```ng generate component user-card```
+
+![WindowsTerminal_Rd9hoeuAXP](https://user-images.githubusercontent.com/5598150/168176658-34820f94-c3c4-4c77-a934-add63b8720aa.gif)
+
+
+
