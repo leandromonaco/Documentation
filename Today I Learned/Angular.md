@@ -47,6 +47,8 @@ https://docs.npmjs.com/cli/v6/commands/npm-install
 
 ```ng generate component user-card```
 
+https://github.com/leandromonaco/Workbench/commit/b50ce6b655b6f1747ee6d313955eef228584cf6d
+
 ![WindowsTerminal_Rd9hoeuAXP](https://user-images.githubusercontent.com/5598150/168176658-34820f94-c3c4-4c77-a934-add63b8720aa.gif)
 
 
