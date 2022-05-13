@@ -171,6 +171,7 @@ code --install-extension GitHub.remotehub
 code --install-extension GitHub.vscode-codeql
 code --install-extension GitHub.classroom
 code --install-extension Atlassian.atlascode
+code --install-extension ms-playwright.playwright
 ```
 
 # 10 - Install Visual Studio 2022 Extensions
