@@ -21,3 +21,7 @@
 - SERVICES=s3,sns,kms,sqs,lambda,dynamodb
 
 Reference: https://docs.localstack.cloud/localstack/configuration/
+
+# DynamoDB
+
+- [NoSQL Workbench](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.settingup.html)
