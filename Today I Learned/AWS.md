@@ -64,7 +64,7 @@
 - zip content of the .\publish\ folder (function.zip)
 - ```aws --endpoint-url=http://localhost:4566 iam create-role --role-name lambda-dotnet-ex --assume-role-policy-document '{"Version": "2012-10-17", "Statement": [{ "Effect": "Allow", "Principal": {"Service": "lambda.amazonaws.com"}, "Action": "sts:AssumeRole"}]}'```
 - ```aws --endpoint-url=http://localhost:4566 iam attach-role-policy --role-name lambda-dotnet-ex --policy-arn arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole```
-- ```aws --endpoint-url=http://localhost:4566 lambda create-function --function-name lambda-dotnet-function --zip-file fileb://function.zip --handler Sample.Lambda.DotNet::Sample.Lambda.DotNet.Function::FunctionHandler --runtime dotnet6 --role arn:aws:iam::308309238958:role/lambda-dotnet-ex```
+- ```aws --endpoint-url=http://localhost:4566 lambda create-function --function-name lambda-dotnet-function --zip-file fileb://function.zip --handler Sample.Lambda.DotNet::Sample.Lambda.DotNet.Function::FunctionHandler --runtime dotnet6 --role arn:aws:iam::000000000000:role/lambda-dotnet-ex```
 - ```aws --endpoint-url=http://localhost:4566 lambda list-functions```
 - ```aws --endpoint-url=http://localhost:4566 lambda delete-function --function-name lambda-dotnet-function```
 - ```aws --endpoint-url=http://localhost:4566 lambda invoke --function-name lambda-dotnet-function --payload "\"Just Checking If Everything is OK again\"" --cli-binary-format raw-in-base64-out response.json --log-type Tail```
