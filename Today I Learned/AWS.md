@@ -1,4 +1,5 @@
-# Installation
+# LocalStack 
+## Installation
 
 1. Run ```winget install -e --id Python.Python.3``` 
 2. Install pip  ```py -m ensurepip --upgrade```
@@ -8,17 +9,17 @@
 7. Install aws-cli ```winget install -e --id Amazon.AWSCLI```
 8. Browse ```http://localhost:4566/``` to test the setup
 
-# LocalStack
+## Reference
 - [AWS Service Feature Coverage](https://docs.localstack.cloud/aws/feature-coverage/)
 - [Configuration](https://docs.localstack.cloud/localstack/configuration/)
 
-# Test Commands
+## Test Commands
 
 - ```aws --endpoint-url=http://localhost:4566 sqs create-queue --queue-name sample-queue2```
 - ```aws --endpoint-url=http://localhost:4566 kms --region ap-southeast-2 create-key --tags TagKey=Purpose,TagValue=Test --description "Development test key"```
 - ```aws --endpoint-url=http://localhost:4566 kms encrypt --region ap-southeast-2 --key-id 1cc95196-acb1-4279-9063-a3daa3d9a20d --plaintext fileb://C:\TEMP\connectionstring.txt```
 
-# Environment Variables
+## Environment Variables
 
 - AWS_DEFAULT_REGION=ap-southeast-2
 - SERVICES=s3,sns,kms,sqs,lambda,dynamodb
@@ -26,7 +27,6 @@
 - PERSIST_ALL=1
 - USE_SINGLE_REGION=true
 
-Reference: https://docs.localstack.cloud/localstack/configuration/
 
 # AWS Client
 
@@ -50,3 +50,12 @@ Reference: https://docs.localstack.cloud/localstack/configuration/
 2. Add Connection
 3. Click "DynamoDB Local"
 4. Hostname: localhost | Port: 4566
+
+# Lambda Functions
+
+- https://docs.aws.amazon.com/lambda/latest/dg/lambda-csharp.html
+- https://aws.amazon.com/blogs/developer/net-core-global-tools-for-aws/
+- ```dotnet new lambda.EmptyFunction --help```
+
+Install DotNet Lambda templates ```dotnet new -i Amazon.Lambda.Templates```
+Run ```dotnet new lambda.EmptyFunction --name AwsLambdaFunction```
