@@ -6,6 +6,11 @@
 1. ```npm install -g aws-cdk``` 
 2. ```cdk --version``` 
 
+# SAM
+
+[AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/)
+```winget install -e --id Amazon.SAM-CLI```
+
 # LocalStack 
 ## Installation
 
