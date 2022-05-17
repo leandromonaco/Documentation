@@ -87,12 +87,12 @@ Create Lambda Function
 - zip content of the .\publish\ folder (function.zip)
 
 Package Function
-cdk init app --language=csharp
-configure deployment settings
-cdk synth
+- cdk init app --language=csharp
+- configure deployment settings
+- cdk synth
 
 Test Locally
-sam local invoke -t .\cdk.out\AwsLambdaStack.template.json
+- sam local invoke -t .\cdk.out\AwsLambdaStack.template.json
 
 
 
