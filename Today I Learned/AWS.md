@@ -73,6 +73,8 @@
 
 # Lambda Functions
 
+https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambda/
+
 - https://docs.aws.amazon.com/lambda/latest/dg/lambda-csharp.html
 - https://aws.amazon.com/blogs/developer/net-core-global-tools-for-aws/
 - ```dotnet new lambda.EmptyFunction --help```
