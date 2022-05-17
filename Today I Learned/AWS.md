@@ -8,6 +8,9 @@
 7. Install aws-cli ```winget install -e --id Amazon.AWSCLI```
 8. Browse ```http://localhost:4566/``` to test the setup
 
+# LocalStack
+- [AWS Service Feature Coverage](https://docs.localstack.cloud/aws/feature-coverage/)
+- [Configuration](https://docs.localstack.cloud/localstack/configuration/)
 
 # Test Commands
 
