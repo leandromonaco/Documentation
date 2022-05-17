@@ -6,10 +6,17 @@
 1. ```npm install -g aws-cdk``` 
 2. ```cdk --version``` 
 
+
+* `dotnet build src` compile this app
+* `cdk deploy`       deploy this stack to your default AWS account/region
+* `cdk diff`         compare deployed stack with current state
+* `cdk synth`        emits the synthesized CloudFormation template
+
 # SAM
 
-[AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/)
-```winget install -e --id Amazon.SAM-CLI```
+- [AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/)
+- ```winget install -e --id Amazon.SAM-CLI```
+- ```sam --version```
 
 # LocalStack 
 ## Installation
@@ -70,11 +77,25 @@
 - https://aws.amazon.com/blogs/developer/net-core-global-tools-for-aws/
 - ```dotnet new lambda.EmptyFunction --help```
 
+Create Lambda Function
 - Install DotNet Lambda templates ```dotnet new -i Amazon.Lambda.Templates```
 - Run ```dotnet new lambda.EmptyFunction --name AwsLambdaFunction```
 - ```dotnet build```
-- ```dotnet publish -c Release -o publish -r win-x64 --no-self-contained -p:PublishReadyToRun=true```
+- ```dotnet publish -c Release -o publish p:PublishReadyToRun=false```
 - zip content of the .\publish\ folder (function.zip)
+
+Package Function
+cdk init app --language=csharp
+configure deployment settings
+cdk synth
+
+Test Locally
+sam local invoke -t .\cdk.out\AwsLambdaStack.template.json
+
+
+
+
+
 - ```aws --endpoint-url=http://localhost:4566 iam create-role --role-name lambda-dotnet-ex --assume-role-policy-document '{"Version": "2012-10-17", "Statement": [{ "Effect": "Allow", "Principal": {"Service": "lambda.amazonaws.com"}, "Action": "sts:AssumeRole"}]}'```
 - ```aws --endpoint-url=http://localhost:4566 iam attach-role-policy --role-name lambda-dotnet-ex --policy-arn arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole```
 - ```aws --endpoint-url=http://localhost:4566 lambda create-function --function-name lambda-dotnet-function --zip-file fileb://function.zip --handler Sample.Lambda.DotNet::Sample.Lambda.DotNet.Function::FunctionHandler --runtime dotnet6 --role arn:aws:iam::000000000000:role/lambda-dotnet-ex```
