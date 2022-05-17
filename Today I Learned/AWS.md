@@ -20,11 +20,11 @@
 
 # Environment Variables
 
-AWS_DEFAULT_REGION=ap-southeast-2
-SERVICES=s3,sns,kms,sqs,lambda,dynamodb
-DYNAMODB_SHARE_DB=1
-PERSIST_ALL=1
-USE_SINGLE_REGION=true
+- AWS_DEFAULT_REGION=ap-southeast-2
+- SERVICES=s3,sns,kms,sqs,lambda,dynamodb
+- DYNAMODB_SHARE_DB=1
+- PERSIST_ALL=1
+- USE_SINGLE_REGION=true
 
 Reference: https://docs.localstack.cloud/localstack/configuration/
 
