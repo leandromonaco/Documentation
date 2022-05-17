@@ -7,7 +7,7 @@
 4. Go to -> "start" and type "Manage App Execution Aliases". Go to it and turn off "Python"
 5. Install [LocalStack Cockpit](https://docs.localstack.cloud/get-started/cockpit/)
 7. Install aws-cli ```winget install -e --id Amazon.AWSCLI```
-8. Browse ```http://localhost:4566/``` to test the setup
+8. Browse ```http://localhost:4566/``` and ```http://localhost:4566/health``` to test the setup
 
 ## Reference
 - [AWS Service Feature Coverage](https://docs.localstack.cloud/aws/feature-coverage/)
