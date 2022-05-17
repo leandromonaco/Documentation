@@ -1,3 +1,11 @@
+# AWS CDK
+
+[AWS Cloud Development Kit](https://aws.amazon.com/cdk/)
+[Getting started with the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
+
+1. ```npm install -g aws-cdk``` 
+2. ```cdk --version``` 
+
 # LocalStack 
 ## Installation
 
