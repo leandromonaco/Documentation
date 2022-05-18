@@ -43,11 +43,17 @@
 ## Environment Variables
 
 - AWS_DEFAULT_REGION=ap-southeast-2
-- SERVICES=s3,sns,kms,sqs,lambda,dynamodb
+- SERVICES=s3,sns,kms,sqs,lambda,dynamodb,iam,serverless,ecr,sts
 - DYNAMODB_SHARE_DB=1
 - PERSIST_ALL=1
 - USE_SINGLE_REGION=true
-
+- LAMBDA_EXECUTOR=docker
+- LAMBDA_REMOTE_DOCKER=true
+- LAMBDA_REMOVE_CONTAINERS=true
+- DEBUG=1
+- DATA_DIR=/tmp/localstack/data
+- LOCALSTACK_HOSTNAME=http://localhost:4566/
+- LOCALSTACK_API_KEY=3UyE0JnBPX
 
 # AWS Client
 
@@ -114,13 +120,13 @@ Test with LocalStack
 2. ```cdklocal init app --language=csharp```
 3. Change Stack.cs file
 4. ```cdklocal synth -v```
-5. ```cdklocal bootstrap aws://000000000000/ap-southeast-2 -v```
+5. ```cdklocal bootstrap -v``` (if you get "Unable to resolve AWS account to use." make sure the localstack service is running http://localhost:4566/health)
 6. ```cdklocal deploy -v```
 
 
 - ```aws --endpoint-url=http://localhost:4566 lambda list-functions```
-- ```aws --endpoint-url=http://localhost:4566 lambda delete-function --function-name lambda-dotnet-function```
-- ```aws --endpoint-url=http://localhost:4566 lambda invoke --function-name lambda-dotnet-function --payload "\"Just Checking If Everything is OK again\"" --cli-binary-format raw-in-base64-out response.json --log-type Tail```
+- ```aws --endpoint-url=http://localhost:4566 lambda invoke --function-name helloLambda --cli-binary-format raw-in-base64-out response.json --log-type Tail```
+- - ```aws --endpoint-url=http://localhost:4566 lambda delete-function --function-name lambda-dotnet-function```
 
 
 
