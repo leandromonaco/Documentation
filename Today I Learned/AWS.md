@@ -81,7 +81,8 @@ https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambd
 
 Create Lambda Function
 - Install DotNet Lambda templates ```dotnet new -i Amazon.Lambda.Templates```
-- Run ```dotnet new lambda.EmptyFunction --name AwsLambdaFunction```
+- List templates ```dotnet new --list```
+- Run ```dotnet new serverless.AspNetCoreMinimalAPI --name AwsLambda.MinimalApi```
 - ```dotnet build```
 - ```dotnet publish -c Release -o publish p:PublishReadyToRun=false```
 - zip content of the .\publish\ folder (function.zip)
