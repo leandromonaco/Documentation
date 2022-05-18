@@ -1,7 +1,8 @@
 # AWS CDK
 
-[AWS Cloud Development Kit](https://aws.amazon.com/cdk/)
-[Getting started with the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
+- [AWS Cloud Development Kit](https://aws.amazon.com/cdk/)
+- [Getting started with the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
+- https://docs.aws.amazon.com/cdk/v2/guide/troubleshooting.html#troubleshooting_toolkit
 
 1. ```npm install -g aws-cdk``` 
 2. ```cdk --version``` 
