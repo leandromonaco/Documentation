@@ -1,5 +1,7 @@
 This is a curated list of resources for professional development
 
+
+
 # News
 ## 2021
 
@@ -87,8 +89,9 @@ This is a curated list of resources for professional development
 
 - [Single file deployment and executable](https://docs.microsoft.com/en-us/dotnet/core/deploying/single-file)
 
-# Documentation
+# Documentation and Knowledge Sharing
 
+- [Email templates to kick-start team engagement](https://stackoverflow.help/en/articles/4515533-email-templates-to-kick-start-team-engagement)
 - [Tales from documentation: Write for your clueless users](https://stackoverflow.blog/2020/07/13/tales-from-documentation-write-for-your-dumbest-user/)
 - [How writing can advance your career as a developer](https://stackoverflow.blog/2021/08/09/how-writing-can-advance-your-career-as-a-developer/)
 - [How to write in plain English](https://plainenglish.co.uk/how-to-write-in-plain-english.html)
@@ -136,7 +139,9 @@ This is a curated list of resources for professional development
 - [Report Metrics](https://help.pluralsight.com/help/cant-you-just-game-the-metrics)
 - [The engineering manager's guide to the code review process](https://www.pluralsight.com/blog/tutorials/code-review)
 
-## Onboarding
+## Onboarding and Environment Setup
+
+- [Scripting Winget](https://chrislayers.com/2021/08/01/scripting-winget)
 - [5 Steps to Creating a Seamless Virtual Onboarding Experience for Your Developers](https://blog.hackerrank.com/creating-seamless-virtual-onboarding-experience-developers/)
 - [Optimize local dev environments for better onboarding](https://github.com/readme/guides/developer-onboarding)
 - [Setting guidelines for repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)
