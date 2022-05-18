@@ -110,7 +110,7 @@ Package Function
 
 Test with LocalStack
 
-1. ```npm install -g aws-cdk-local aws-cdk```
+1. ```npm install -g aws-cdk-local aws-cdk``` (ECR is a PRO feature https://github.com/localstack/localstack/issues/5382)
 2. ```cdklocal init app --language=csharp```
 3. Change Stack.cs file
 4. ```cdklocal synth -v```
