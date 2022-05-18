@@ -81,23 +81,33 @@ https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambd
 
 Create Lambda Function
 - Install DotNet Lambda templates ```dotnet new -i Amazon.Lambda.Templates```
+- Install ```dotnet tool install -g Amazon.Lambda.Tools```
 - List templates ```dotnet new --list```
-- Run ```dotnet new serverless.AspNetCoreMinimalAPI --name AwsLambda.MinimalApi```
+- Run ```dotnet new serverless.EmptyServerless --name SimpleApi```
 - ```dotnet build```
 - ```dotnet publish -c Release -o publish p:PublishReadyToRun=false```
 - zip content of the .\publish\ folder (function.zip)
 
 Package Function
-- cdk init app --language=csharp
-- configure deployment settings
-- cdk synth
+-Create deployment folder and run ```cdk init app --language=csharp```
+- configure deployment settings (DeploymentStack.cs)
+ ``` // The code that defines your stack goes here
+            var lambda = new Function(this, "HelloLambda", new FunctionProps
+            {
+                Runtime = Runtime.DOTNET_6,
+                Code = Code.FromAsset("../SimpleApi/src/SimpleApi/bin/Debug/net6.0"),
+                Handler = "SimpleApi::SimpleApi.Functions::Get",
+                FunctionName = "helloLambda",
+                
+            });```
+- emits the synthesized CloudFormation template ```cdk synth```
+- Test Locally ```sam local invoke -t .\cdk.out\DeploymentStack.template.json```
 
-Test Locally
-- sam local invoke -t .\cdk.out\AwsLambdaStack.template.json
+Test with LocalStack
 
-
-
-
+npm install -g aws-cdk-local aws-cdk
+cdklocal synth
+cdklocal deploy
 
 - ```aws --endpoint-url=http://localhost:4566 iam create-role --role-name lambda-dotnet-ex --assume-role-policy-document '{"Version": "2012-10-17", "Statement": [{ "Effect": "Allow", "Principal": {"Service": "lambda.amazonaws.com"}, "Action": "sts:AssumeRole"}]}'```
 - ```aws --endpoint-url=http://localhost:4566 iam attach-role-policy --role-name lambda-dotnet-ex --policy-arn arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole```
