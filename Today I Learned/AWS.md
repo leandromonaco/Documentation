@@ -112,7 +112,9 @@ Test with LocalStack
 npm install -g aws-cdk-local aws-cdk
 cdklocal init app --language=csharp
 cdklocal synth -v
+cdklocal bootstrap -v
 cdklocal deploy -v
+
 
 - ```aws --endpoint-url=http://localhost:4566 lambda list-functions```
 - ```aws --endpoint-url=http://localhost:4566 lambda delete-function --function-name lambda-dotnet-function```
