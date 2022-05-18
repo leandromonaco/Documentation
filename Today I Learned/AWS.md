@@ -91,27 +91,29 @@ Create Lambda Function
 Package Function
 -Create deployment folder and run ```cdk init app --language=csharp```
 - configure deployment settings (DeploymentStack.cs)
- ``` // The code that defines your stack goes here
-            var lambda = new Function(this, "HelloLambda", new FunctionProps
-            {
-                Runtime = Runtime.DOTNET_6,
-                Code = Code.FromAsset("../SimpleApi/src/SimpleApi/bin/Debug/net6.0"),
-                Handler = "SimpleApi::SimpleApi.Functions::Get",
-                FunctionName = "helloLambda",
-                
-            });```
+```
+// The code that defines your stack goes here
+    var lambda = new Function(this, "HelloLambda", new FunctionProps
+    {
+        Runtime = Runtime.DOTNET_6,
+        Code = Code.FromAsset("../SimpleApi/src/SimpleApi/bin/Debug/net6.0"),
+        Handler = "SimpleApi::SimpleApi.Functions::Get",
+        FunctionName = "helloLambda",
+
+    }); 
+    ```
+            
+            
 - emits the synthesized CloudFormation template ```cdk synth```
 - Test Locally ```sam local invoke -t .\cdk.out\DeploymentStack.template.json```
 
 Test with LocalStack
 
 npm install -g aws-cdk-local aws-cdk
-cdklocal synth
-cdklocal deploy
+cdklocal init app --language=csharp
+cdklocal synth -v
+cdklocal deploy -v
 
-- ```aws --endpoint-url=http://localhost:4566 iam create-role --role-name lambda-dotnet-ex --assume-role-policy-document '{"Version": "2012-10-17", "Statement": [{ "Effect": "Allow", "Principal": {"Service": "lambda.amazonaws.com"}, "Action": "sts:AssumeRole"}]}'```
-- ```aws --endpoint-url=http://localhost:4566 iam attach-role-policy --role-name lambda-dotnet-ex --policy-arn arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole```
-- ```aws --endpoint-url=http://localhost:4566 lambda create-function --function-name lambda-dotnet-function --zip-file fileb://function.zip --handler Sample.Lambda.DotNet::Sample.Lambda.DotNet.Function::FunctionHandler --runtime dotnet6 --role arn:aws:iam::000000000000:role/lambda-dotnet-ex```
 - ```aws --endpoint-url=http://localhost:4566 lambda list-functions```
 - ```aws --endpoint-url=http://localhost:4566 lambda delete-function --function-name lambda-dotnet-function```
 - ```aws --endpoint-url=http://localhost:4566 lambda invoke --function-name lambda-dotnet-function --payload "\"Just Checking If Everything is OK again\"" --cli-binary-format raw-in-base64-out response.json --log-type Tail```
