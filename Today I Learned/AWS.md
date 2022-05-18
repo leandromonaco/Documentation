@@ -119,7 +119,7 @@ Test with LocalStack
 1. ```npm install -g aws-cdk-local aws-cdk``` (ECR is a PRO feature https://github.com/localstack/localstack/issues/5382)
 2. ```cdklocal init app --language=csharp```
 3. Change Stack.cs file
-4. ```cdklocal synth -v```
+4. ```cdklocal synth -v``` (this must be run where the cdk.json file is located. It creates the cdk.out folder)
 5. ```cdklocal bootstrap -v``` (if you get "Unable to resolve AWS account to use." make sure the localstack service is running http://localhost:4566/health)
 6. ```cdklocal deploy -v```
 
