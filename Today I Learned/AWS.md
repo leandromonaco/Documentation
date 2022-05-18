@@ -91,8 +91,8 @@ Create Lambda Function
 Package Function
 -Create deployment folder and run ```cdk init app --language=csharp```
 - configure deployment settings (DeploymentStack.cs)
-```
-// The code that defines your stack goes here
+```csharp
+    // The code that defines your stack goes here
     var lambda = new Function(this, "HelloLambda", new FunctionProps
     {
         Runtime = Runtime.DOTNET_6,
@@ -101,7 +101,7 @@ Package Function
         FunctionName = "helloLambda",
 
     }); 
-    ```
+```
             
             
 - emits the synthesized CloudFormation template ```cdk synth```
@@ -109,11 +109,12 @@ Package Function
 
 Test with LocalStack
 
-npm install -g aws-cdk-local aws-cdk
-cdklocal init app --language=csharp
-cdklocal synth -v
-cdklocal bootstrap -v
-cdklocal deploy -v
+1. ```npm install -g aws-cdk-local aws-cdk```
+2. ```cdklocal init app --language=csharp```
+3. Change Stack.cs file
+4. ```cdklocal synth -v```
+5. ```cdklocal bootstrap aws://000000000000/ap-southeast-2 -v```
+6. ```cdklocal deploy -v```
 
 
 - ```aws --endpoint-url=http://localhost:4566 lambda list-functions```
