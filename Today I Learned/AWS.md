@@ -123,10 +123,12 @@ Test with LocalStack
 5. ```cdklocal bootstrap -v``` (if you get "Unable to resolve AWS account to use." make sure the localstack service is running http://localhost:4566/health)
 6. ```cdklocal deploy -v```
 7. ```awslocal apigatewayv2 create-api --name my-api --protocol-type HTTP --target arn:aws:lambda:ap-southeast-2:000000000000:function:helloLambda```
-8. Copy ApiEndpoint and test using Postman
+8. Copy ApiEndpoint and test using Postman![image](https://user-images.githubusercontent.com/5598150/169179873-6bdf5b22-fcd7-4eee-a314-be505a528da5.png)
+
 
 Useful commands
 
 - ```awslocal lambda list-functions```
 - ```awslocal lambda invoke --function-name helloLambda --cli-binary-format raw-in-base64-out response.json --log-type Tail```
 - ```awslocal lambda delete-function --function-name helloLambda```
+- ```awslocal apigatewayv2 get-apis```
