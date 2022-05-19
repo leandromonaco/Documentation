@@ -90,7 +90,7 @@ Create Lambda Function
 - Install DotNet Lambda templates ```dotnet new -i Amazon.Lambda.Templates```
 - Install ```dotnet tool install -g Amazon.Lambda.Tools```
 - List templates ```dotnet new --list```
-- Run ```dotnet new serverless.EmptyServerless --name SimpleApi```
+- Run ```dotnet new serverless.AspNetCoreMinimalAPI --name MinimalApi```
 - ```dotnet build```
 - ```dotnet publish -c Release -o publish p:PublishReadyToRun=false```
 - zip content of the .\publish\ folder (function.zip)
@@ -122,11 +122,11 @@ Test with LocalStack
 4. ```cdklocal synth -v``` (this must be run where the cdk.json file is located. It creates the cdk.out folder)
 5. ```cdklocal bootstrap -v``` (if you get "Unable to resolve AWS account to use." make sure the localstack service is running http://localhost:4566/health)
 6. ```cdklocal deploy -v```
+7. ```awslocal apigatewayv2 create-api --name my-api --protocol-type HTTP --target arn:aws:lambda:ap-southeast-2:000000000000:function:helloLambda```
+8. Copy ApiEndpoint and test using Postman
 
+Useful commands
 
-- ```aws --endpoint-url=http://localhost:4566 lambda list-functions```
-- ```aws --endpoint-url=http://localhost:4566 lambda invoke --function-name helloLambda --cli-binary-format raw-in-base64-out response.json --log-type Tail```
--```aws --endpoint-url=http://localhost:4566 lambda delete-function --function-name helloLambda```
-
-
-
+- ```awslocal lambda list-functions```
+- ```awslocal lambda invoke --function-name helloLambda --cli-binary-format raw-in-base64-out response.json --log-type Tail```
+- ```awslocal lambda delete-function --function-name helloLambda```
