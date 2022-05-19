@@ -43,7 +43,7 @@
 ## Environment Variables
 
 - AWS_DEFAULT_REGION=ap-southeast-2
-- SERVICES=s3,sns,kms,sqs,lambda,dynamodb,iam,serverless,ecr,sts
+- SERVICES=s3,sns,kms,sqs,lambda,dynamodb,iam,serverless,ecr,sts,ssm
 - DYNAMODB_SHARE_DB=1
 - PERSIST_ALL=1
 - USE_SINGLE_REGION=true
@@ -52,8 +52,8 @@
 - LAMBDA_REMOVE_CONTAINERS=true
 - DEBUG=1
 - DATA_DIR=/tmp/localstack/data
-- LOCALSTACK_HOSTNAME=http://localhost:4566/
-- LOCALSTACK_API_KEY=3UyE0JnBPX
+- LOCALSTACK_HOSTNAME=localhost
+- LOCALSTACK_API_KEY=[INSERT PRO KEY]
 
 # AWS Client
 
@@ -126,7 +126,7 @@ Test with LocalStack
 
 - ```aws --endpoint-url=http://localhost:4566 lambda list-functions```
 - ```aws --endpoint-url=http://localhost:4566 lambda invoke --function-name helloLambda --cli-binary-format raw-in-base64-out response.json --log-type Tail```
-- - ```aws --endpoint-url=http://localhost:4566 lambda delete-function --function-name lambda-dotnet-function```
+-```aws --endpoint-url=http://localhost:4566 lambda delete-function --function-name helloLambda```
 
 
 
