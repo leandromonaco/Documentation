@@ -86,7 +86,8 @@ https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambd
 - https://aws.amazon.com/blogs/developer/net-core-global-tools-for-aws/
 - ```dotnet new lambda.EmptyFunction --help```
 
-Create Lambda Function
+## Create Lambda Function
+
 - Install DotNet Lambda templates ```dotnet new -i Amazon.Lambda.Templates```
 - Install ```dotnet tool install -g Amazon.Lambda.Tools```
 - List templates ```dotnet new --list```
@@ -95,26 +96,31 @@ Create Lambda Function
 - ```dotnet publish -c Release -o publish p:PublishReadyToRun=false```
 - zip content of the .\publish\ folder (function.zip)
 
-Package Function
--Create deployment folder and run ```cdk init app --language=csharp```
-- configure deployment settings (DeploymentStack.cs)
+## Create Deployment Package
+
+1. Create Cdk folder and run ```cdk init app --language=csharp```
+2. configure deployment settings (CdkStack.cs)
 ```csharp
-    // The code that defines your stack goes here
-    var lambda = new Function(this, "HelloLambda", new FunctionProps
-    {
-        Runtime = Runtime.DOTNET_6,
-        Code = Code.FromAsset("../SimpleApi/src/SimpleApi/bin/Debug/net6.0"),
-        Handler = "SimpleApi::SimpleApi.Functions::Get",
-        FunctionName = "helloLambda",
+// The code that defines your stack goes here
+var lambda = new Function(this, "MinimalApiNet6", new FunctionProps
+{
+    Runtime = Runtime.DOTNET_6,
+    Code = Code.FromAsset("../MinimalApi/bin/Debug/net6.0"),
+    Handler = "MinimalApi",
+    FunctionName = "minimalApiNet6"
+});
 
-    }); 
-```
-            
-            
-- emits the synthesized CloudFormation template ```cdk synth```
-- Test Locally ```sam local invoke -t .\cdk.out\DeploymentStack.template.json```
+var api = new LambdaRestApi(this, "APIGatewayNet6", new LambdaRestApiProps
+{
+    RestApiName = "APIGatewayNet6",
+    Description = "A simple Minimal API with .NET 6",
+    Handler = lambda
+}); 
+```      
+3. Emit the synthesized CloudFormation template ```cdk synth```
 
-Test with LocalStack
+
+## Test with LocalStack
 
 1. ```npm install -g aws-cdk-local aws-cdk``` (ECR is a PRO feature https://github.com/localstack/localstack/issues/5382)
 2. ```cdklocal init app --language=csharp```
@@ -122,11 +128,10 @@ Test with LocalStack
 4. ```cdklocal synth -v``` (this must be run where the cdk.json file is located. It creates the cdk.out folder)
 5. ```cdklocal bootstrap -v``` (if you get "Unable to resolve AWS account to use." make sure the localstack service is running http://localhost:4566/health)
 6. ```cdklocal deploy -v```
-7. ```awslocal apigatewayv2 create-api --name my-api --protocol-type HTTP --target arn:aws:lambda:ap-southeast-2:000000000000:function:helloLambda```
-8. Copy ApiEndpoint and test using Postman![image](https://user-images.githubusercontent.com/5598150/169179873-6bdf5b22-fcd7-4eee-a314-be505a528da5.png)
+8. Test endpoint using Postman![image](https://user-images.githubusercontent.com/5598150/169179873-6bdf5b22-fcd7-4eee-a314-be505a528da5.png)
 
 
-Useful commands
+## Useful commands
 
 - ```awslocal lambda list-functions```
 - ```awslocal lambda invoke --function-name helloLambda --cli-binary-format raw-in-base64-out response.json --log-type Tail```
