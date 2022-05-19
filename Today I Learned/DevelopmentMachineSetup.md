@@ -345,3 +345,7 @@ winget install -e --id Amazon.SAM-CLI
 ```
 winget install -e --id Microsoft.AzureCLI
 ```
+
+# Others
+
+[Custom Prompt Setup](https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup)
