@@ -153,6 +153,7 @@ Optional
 # 10 - Install VSCode Extensions
 ```
 code --install-extension amazonwebservices.aws-toolkit-vscode
+code --install-extension TypeScriptTeam.AngularLanguageService
 code --install-extension angular.ng-template
 code --install-extension johnpapa.angular-essentials
 code --install-extension johnpapa.angular2
