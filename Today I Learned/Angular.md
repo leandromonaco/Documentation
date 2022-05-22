@@ -1,3 +1,7 @@
+## Training
+
+Introduction to Angular: [Codelab](https://codelabs.developers.google.com/introduction-to-angular#0) | [Video](https://www.youtube.com/watch?v=qxchrt04bTA)
+
 ## Install Angular CLI Tool
 
 the latest NodeJS LTS is required
