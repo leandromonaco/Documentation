@@ -2,12 +2,14 @@
 
 Introduction to Angular: [Codelab](https://codelabs.developers.google.com/introduction-to-angular#0) | [Video](https://www.youtube.com/watch?v=qxchrt04bTA)
 
-## Install Angular CLI Tool
+
+## Tools
 
 the latest NodeJS LTS is required
 
-1. Run ```npm install -g @angular/cli```
-2. Run ```ng --version```
+1. Install Angular CLI Tool ```npm install -g @angular/cli```
+2. Check the Installation ```ng --version```
+3. Install Angular Language Service for VS Code ```code --install-extension angular.ng-template```
 
 ## Create a new Angular App
 
