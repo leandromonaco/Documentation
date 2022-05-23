@@ -2,6 +2,7 @@
 
 - [AWS Workshops](https://workshops.aws/)
 - [Ramp-Up Guides](https://aws.amazon.com/training/ramp-up-guides/?th=sec&sec=rug)
+- [Well-Architected Labs](https://www.wellarchitectedlabs.com/)
 - [Training and Certification](https://aws.amazon.com/training/?sc_ichannel=ha&sc_icampaign=acq_awsblogsb&sc_icontent=architecture-resources)
 - [AWS Serverless SaaS Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/b0c6ad36-0a4b-45d8-856b-8a64f0ac76bb/en-US)
 
