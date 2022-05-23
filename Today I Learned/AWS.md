@@ -1,6 +1,7 @@
 # Training
 
 - [AWS Workshops](https://workshops.aws/)
+- [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
 - [Ramp-Up Guides](https://aws.amazon.com/training/ramp-up-guides/?th=sec&sec=rug)
 - [Well-Architected Labs](https://www.wellarchitectedlabs.com/)
 - [Training and Certification](https://aws.amazon.com/training/?sc_ichannel=ha&sc_icampaign=acq_awsblogsb&sc_icontent=architecture-resources)
