@@ -59,6 +59,8 @@ https://angular.io/guide/creating-libraries
 
 ## Generate Component
 
+https://angular.io/tutorial/toh-pt3
+
 ```ng generate component user-card```
 
 https://github.com/leandromonaco/Workbench/commit/b50ce6b655b6f1747ee6d313955eef228584cf6d
