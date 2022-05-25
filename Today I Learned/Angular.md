@@ -49,6 +49,14 @@ By default, it will install all modules listed as dependencies in the ```package
 
 https://docs.npmjs.com/cli/v6/commands/npm-install
 
+## Generate Library
+
+https://angular.io/guide/creating-libraries
+
+1. ng new my-workspace --no-create-application
+2. cd my-workspace
+3. ng generate library my-lib
+
 ## Generate Component
 
 ```ng generate component user-card```
