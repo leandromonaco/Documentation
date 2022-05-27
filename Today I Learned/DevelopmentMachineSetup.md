@@ -173,6 +173,7 @@ code --install-extension GitHub.classroom
 code --install-extension Atlassian.atlascode
 code --install-extension ms-playwright.playwright
 code --install-extension vsblox.blox
+code --install-extension bierner.markdown-mermaid
 ```
 
 # 10 - Install Visual Studio 2022 Extensions
