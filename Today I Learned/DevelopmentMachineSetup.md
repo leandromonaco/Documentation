@@ -325,6 +325,7 @@ winget install -e --id WiresharkFoundation.Wireshark
 
 # Misc
 ```
+winget install -e --id 9NGHP3DX8HDX [Files App](https://apps.microsoft.com/store/detail/files-app/9NGHP3DX8HDX)
 winget install -e --id 7zip.7zip
 winget install -e --id Microsoft.PowerToys
 winget install -e --id VideoLAN.VLC
