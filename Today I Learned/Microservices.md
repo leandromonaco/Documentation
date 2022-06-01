@@ -2,6 +2,8 @@
 
 - [Documentation](https://github.com/dotnet/tye/blob/main/docs/README.md)
 - [Getting Started](https://github.com/dotnet/tye/blob/main/docs/getting_started.md)
+- [Recipes](https://github.com/dotnet/tye/tree/main/docs/recipes)
+- [Samples](https://github.com/dotnet/tye/tree/main/samples)
 
 1. Go to the solution folder
 2. Run ```tye init``` to generate ```tye.yaml```
