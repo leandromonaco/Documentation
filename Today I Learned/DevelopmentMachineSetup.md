@@ -317,6 +317,7 @@ winget install -e --id Gauge.Gauge
 
 # Development Utilities
 ```
+dotnet tool install -g Microsoft.Tye --version "0.11.0-alpha.22111.1"
 winget install -e --id ScooterSoftware.BeyondCompare4
 winget install -e --id LINQPad.LINQPad.7
 winget install -e --id Microsoft.XMLNotepad
