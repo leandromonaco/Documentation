@@ -174,6 +174,11 @@ code --install-extension Atlassian.atlascode
 code --install-extension ms-playwright.playwright
 code --install-extension vsblox.blox
 code --install-extension bierner.markdown-mermaid
+code --install-extension pflannery.vscode-versionlens
+code --install-extension wix.vscode-import-cost
+code --install-extension eamodio.gitlens
+code --install-extension pranaygp.vscode-css-peek
+code --install-extension usernamehw.errorlens
 ```
 
 # 10 - Install Visual Studio 2022 Extensions
@@ -321,11 +326,12 @@ winget install -e --name Sysinternals
 winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id Telerik.Fiddler.Everywhere
 winget install -e --id WiresharkFoundation.Wireshark
+winget install DevToys
 ```
 
 # Misc
 ```
-winget install -e --id 9NGHP3DX8HDX [Files App](https://apps.microsoft.com/store/detail/files-app/9NGHP3DX8HDX)
+winget install "Files App"
 winget install -e --id 7zip.7zip
 winget install -e --id Microsoft.PowerToys
 winget install -e --id VideoLAN.VLC
