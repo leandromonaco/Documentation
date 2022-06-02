@@ -13,6 +13,15 @@ memory=5GB
 processors=1 
 ```
 
+# Docker
+
+Useful Commands:
+
+- Display containers' resource usage statistics ```docker stats --all --no-stream```
+- Stop running containers ```docker kill $(docker ps -q)```
+- Remove all containers ```docker rm $(docker ps -a -q)```
+- Remove all images ```docker rmi $(docker images -q)```
+
 See all configuration options on https://docs.microsoft.com/en-us/windows/wsl/wsl-config#wsl-2-settings
 
 # Project Tye
