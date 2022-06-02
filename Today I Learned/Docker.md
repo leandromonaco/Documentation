@@ -1,4 +1,4 @@
-## Build and Run container
+# Build and Run container
 
 1. Navigate to the folder where the Dockerfile is stored
 2. Run ```docker build -t angular-container:1.0 .```
@@ -26,3 +26,11 @@ COPY --from=node /usr/src/app/my-app/dist/team-hub.ui /usr/share/nginx/html
 - https://hub.docker.com/_/nginx
 - https://hub.docker.com/_/microsoft-mssql-server
 - https://hub.docker.com/_/redis
+
+
+# Useful Commands
+
+- Display containers' resource usage statistics ```docker stats --all --no-stream```
+- Stop running containers ```docker kill $(docker ps -q)```
+- Remove all containers ```docker rm $(docker ps -a -q)```
+- Remove all images ```docker rmi $(docker images -q)```
