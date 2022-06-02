@@ -12,6 +12,7 @@ Docker Desktop for Windows provides a development environment for building, ship
 memory=5GB   
 processors=1 
 ```
+See all configuration options on https://docs.microsoft.com/en-us/windows/wsl/wsl-config#wsl-2-settings
 
 # Docker
 
@@ -21,8 +22,6 @@ Useful Commands:
 - Stop running containers ```docker kill $(docker ps -q)```
 - Remove all containers ```docker rm $(docker ps -a -q)```
 - Remove all images ```docker rmi $(docker images -q)```
-
-See all configuration options on https://docs.microsoft.com/en-us/windows/wsl/wsl-config#wsl-2-settings
 
 # Project Tye
 
