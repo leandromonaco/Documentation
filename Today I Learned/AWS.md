@@ -23,17 +23,26 @@
 1. ```npm install -g aws-cdk``` 
 2. ```cdk --version``` 
 
+## Useful Commands
 
-* `dotnet build src` compile this app
-* `cdk deploy`       deploy this stack to your default AWS account/region
-* `cdk diff`         compare deployed stack with current state
-* `cdk synth`        emits the synthesized CloudFormation template
+* ```dotnet build src``` compile this app
+* ```cdk deploy```       deploy this stack to your default AWS account/region
+* ```cdk diff```         compare deployed stack with current state
+* ```cdk synth```       emits the synthesized CloudFormation template
 
 # SAM
 
 - [AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/)
 - ```winget install -e --id Amazon.SAM-CLI```
 - ```sam --version```
+
+# AWS CLI
+
+- Install aws-cli ```winget install -e --id Amazon.AWSCLI``` 
+
+## Useful Commands
+
+```aws --endpoint-url=http://localhost:4566 dynamodb create-table --table-name ServiceName_Setting --attribute-definitions AttributeName=TenantId,AttributeType=S --key-schema AttributeName=TenantId,KeyType=HASH --billing-mode PAY_PER_REQUEST```
 
 # LocalStack 
 ## Installation
@@ -43,8 +52,10 @@
 3. Install Docker ```winget install -e --id Docker.DockerDesktop```
 4. Go to -> "start" and type "Manage App Execution Aliases". Go to it and turn off "Python"
 5. Install [LocalStack Cockpit](https://docs.localstack.cloud/get-started/cockpit/)
-7. Install aws-cli ```winget install -e --id Amazon.AWSCLI```
-8. Browse ```http://localhost:4566/``` and ```http://localhost:4566/health``` to test the setup
+6. Install localstack-cli ```pip install localstack``` and check version ```localstack --version``
+9. Install awslocal ```pip install awscli-local``` and check version ```awslocal --version```
+10. Install cdklocal ```npm install -g aws-cdk-local aws-cdk``` and check version ```cdklocal --version```
+11. Browse ```http://localhost:4566/``` and ```http://localhost:4566/health``` to test the setup
 
 ## Reference
 - [AWS Service Feature Coverage](https://docs.localstack.cloud/aws/feature-coverage/)
