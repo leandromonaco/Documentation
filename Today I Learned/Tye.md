@@ -4,6 +4,7 @@
 - [Getting Started](https://github.com/dotnet/tye/blob/main/docs/getting_started.md)
 - [Recipes](https://github.com/dotnet/tye/tree/main/docs/recipes)
 - [Samples](https://github.com/dotnet/tye/tree/main/samples)
+- [Tye Command](https://github.com/dotnet/tye/blob/main/docs/reference/commandline/tye-run.md)
 
 ## Installation
 
