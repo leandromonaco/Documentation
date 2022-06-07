@@ -76,3 +76,11 @@ services:
 
 1. Execute ```tye run --port 10000 --dashboard --watch --debug *```
 2. Attach to process tye.exe for debugging
+
+## Troubleshooting
+
+### An attempt was made to access a socket in a way forbidden by its access permissions
+Run ```net stop hns``` and ```net start hns```
+
+### Could not find an available, non-overlapping IPv4 address pool among the defaults to assign to the network
+Run ```docker network prune```
