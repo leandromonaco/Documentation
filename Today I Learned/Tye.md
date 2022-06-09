@@ -83,4 +83,6 @@ services:
 Run ```net stop hns``` and ```net start hns```
 
 ### Could not find an available, non-overlapping IPv4 address pool among the defaults to assign to the network
-Run ```docker network prune```
+1. Stop running containers ```docker kill $(docker ps -q)```
+2. Remove all containers ```docker rm $(docker ps -a -q)```
+3. Remove unused networks ```docker network prune```
