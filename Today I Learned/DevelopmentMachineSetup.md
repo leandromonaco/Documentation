@@ -293,6 +293,9 @@ foreach ($Binding in $Bindings)
 }
 
 ```
+# Configure IP/Port Mapping
+![image](https://user-images.githubusercontent.com/5598150/173493508-1a874845-8bb7-49ea-9c67-f7e217e923dc.png)
+
 
 # Browsers
 ```
