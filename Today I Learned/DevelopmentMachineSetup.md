@@ -321,7 +321,7 @@ winget install -e --id Docker.DockerDesktop
 winget install -e --id Datalust.Seq
 winget install -e --id Microsoft.DeploymentToolkit
 winget install -e --id Microsoft.webpicmd
-winget install -e --id ekvedaras.redis-gui
+winget install -e --id qishibo.AnotherRedisDesktopManager
 winget install -e --id Microsoft.PowerShell
 winget install -e --id Microsoft.PowerShell.Preview
 winget install -e --id Microsoft.PowerAutomateDesktop
