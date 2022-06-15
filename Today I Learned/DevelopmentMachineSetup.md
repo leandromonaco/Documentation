@@ -57,12 +57,19 @@ the latest NodeJS LTS is required
 2. Run ```ng --version```
 
 # 6 - Install Visual Studio & .NET Frameworks
+
+Search .NET Versions ```winget search --id Microsoft.dotnet```
+
 ```
 winget install -e --id Microsoft.dotnet -v 6.1.21.52711
 winget install -e --id Microsoft.dotnet
 winget install -e --id Microsoft.dotnetHostingBundle
-winget install -e --id Microsoft.dotnetRuntime.6-x64
-winget install -e --id Microsoft.dotnetRuntime.5-x64
+winget install -e --id Microsoft.DotNet.Runtime.3_1
+winget install -e --id Microsoft.DotNet.AspNetCore.3_1
+winget install -e --id Microsoft.DotNet.Runtime.5
+winget install -e --id Microsoft.DotNet.AspNetCore.5
+winget install -e --id Microsoft.DotNet.Runtime.6
+winget install -e --id Microsoft.DotNet.AspNetCore.6
 winget install -e --id Microsoft.dotNetFramework
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Microsoft.VisualStudio.2019.Professional
