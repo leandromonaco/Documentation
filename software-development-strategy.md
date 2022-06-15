@@ -38,6 +38,10 @@ Documentation | - [Technical Writing Style Guide](https://docs.microsoft.com/en-
 - [Asynchronous Programming](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
 - [ASP.NET Core](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AspNetCoreGuidance.md)
 - [Unit testing best practices](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices) 
+- Clean Architecture / SOLID / KISS / YAGNI / DRY 
+- [C# static code analysis](https://rules.sonarsource.com/csharp)
+- [TypeScript TypeScript static code analysis](https://rules.sonarsource.com/typescript)
+- [T-SQL static code analysis](https://rules.sonarsource.com/tsql)
 
 ## Tools and Frameworks
 
@@ -47,10 +51,12 @@ Testing | - [Specflow](https://specflow.org/tools/specflow/) <br> - [xUnit](http
 Logging | - [Serilog](https://serilog.net/) <br> - [SEQ](https://datalust.co/seq)
 Architecture | - [Clean Architecture Solution Template](https://github.com/jasontaylordev/CleanArchitecture)
 Worker Service  | - [Quartz.NET](https://www.quartz-scheduler.net/) <br> - [Hangfire](https://www.hangfire.io/)
-API | - [Fluent API](https://github.com/mariotoffia/FluentDocker) <br> - [ASP.NET API Versioning](https://github.com/dotnet/aspnet-api-versioning)
+API | - [Fluent API](https://github.com/mariotoffia/FluentDocker) <br> - [Asp.Versioning.Http](https://www.nuget.org/packages/Asp.Versioning.Http) <br> - [Microsoft.Extensions.Diagnostics.HealthChecks](https://www.nuget.org/packages/Microsoft.Extensions.Diagnostics.HealthChecks/)
 Build | - [Nuke](https://nuke.build/) <br> - [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning) <br> - [Guard Clauses](https://github.com/ardalis/GuardClauses)
 SMTP Testing | - [Papercut](https://github.com/ChangemakerStudios/Papercut-SMTP)
 
 
 
-
+# Reference Material
+- https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0
+- https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health
