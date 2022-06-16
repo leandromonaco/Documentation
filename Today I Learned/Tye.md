@@ -74,8 +74,8 @@ services:
 
 ## Execute
 
-1. Execute ```tye run --port 10000 --dashboard --watch --debug *```
-2. Attach to process tye.exe for debugging
+1. Execute ```tye run --port 10000 --dashboard --watch``` for the tye to pick up changes
+2. Execute ```tye run --port 10000 --dashboard --debug *``` and attach the debugger to the process (e.g. ServiceName.API.exe)
 
 ## Troubleshooting
 
