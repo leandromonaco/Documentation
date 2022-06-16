@@ -13,6 +13,8 @@ It consists of three parts:
 
 Format: {header}.{payload}.{signature}
 
+https://openid.net/specs/draft-jones-json-web-token-07.html#ExampleJWT
+
 # Encryption 
 
 Symmetric key and asymmetric keys
