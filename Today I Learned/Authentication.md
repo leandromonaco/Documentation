@@ -22,6 +22,11 @@ A JWT can be encrypted using either a symmetric key (shared secret) or asymmetri
 1. Symmetric key: Both encryption (JWT signing) and verification are done with the symmetric key—also known as the shared secret.
 2. Asymmetric keys: The encryption (JWT signing) is done with the private key, and verification is done with the public key.
 
+# AWS KMS
+
+- ```aws --endpoint-url=http://localhost:52002 kms --region ap-southeast-2 create-key --key-spec RSA_2048 --key-usage SIGN_VERIFY```
+- ```aws --endpoint-url=http://localhost:52002 kms --region ap-southeast-2 list-keys```
+
 # Reference
 - [A Beginner's Guide to JWTs](https://developer.okta.com/blog/2020/12/21/beginners-guide-to-jwt) for more information
 - https://openid.net/
