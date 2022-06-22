@@ -203,6 +203,7 @@ code --install-extension SonarSource.sonarlint-vscode
 #$PackageName = "AmazonWebServices.AWSToolkitforVisualStudio2022"
 #$PackageName = "GitHub.copilotvs"
 #$PackageName = "SteveCadwallader.CodeMaid"
+#$PackageName = "SteveCadwallader.CodeMaidVS2022"
 #$PackageName = "ironcev.sharpen"
 $PackageName = "SonarSource.SonarLintforVisualStudio2022"
 
