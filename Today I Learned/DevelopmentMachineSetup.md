@@ -202,6 +202,8 @@ code --install-extension SonarSource.sonarlint-vscode
 #Credits: https://gist.github.com/ScottHutchinson/b22339c3d3688da5c9b477281e258400
 #$PackageName = "AmazonWebServices.AWSToolkitforVisualStudio2022"
 #$PackageName = "GitHub.copilotvs"
+#$PackageName = "SteveCadwallader.CodeMaid"
+#$PackageName = "ironcev.sharpen"
 $PackageName = "SonarSource.SonarLintforVisualStudio2022"
 
 $ErrorActionPreference = "Stop"
