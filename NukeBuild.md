@@ -1,3 +1,7 @@
+https://nuke.build/docs/common/cli-tools/
+https://nuke.build/
+
+
 1. Install [nbgv .NET Core CLI tool](https://github.com/dotnet/Nerdbank.GitVersioning/blob/master/doc/nbgv-cli.md)
 2. Add [nuget.config](https://github.com/leandromonaco/Documentation/blob/main/nuget.config) file next to your sln file (requires VS restart)
 3. Create build folder under your application and copy the files from [PipelineTemplate](https://github.com/leandromonaco/Documentation/tree/main/PipelineTemplate)
