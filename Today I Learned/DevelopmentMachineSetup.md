@@ -205,7 +205,8 @@ code --install-extension SonarSource.sonarlint-vscode
 #$PackageName = "SteveCadwallader.CodeMaid"
 #$PackageName = "SteveCadwallader.CodeMaidVS2022"
 #$PackageName = "ironcev.sharpen"
-$PackageName = "SonarSource.SonarLintforVisualStudio2022"
+#$PackageName = "SonarSource.SonarLintforVisualStudio2022"
+$PackageName = "DevExpress.CodeRushforVS2022"
 
 $ErrorActionPreference = "Stop"
  
