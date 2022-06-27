@@ -194,6 +194,7 @@ code --install-extension pranaygp.vscode-css-peek
 code --install-extension usernamehw.errorlens
 code --install-extension ms-azuretools.vscode-tye
 code --install-extension SonarSource.sonarlint-vscode
+code --install-extension quicktype.quicktype
 ```
 
 # 10 - Install Visual Studio 2022 Extensions
