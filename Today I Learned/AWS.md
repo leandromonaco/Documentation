@@ -38,7 +38,7 @@
 
 # AWS CLI
 
-- Install aws-cli ```winget install -e --id Amazon.AWSCLI``` 
+- Install aws-cli ```winget install -e --id Amazon.AWSCLI``` or ```winget upgrade -e --id Amazon.SAM-CLI```
 
 ## Useful Commands
 
