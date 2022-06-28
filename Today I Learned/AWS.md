@@ -33,12 +33,12 @@
 # SAM
 
 - [AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/)
-- ```winget install -e --id Amazon.SAM-CLI```
+- ```winget install -e --id Amazon.SAM-CLI``` or ```winget upgrade -e --id Amazon.SAM-CLI```
 - ```sam --version```
 
 # AWS CLI
 
-- Install aws-cli ```winget install -e --id Amazon.AWSCLI``` or ```winget upgrade -e --id Amazon.SAM-CLI```
+- Install aws-cli ```winget install -e --id Amazon.AWSCLI```
 
 ## Useful Commands
 
