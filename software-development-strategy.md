@@ -55,6 +55,17 @@ API | - [Fluent API](https://github.com/mariotoffia/FluentDocker) <br> - [Asp.Ve
 Build | - [Nuke](https://nuke.build/) <br> - [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning) <br> - [Guard Clauses](https://github.com/ardalis/GuardClauses)
 SMTP Testing | - [Papercut](https://github.com/ChangemakerStudios/Papercut-SMTP)
 
+## Code Quality
+
+- https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
+- https://rules.sonarsource.com/csharp
+- https://docs.devexpress.com/CodeRushForRoslyn/116021/static-code-analysis/analyzers-library
+
+```xml
+  <PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+```
 
 
 # Reference Material
