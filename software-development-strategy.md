@@ -51,9 +51,10 @@ Testing | - [Specflow](https://specflow.org/tools/specflow/) <br> - [xUnit](http
 Logging | - [Serilog](https://serilog.net/) <br> - [SEQ](https://datalust.co/seq)
 Architecture | - [Clean Architecture Solution Template](https://github.com/jasontaylordev/CleanArchitecture)
 Worker Service  | - [Quartz.NET](https://www.quartz-scheduler.net/) <br> - [Hangfire](https://www.hangfire.io/)
-API | - [Fluent API](https://github.com/mariotoffia/FluentDocker) <br> - [Asp.Versioning.Http](https://www.nuget.org/packages/Asp.Versioning.Http) <br> - [Microsoft.Extensions.Diagnostics.HealthChecks](https://www.nuget.org/packages/Microsoft.Extensions.Diagnostics.HealthChecks/)
-Build | - [Nuke](https://nuke.build/) <br> - [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning) <br> - [Guard Clauses](https://github.com/ardalis/GuardClauses)
+API | - [Fluent API](https://github.com/mariotoffia/FluentDocker) <br> - [Asp.Versioning.Http](https://www.nuget.org/packages/Asp.Versioning.Http) <br> - [Microsoft.Extensions.Diagnostics.HealthChecks](https://www.nuget.org/packages/Microsoft.Extensions.Diagnostics.HealthChecks/) <br> - [Guard Clauses](https://github.com/ardalis/GuardClauses)
+Build | - [Nuke](https://nuke.build/) <br> - [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning) <br> 
 SMTP Testing | - [Papercut](https://github.com/ChangemakerStudios/Papercut-SMTP)
+Tools | - [CommandLineParser](https://www.nuget.org/packages/CommandLineParser/)
 
 ## Code Quality
 
