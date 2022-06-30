@@ -1,3 +1,5 @@
+[Entity Framework Core tools reference - .NET Core CLI](https://docs.microsoft.com/en-us/ef/core/cli/dotnet)
+
 ## Install/Update
 1. Install EF command ```dotnet tool install -g dotnet-ef --version 3.0.0```
 2. Update EF command (if required) ```dotnet tool update -g dotnet-ef --version 6.0.3```
