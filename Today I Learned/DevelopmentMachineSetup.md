@@ -306,7 +306,38 @@ foreach ($Binding in $Bindings)
 
 ```
 # Configure IP/Port Mapping
-![image](https://user-images.githubusercontent.com/5598150/173493508-1a874845-8bb7-49ea-9c67-f7e217e923dc.png)
+
+## Overview
+![image](https://user-images.githubusercontent.com/5598150/176797511-7b7a1cfd-0b69-4120-808b-243fc162a3da.png)
+
+
+## Actions
+
+1. Started my server on localhost:8081
+2. Added my "local DNS" in the hosts file as a new line (127.65.43.21 example.app). Any free address in the network 127.0.0.0/8 (127.x.x.x) can be used. You can check with ```netstat -a -n -p TCP | grep "LISTENING"```
+3. Added the following network configuration with ```netsh interface portproxy add v4tov4 listenport=80 listenaddress=127.65.43.21 connectport=8081 connectaddress=127.0.0.1```
+4. I can now access the server at http://example.app
+
+## Notes
+
+- These commands/file modifications need to be executed with Admin rights
+- netsh portproxy needs ipv6 libraries even only to use v4tov4, typically they will also be included by default, otherwise install them using the following command: netsh interface ipv6 install
+
+You can see the entry you have added with the command:
+
+```netsh interface portproxy show v4tov4```
+
+You can remove the entry with the following command:
+
+```netsh interface portproxy delete v4tov4 listenport=80 listenaddress=127.65.43.21```
+
+Links to Resources:
+
+- [Using Netsh](https://technet.microsoft.com/en-us/library/bb490939.aspx)
+- [Netsh commands for Interface IP](https://technet.microsoft.com/en-us/library/cc738592(v=ws.10).aspx)
+- [Netsh commands for Interface Portproxy](https://technet.microsoft.com/es-es/library/cc731068(v=ws.10).aspx#BKMK_1)
+- [Windows Port Forwarding Example](http://woshub.com/port-forwarding-in-windows/)
+
 
 
 # Browsers
