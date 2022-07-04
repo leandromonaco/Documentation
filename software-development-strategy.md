@@ -59,12 +59,13 @@ Tools | - [CommandLineParser](https://www.nuget.org/packages/CommandLineParser/)
 ## Code Quality
 
 - https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
-- https://rules.sonarsource.com/csharp
+- https://rules.sonarsource.com/csharp (https://www.nuget.org/packages/SonarAnalyzer.CSharp/)
 - https://docs.devexpress.com/CodeRushForRoslyn/116021/static-code-analysis/analyzers-library
 
 ```xml
   <PropertyGroup>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
   </PropertyGroup>
 ```
 
