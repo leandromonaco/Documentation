@@ -1,3 +1,10 @@
+# Installation
+
+https://nuke.build/docs/getting-started/installation/
+
+1. Run ```dotnet tool install Nuke.GlobalTool --global```
+2. Run ```nuke :setup```
+
 - [Documentation](https://nuke.build/)
 - [Cli-tools Support](https://nuke.build/docs/common/cli-tools/)
 
@@ -12,3 +19,6 @@ Notes:
 4. Update Solution Name in the [.nuke/parameters.json](https://github.com/leandromonaco/Documentation/blob/5f67d5628d3217874dd82a3c6a6351e42f2adb69/PipelineTemplate/nuke/parameters.json#L3) file
 5. Create the [version.json](https://github.com/leandromonaco/Documentation/blob/main/version.json) file under each component that must be versioned (required for GitVersioning to calculate the semantic version number)
 6. Create deployment_list.json file (required for the pipeline to know which components should be packed for deployment)
+
+
+https://github.com/OctopusDeploy/OctoVersion
