@@ -5,6 +5,8 @@ https://nuke.build/docs/getting-started/installation/
 1. Run ```dotnet tool install Nuke.GlobalTool --global```
 2. Run ```nuke :setup```
 
+![image](https://user-images.githubusercontent.com/5598150/178411271-aba9595f-1701-4eef-a973-379b0af50795.png)
+
 - [Documentation](https://nuke.build/)
 - [Cli-tools Support](https://nuke.build/docs/common/cli-tools/)
 
