@@ -154,6 +154,26 @@ var api = new LambdaRestApi(this, "APIGatewayNet6", new LambdaRestApiProps
 6. ```cdklocal deploy -v```
 8. Test endpoint using Postman![image](https://user-images.githubusercontent.com/5598150/169179873-6bdf5b22-fcd7-4eee-a314-be505a528da5.png)
 
+## Cognito
+
+- https://docs.aws.amazon.com/cognito/latest/developerguide/token-endpoint.html
+- https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html
+- https://aws.amazon.com/premiumsupport/knowledge-center/decode-verify-cognito-json-token
+- https://github.com/jagregory/cognito-local
+
+```
+aws --endpoint-url=http://localhost:9229 cognito-idp create-user-pool-client --user-pool-id "user-pool-test" --client-name "client-test2222" --generate-secret --allowed-o-auth-flows client_credentials --explicit-auth-flows "ALLOW_USER_PASSWORD_AUTH"  --allowed-o-auth-flows-user-pool-client 
+--allowed-o-auth-flows-user-pool-client --allowed-o-auth-flows "code" "implicit" --allowed-o-auth-scopes "openid" --callback-urls "["https://example.com"]" --supported-identity-providers "["MySAMLIdP", "LoginWithAmazon"]"
+
+aws --endpoint-url=http://localhost:9229 cognito-idp list-user-pool-clients --user-pool-id "user-pool-test"
+
+aws --endpoint-url=http://localhost:9229 cognito-idp admin-create-user --user-pool-id "user-pool-test" --username "testuser" --temporary-password "testpassword" --user-attributes Name=email,Value=testuser@humanforce.com Name=phone_number,Value="+61455587898"
+
+aws  --endpoint-url=http://localhost:9229  cognito-idp admin-set-user-password --user-pool-id "user-pool-test" --username testuser --password "testpassword"--permanent 
+
+aws --endpoint-url=http://localhost:9229 cognito-idp initiate-auth --auth-flow USER_PASSWORD_AUTH --auth-parameters USERNAME=testuser,PASSWORD=testpassword --client-id 2xtkp25fbng4z7hquw2p44mzx 
+
+```
 
 ## Useful commands
 
