@@ -35,6 +35,9 @@
 - [AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/)
 - ```winget install -e --id Amazon.SAM-CLI``` or ```winget upgrade -e --id Amazon.SAM-CLI```
 - ```sam --version```
+- Templates: Run ```sam init```
+
+```New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force```
 
 # AWS CLI
 
@@ -174,6 +177,10 @@ aws  --endpoint-url=http://localhost:9229  cognito-idp admin-set-user-password -
 aws --endpoint-url=http://localhost:9229 cognito-idp initiate-auth --auth-flow USER_PASSWORD_AUTH --auth-parameters USERNAME=testuser,PASSWORD=testpassword --client-id 2xtkp25fbng4z7hquw2p44mzx 
 
 ```
+
+## Cloud Formation
+
+- template.yaml: https://github.com/aws/serverless-application-model/blob/master/versions/2016-10-31.md
 
 ## Useful commands
 
