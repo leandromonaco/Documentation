@@ -32,6 +32,7 @@
 
 # SAM
 
+- [What is the AWS Serverless Application Model (AWS SAM)?](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
 - [AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/)
 - ```winget install -e --id Amazon.SAM-CLI``` or ```winget upgrade -e --id Amazon.SAM-CLI```
 - ```sam --version```
