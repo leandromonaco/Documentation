@@ -6,7 +6,7 @@ private static ConfigurationManager GetConfiguration(ConfigurationManager config
                          .SetBasePath(Environment.CurrentDirectory)
                          .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                          .AddJsonFile($"appsettings.Development.json", optional: true, reloadOnChange: true)
-                         .AddEnvironmentVariables("Lambda")
+                         .AddEnvironmentVariables("Lambda:")
                          .Build();
 
             return configurationManager;
