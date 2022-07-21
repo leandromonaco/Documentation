@@ -195,6 +195,7 @@ code --install-extension usernamehw.errorlens
 code --install-extension ms-azuretools.vscode-tye
 code --install-extension SonarSource.sonarlint-vscode
 code --install-extension quicktype.quicktype
+code --install-extension ms-dotnettools.dotnet-interactive-vscode
 ```
 
 # 10 - Install Visual Studio 2022 Extensions
@@ -207,7 +208,8 @@ code --install-extension quicktype.quicktype
 #$PackageName = "SteveCadwallader.CodeMaidVS2022"
 #$PackageName = "ironcev.sharpen"
 #$PackageName = "SonarSource.SonarLintforVisualStudio2022"
-$PackageName = "DevExpress.CodeRushforVS2022"
+#$PackageName = "DevExpress.CodeRushforVS2022"
+$PackageName = "MLNET.notebook"
 
 $ErrorActionPreference = "Stop"
  
